@@ -2,7 +2,7 @@ package it.unisa.c02.rently.rently_application.config;
 
 import it.unisa.c02.rently.rently_application.data.dao.GestioneAutenticazioneDAO;
 import it.unisa.c02.rently.rently_application.security.AuthorizationFilter;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -22,10 +22,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
+@RequiredArgsConstructor
 public class SecurityConfig implements WebMvcConfigurer {
 
-    @Autowired
-    private GestioneAutenticazioneDAO userRepository;
+    private final GestioneAutenticazioneDAO userRepository;
 
     @Bean
     public PasswordEncoder passwordEncoder() {

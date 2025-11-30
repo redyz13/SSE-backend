@@ -210,6 +210,9 @@ public class GestioneNoleggioController {
         try {
 
             Annuncio annuncio = annuncioService.getAnnuncio(data.getAnnuncio()).orElse(null);
+            if (annuncio == null) {
+                return responseService.InternalError();
+            }
 
             List<Noleggio> list = noleggioService.checkDisponibilita(annuncio,
                     Date.valueOf(data.getDataInizio()),
@@ -229,7 +232,7 @@ public class GestioneNoleggioController {
                 item.setDataRichiesta(Date.valueOf(data.getDataRichiesta()));
                 item.setNoleggiante(areaPersonaleService.getDatiPrivati(data.getNoleggiante()));
                 item.setNoleggiatore(areaPersonaleService.getDatiPrivati(data.getNoleggiatore()));
-                item.setAnnuncio(annuncioService.getAnnuncio(data.getAnnuncio()).orElse(null));
+                item.setAnnuncio(annuncio);
 
                 if (item.getNoleggiante() != null && item.getNoleggiatore() != null && item.getAnnuncio() != null) {
                     item = noleggioService.addNoleggio(item);

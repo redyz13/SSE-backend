@@ -12,7 +12,6 @@ import it.unisa.c02.rently.rently_application.data.dto.UtenteLoginDTO;
 import it.unisa.c02.rently.rently_application.data.model.Utente;
 import it.unisa.c02.rently.rently_application.security.JwtProvider;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -46,8 +45,7 @@ public class GestioneAutenticazioneController {
     /**
      * Service per la gestione delle risposte alle richieste.
      */
-    @Autowired
-    ResponseService responseService;
+    private final ResponseService responseService;
 
     /**
      * Service per effettuare le operazioni di persistenza.
