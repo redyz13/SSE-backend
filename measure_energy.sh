@@ -54,7 +54,7 @@ if [ -z "$JAR_FILE" ]; then
 fi
 
 # Create output directory
-OUTPUT_DIR="energy-backend-results"
+OUTPUT_DIR="sse-reports/energibridge"
 mkdir -p "$OUTPUT_DIR"
 
 echo "---------------------------------------------"
