@@ -4,7 +4,7 @@
 # Usage:
 #   ./measure-energy-backend.sh /path/to/EnergiBridge [seconds] /path/to/output-dir
 
-# Check arguments
+# Check EnergiBridge directory argument
 if [ -z "$1" ]; then
   echo "Error: You must specify the path to the EnergiBridge directory."
   echo "Usage: ./measure-energy-backend.sh /path/to/EnergiBridge [seconds] /path/to/output-dir"
@@ -14,17 +14,23 @@ fi
 ENERGIBRIDGE_DIR="$1"
 ENERGIBRIDGE_BIN="$ENERGIBRIDGE_DIR/target/release/energibridge"
 
-# Default measurement time is 15 seconds
-MEASURE_TIME="${2:-15}"
-
-# Check output directory argument
-if [ -z "$3" ]; then
+# Argument handling for measurement time and output directory
+if [ -z "$2" ]; then
   echo "Error: You must specify the output directory."
   echo "Usage: ./measure-energy-backend.sh /path/to/EnergiBridge [seconds] /path/to/output-dir"
   exit 1
+elif [[ "$2" =~ ^[0-9]+$ ]]; then
+  MEASURE_TIME="$2"
+  OUTPUT_DIR="$3"
+  if [ -z "$OUTPUT_DIR" ]; then
+    echo "Error: You must specify the output directory."
+    echo "Usage: ./measure-energy-backend.sh /path/to/EnergiBridge [seconds] /path/to/output-dir"
+    exit 1
+  fi
+else
+  MEASURE_TIME=15
+  OUTPUT_DIR="$2"
 fi
-
-OUTPUT_DIR="$3"
 
 # Check energibridge binary
 if [ ! -f "$ENERGIBRIDGE_BIN" ]; then
