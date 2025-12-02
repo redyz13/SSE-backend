@@ -1,65 +1,169 @@
-<a name="readme-top"></a>
+# 🌱 Rently Backend — SSE Version
 
+## 📌 Overview
 
-<!-- PROJECT LOGO -->
-<br />
-<div>
-  <a href="[https://github.com/othneildrew/Best-README-Template](https://github.com/rently-unisa)">
-    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEguIy57wfxwoIAjR_s3eVoc41osXimcFk6ODIyOtLox1acLPtKvHdC33RnoYdI3ksKht_I-Vz0cSwj1WDDyKIV5-U96ndYPzuv_VEeXzGfWu-xHuJ0kynrhVJJcgvuQFfYcwaIfFa8Sau6-ym3oE1f-5wNbfKSPPINtLPKA_s0qT88aCCySWdb9ulOkOewt" alt="Logo" width="80" height="80">
-  </a>
+This repository contains the **backend of the Rently project**, originally developed by students of the Software Engineering course.
+We forked the original project (full credit to the authors: [https://github.com/rently-unisa/back-end](https://github.com/rently-unisa/back-end)) and extended it as part of the **Sustainable Software Engineering (SSE)** course.
 
+The objective of this work is to **evaluate and improve the environmental, technical, and performance sustainability** of the backend using the tools introduced during the course.
 
+The repository includes three branches used during the analysis:
 
+```
+├─ baseline/            # version before sustainability evaluations
+├─ sse-improvements/    # version where sustainability enhancements were applied
+└─ main                 # final integrated backend
+```
 
+Experiment logs, tool outputs, and structured reports are stored under:
 
+```
+sse-reports/
+   ├─ baseline/
+   └─ sse-improvements/
+```
 
-<!-- ABOUT THE PROJECT -->
-## Rently
+Each directory contains:
 
-<p>Si vuole realizzare un sistema che mira a promuovere uno stile di vita più sostenibile, attraverso la condivisione di oggetti e il riutilizzo di risorse.
-L’obiettivo principale è ridurre l’impatto ambientale delle attività quotidiane sul pianeta, tramite la creazione di una piattaforma digitale che faciliti la condivisione ed il noleggio di oggetti inutilizzati.
-Il sistema consente di prendere in prestito oggetti resi disponibili mediante annunci, promuovendo così la riduzione della necessità di creare nuovi oggetti e di conseguenza gli sprechi di produzione.</p>
+* Raw tool results
+* CSV logs
+* Screenshots
+* Analysis notes
 
-### Tecnologie
+---
 
-Questa sezione contiene una lista delle tecnologie prevalentemente utilizzate durante lo sviluppo del progetto:
+## 🌍 Sustainability Tools
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
+As part of the SSE course activities, the backend was evaluated using the tools presented during the laboratory sessions.
+Each tool contributes to a different dimension of software sustainability.
 
+---
 
+### 🖼️ **GreenIT-Analysis (Static Assets Optimization)**
 
-<!-- GETTING STARTED -->
-## Informazioni tecniche
+Although GreenIT-Analysis is typically used to evaluate web pages, in this project it was also applied to the backend to analyze and optimize **static assets served by the API**, such as:
 
-Questa sezione descrive le istruzioni tecniche per avviare il progetto.
+* Images
+* Static resources under `src/main/resources/static`
+* Media files exposed by the application
 
-### Prerequisiti
+GreenIT-Analysis helped identify:
 
-I prerequisiti necessari per l’installazione di Rently sono:
-• Server con istanza Apache Tomcat.
-• Server con istanza MySQL Server su cui installare Rently Database.
+* Excessively large or uncompressed images
+* Unnecessary resource weight
+* Potential improvements in page performance for clients consuming backend-served assets
 
-### Installazione
+---
 
-1. Clona questo repository.
-2. Configura il file ``` application.properties ```.
-3. Raggiungi la directory root del progetto da terminale.
-4. Lancia il comando ``` mvn spring-boot:run ```.
-5. Raggiungi il sito all'indirizzo http://localhost:4000/
+### ✅ **Creedengo (via SonarQube plugin)**
 
+Creedengo is a static analysis tool designed to detect **energy-inefficient Java code patterns**, including:
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/rently-unisa/back-end/graphs/contributors
+* Variable mutability issues
+* Inefficient loops
+* Unnecessary object allocations
+* Suboptimal data structures
 
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-[Java-.com]: https://java.com 
-[Java-url]: https://java.com 
+Creedengo is executed through a local SonarQube instance and assists in identifying areas of potential energy improvement within the codebase.
+
+---
+
+### ⚡ **EnergiBridge**
+
+EnergiBridge is a cross-platform energy measurement tool used to analyze runtime resource consumption.
+It enables the evaluation of:
+
+* CPU energy usage
+* Power consumption fluctuations
+* Resource utilization under controlled workloads
+* Memory usage patterns
+
+EnergiBridge is used to measure backend execution during reproducible execution scenarios.
+
+---
+
+### 🧪 **JMeter**
+
+JMeter is used to perform **performance and workload evaluation** of the backend, following the methodologies introduced in the SSE course.
+
+It enables the systematic assessment of:
+
+* Response times
+* Throughput
+* Stability under load
+* Resource usage under stress
+
+JMeter supports several categories of performance testing:
+
+* **Performance Testing** — evaluates execution time, throughput, and resource usage to detect performance regressions.
+* **Load Testing** — applies gradually increasing workload to assess stability under normal operating conditions.
+* **Stress Testing** — overloads the system to evaluate behavior under extreme pressure and recovery characteristics.
+* **Spike Testing** — introduces sudden bursts of traffic to examine how the system reacts to rapid load fluctuations.
+* **Soak Testing** — maintains sustained load over extended periods to detect long-term degradation or resource leaks.
+
+JMeter is executed locally to collect performance indicators that support backend sustainability evaluation.
+
+---
+
+### 🚀 **JMH**
+
+JMH (Java Microbenchmark Harness) is used to analyze **micro-level performance characteristics** of isolated backend components.
+It is appropriate for benchmarking:
+
+* Utility functions
+* Business logic routines
+* Computation-heavy operations
+---
+
+## 🐳 Running the Backend with Docker
+
+### 1️⃣ Create a `.env` file
+
+Create a `.env` file in the project root with the following variables:
+
+```
+MYSQL_ROOT_PASSWORD=your_root_pw
+MYSQL_DATABASE=rently
+MYSQL_USER=your_user
+MYSQL_PASSWORD=your_pw
+
+SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/rently?useSSL=false&allowPublicKeyRetrieval=true
+SPRING_DATASOURCE_USERNAME=${MYSQL_USER}
+SPRING_DATASOURCE_PASSWORD=${MYSQL_PASSWORD}
+
+SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+MAIL_HOST=your_mail_host
+MAIL_PORT=587
+MAIL_USERNAME=your_user
+MAIL_PASSWORD=your_pw
+
+SECURITY_SECRET=your_jwt_secret
+```
+
+Note: `db` inside `SPRING_DATASOURCE_URL` refers to the Docker Compose service name, you can use localhost for local execution.
+
+---
+
+### 2️⃣ Run the Backend
+
+```bash
+docker compose up --build
+```
+
+This command starts:
+
+* `db` → MySQL 8.0
+* `backend` → Spring Boot container
+
+The backend will be available at:
+
+```
+http://localhost:4000
+```
+
+---
+
+## 👥 Credits
+
+Original backend authors: [https://github.com/rently-unisa/back-end](https://github.com/rently-unisa/back-end)
