@@ -1,10 +1,10 @@
 EnergiBridge Backend Measurement Metadata
 ----------------------------------------
-Date: Mon Dec  1 09:21:32 PM CET 2025
-Command: ./measure_energy.sh ../../EnergiBridge/ 20 ../sse-reports/baseline/energibridge/
+Date: Thu Dec  4 07:38:20 PM CET 2025
+Command: ./measure_energy.sh ../../EnergiBridge/ 60 ../sse-reports/baseline/energibridge/
 
 EnergiBridge directory: ../../EnergiBridge/
-Duration (seconds): 20
+Duration (seconds): 60
 Output directory: ../sse-reports/baseline/energibridge/
 JAR file: ../target/back-end-0.0.2-SNAPSHOT.jar
 
@@ -17,13 +17,13 @@ OS:             Linux axel 6.17.9-arch1-1 #1 SMP PREEMPT_DYNAMIC Mon, 24 Nov 202
 
 JMeter Load Test Metadata
 -------------------------
-Start time:  2025-12-01 21:21:32
-End time:    2025-12-01 21:21:54
-JMX file:    load_test.jmx
+Start time:  2025-12-04 19:38:20
+End time:    2025-12-04 19:39:22
+JMX file:    test.jmx
 
 Thread count: 1000
 Ramp-up:      10
-Duration:     15
+Duration:     55
 Delay:        5
 
 Endpoints used:
