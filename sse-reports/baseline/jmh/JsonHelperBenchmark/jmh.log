@@ -1,0 +1,1745 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 0.00% complete, ETA 00:02:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 64.443 us/op
+# Warmup Iteration   2: 16.954 us/op
+# Warmup Iteration   3: 11.937 us/op
+Iteration   1: 12.026 us/op
+Iteration   2: 12.111 us/op
+Iteration   3: 11.899 us/op
+Iteration   4: 11.957 us/op
+Iteration   5: 12.020 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty":
+  12.002 ±(99.9%) 0.307 us/op [Average]
+  (min, avg, max) = (11.899, 12.002, 12.111), stdev = 0.080
+  CI (99.9%): [11.695, 12.310] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 1.85% complete, ETA 00:02:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 68.807 us/op
+# Warmup Iteration   2: 19.325 us/op
+# Warmup Iteration   3: 12.235 us/op
+Iteration   1: 12.258 us/op
+Iteration   2: 12.426 us/op
+Iteration   3: 12.585 us/op
+Iteration   4: 12.428 us/op
+Iteration   5: 12.279 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty":
+  12.395 ±(99.9%) 0.512 us/op [Average]
+  (min, avg, max) = (12.258, 12.395, 12.585), stdev = 0.133
+  CI (99.9%): [11.883, 12.907] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 3.70% complete, ETA 00:02:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 75.808 us/op
+# Warmup Iteration   2: 23.940 us/op
+# Warmup Iteration   3: 15.959 us/op
+Iteration   1: 15.837 us/op
+Iteration   2: 16.036 us/op
+Iteration   3: 15.822 us/op
+Iteration   4: 15.995 us/op
+Iteration   5: 15.785 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty":
+  15.895 ±(99.9%) 0.434 us/op [Average]
+  (min, avg, max) = (15.785, 15.895, 16.036), stdev = 0.113
+  CI (99.9%): [15.462, 16.329] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 5.56% complete, ETA 00:02:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 77.545 us/op
+# Warmup Iteration   2: 19.909 us/op
+# Warmup Iteration   3: 14.268 us/op
+Iteration   1: 14.442 us/op
+Iteration   2: 14.424 us/op
+Iteration   3: 14.320 us/op
+Iteration   4: 14.343 us/op
+Iteration   5: 14.325 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty":
+  14.371 ±(99.9%) 0.223 us/op [Average]
+  (min, avg, max) = (14.320, 14.371, 14.442), stdev = 0.058
+  CI (99.9%): [14.148, 14.594] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 7.41% complete, ETA 00:02:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 137.189 us/op
+# Warmup Iteration   2: 57.058 us/op
+# Warmup Iteration   3: 44.622 us/op
+Iteration   1: 44.739 us/op
+Iteration   2: 44.617 us/op
+Iteration   3: 44.071 us/op
+Iteration   4: 44.590 us/op
+Iteration   5: 44.067 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty":
+  44.417 ±(99.9%) 1.241 us/op [Average]
+  (min, avg, max) = (44.067, 44.417, 44.739), stdev = 0.322
+  CI (99.9%): [43.176, 45.657] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 9.26% complete, ETA 00:02:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 6722.335 us/op
+# Warmup Iteration   2: 3879.957 us/op
+# Warmup Iteration   3: 3831.516 us/op
+Iteration   1: 3702.549 us/op
+Iteration   2: 3613.452 us/op
+Iteration   3: 3586.814 us/op
+Iteration   4: 3545.282 us/op
+Iteration   5: 3516.142 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty":
+  3592.848 ±(99.9%) 276.614 us/op [Average]
+  (min, avg, max) = (3516.142, 3592.848, 3702.549), stdev = 71.836
+  CI (99.9%): [3316.234, 3869.462] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 11.11% complete, ETA 00:02:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 62.021 us/op
+# Warmup Iteration   2: 19.664 us/op
+# Warmup Iteration   3: 12.659 us/op
+Iteration   1: 12.613 us/op
+Iteration   2: 12.667 us/op
+Iteration   3: 12.683 us/op
+Iteration   4: 12.534 us/op
+Iteration   5: 12.429 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty":
+  12.585 ±(99.9%) 0.404 us/op [Average]
+  (min, avg, max) = (12.429, 12.585, 12.683), stdev = 0.105
+  CI (99.9%): [12.181, 12.989] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 12.96% complete, ETA 00:02:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 70.472 us/op
+# Warmup Iteration   2: 23.324 us/op
+# Warmup Iteration   3: 16.626 us/op
+Iteration   1: 16.571 us/op
+Iteration   2: 16.834 us/op
+Iteration   3: 16.605 us/op
+Iteration   4: 16.677 us/op
+Iteration   5: 16.619 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty":
+  16.661 ±(99.9%) 0.400 us/op [Average]
+  (min, avg, max) = (16.571, 16.661, 16.834), stdev = 0.104
+  CI (99.9%): [16.261, 17.062] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 14.81% complete, ETA 00:02:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 152.671 us/op
+# Warmup Iteration   2: 67.779 us/op
+# Warmup Iteration   3: 56.604 us/op
+Iteration   1: 55.635 us/op
+Iteration   2: 55.464 us/op
+Iteration   3: 55.481 us/op
+Iteration   4: 55.685 us/op
+Iteration   5: 55.025 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.baseline_jsonHelper_pretty":
+  55.458 ±(99.9%) 1.002 us/op [Average]
+  (min, avg, max) = (55.025, 55.458, 55.685), stdev = 0.260
+  CI (99.9%): [54.456, 56.460] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 16.67% complete, ETA 00:01:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.698 us/op
+# Warmup Iteration   2: 1.498 us/op
+# Warmup Iteration   3: 1.451 us/op
+Iteration   1: 1.456 us/op
+Iteration   2: 1.463 us/op
+Iteration   3: 1.447 us/op
+Iteration   4: 1.455 us/op
+Iteration   5: 1.449 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse":
+  1.454 ±(99.9%) 0.025 us/op [Average]
+  (min, avg, max) = (1.447, 1.454, 1.463), stdev = 0.006
+  CI (99.9%): [1.430, 1.479] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 18.52% complete, ETA 00:01:55
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.519 us/op
+# Warmup Iteration   2: 3.189 us/op
+# Warmup Iteration   3: 3.027 us/op
+Iteration   1: 3.035 us/op
+Iteration   2: 3.028 us/op
+Iteration   3: 3.034 us/op
+Iteration   4: 3.035 us/op
+Iteration   5: 3.034 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse":
+  3.034 ±(99.9%) 0.011 us/op [Average]
+  (min, avg, max) = (3.028, 3.034, 3.035), stdev = 0.003
+  CI (99.9%): [3.022, 3.045] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 20.37% complete, ETA 00:01:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 22.323 us/op
+# Warmup Iteration   2: 19.589 us/op
+# Warmup Iteration   3: 19.465 us/op
+Iteration   1: 19.086 us/op
+Iteration   2: 19.067 us/op
+Iteration   3: 19.029 us/op
+Iteration   4: 19.206 us/op
+Iteration   5: 19.115 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse":
+  19.101 ±(99.9%) 0.258 us/op [Average]
+  (min, avg, max) = (19.029, 19.101, 19.206), stdev = 0.067
+  CI (99.9%): [18.843, 19.359] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 22.22% complete, ETA 00:01:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.852 us/op
+# Warmup Iteration   2: 3.509 us/op
+# Warmup Iteration   3: 3.379 us/op
+Iteration   1: 3.377 us/op
+Iteration   2: 3.356 us/op
+Iteration   3: 3.355 us/op
+Iteration   4: 3.357 us/op
+Iteration   5: 3.370 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse":
+  3.363 ±(99.9%) 0.037 us/op [Average]
+  (min, avg, max) = (3.355, 3.363, 3.377), stdev = 0.010
+  CI (99.9%): [3.326, 3.400] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 24.07% complete, ETA 00:01:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 109.500 us/op
+# Warmup Iteration   2: 101.187 us/op
+# Warmup Iteration   3: 99.728 us/op
+Iteration   1: 99.023 us/op
+Iteration   2: 99.055 us/op
+Iteration   3: 99.159 us/op
+Iteration   4: 98.966 us/op
+Iteration   5: 99.052 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse":
+  99.051 ±(99.9%) 0.270 us/op [Average]
+  (min, avg, max) = (98.966, 99.051, 99.159), stdev = 0.070
+  CI (99.9%): [98.781, 99.321] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 25.93% complete, ETA 00:01:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 10936.643 us/op
+# Warmup Iteration   2: 8924.007 us/op
+# Warmup Iteration   3: 8550.296 us/op
+Iteration   1: 8507.017 us/op
+Iteration   2: 8502.893 us/op
+Iteration   3: 8463.599 us/op
+Iteration   4: 8480.228 us/op
+Iteration   5: 8477.503 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse":
+  8486.248 ±(99.9%) 70.323 us/op [Average]
+  (min, avg, max) = (8463.599, 8486.248, 8507.017), stdev = 18.263
+  CI (99.9%): [8415.925, 8556.571] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 27.78% complete, ETA 00:01:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.742 us/op
+# Warmup Iteration   2: 1.532 us/op
+# Warmup Iteration   3: 1.480 us/op
+Iteration   1: 1.473 us/op
+Iteration   2: 1.490 us/op
+Iteration   3: 1.483 us/op
+Iteration   4: 1.487 us/op
+Iteration   5: 1.483 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse":
+  1.483 ±(99.9%) 0.025 us/op [Average]
+  (min, avg, max) = (1.473, 1.483, 1.490), stdev = 0.007
+  CI (99.9%): [1.458, 1.508] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 29.63% complete, ETA 00:01:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 16.662 us/op
+# Warmup Iteration   2: 14.962 us/op
+# Warmup Iteration   3: 14.526 us/op
+Iteration   1: 14.557 us/op
+Iteration   2: 14.447 us/op
+Iteration   3: 14.434 us/op
+Iteration   4: 14.422 us/op
+Iteration   5: 14.432 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse":
+  14.459 ±(99.9%) 0.215 us/op [Average]
+  (min, avg, max) = (14.422, 14.459, 14.557), stdev = 0.056
+  CI (99.9%): [14.243, 14.674] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 31.48% complete, ETA 00:01:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 162.485 us/op
+# Warmup Iteration   2: 147.627 us/op
+# Warmup Iteration   3: 145.500 us/op
+Iteration   1: 144.013 us/op
+Iteration   2: 144.895 us/op
+Iteration   3: 143.427 us/op
+Iteration   4: 144.484 us/op
+Iteration   5: 143.591 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_compact_reuse":
+  144.082 ±(99.9%) 2.356 us/op [Average]
+  (min, avg, max) = (143.427, 144.082, 144.895), stdev = 0.612
+  CI (99.9%): [141.726, 146.438] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 33.33% complete, ETA 00:01:34
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.319 us/op
+# Warmup Iteration   2: 2.088 us/op
+# Warmup Iteration   3: 1.993 us/op
+Iteration   1: 2.012 us/op
+Iteration   2: 2.008 us/op
+Iteration   3: 1.986 us/op
+Iteration   4: 1.995 us/op
+Iteration   5: 1.990 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse":
+  1.998 ±(99.9%) 0.043 us/op [Average]
+  (min, avg, max) = (1.986, 1.998, 2.012), stdev = 0.011
+  CI (99.9%): [1.955, 2.041] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 35.19% complete, ETA 00:01:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.967 us/op
+# Warmup Iteration   2: 4.569 us/op
+# Warmup Iteration   3: 4.411 us/op
+Iteration   1: 4.405 us/op
+Iteration   2: 4.399 us/op
+Iteration   3: 4.399 us/op
+Iteration   4: 4.444 us/op
+Iteration   5: 4.373 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse":
+  4.404 ±(99.9%) 0.098 us/op [Average]
+  (min, avg, max) = (4.373, 4.404, 4.444), stdev = 0.026
+  CI (99.9%): [4.306, 4.502] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 37.04% complete, ETA 00:01:28
+# Fork: 1 of 1
+# Warmup Iteration   1: 33.133 us/op
+# Warmup Iteration   2: 29.624 us/op
+# Warmup Iteration   3: 28.920 us/op
+Iteration   1: 28.833 us/op
+Iteration   2: 28.760 us/op
+Iteration   3: 28.717 us/op
+Iteration   4: 28.641 us/op
+Iteration   5: 28.815 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse":
+  28.753 ±(99.9%) 0.299 us/op [Average]
+  (min, avg, max) = (28.641, 28.753, 28.833), stdev = 0.078
+  CI (99.9%): [28.455, 29.052] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 38.89% complete, ETA 00:01:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 6.779 us/op
+# Warmup Iteration   2: 6.287 us/op
+# Warmup Iteration   3: 6.053 us/op
+Iteration   1: 6.045 us/op
+Iteration   2: 6.000 us/op
+Iteration   3: 6.003 us/op
+Iteration   4: 6.016 us/op
+Iteration   5: 6.033 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse":
+  6.019 ±(99.9%) 0.074 us/op [Average]
+  (min, avg, max) = (6.000, 6.019, 6.045), stdev = 0.019
+  CI (99.9%): [5.946, 6.093] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 40.74% complete, ETA 00:01:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 210.612 us/op
+# Warmup Iteration   2: 192.956 us/op
+# Warmup Iteration   3: 190.339 us/op
+Iteration   1: 188.892 us/op
+Iteration   2: 188.370 us/op
+Iteration   3: 188.903 us/op
+Iteration   4: 188.867 us/op
+Iteration   5: 188.557 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse":
+  188.718 ±(99.9%) 0.931 us/op [Average]
+  (min, avg, max) = (188.370, 188.718, 188.903), stdev = 0.242
+  CI (99.9%): [187.787, 189.649] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 42.59% complete, ETA 00:01:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 19624.051 us/op
+# Warmup Iteration   2: 16602.927 us/op
+# Warmup Iteration   3: 16499.474 us/op
+Iteration   1: 16182.998 us/op
+Iteration   2: 16232.984 us/op
+Iteration   3: 16054.734 us/op
+Iteration   4: 16141.115 us/op
+Iteration   5: 16063.424 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse":
+  16135.051 ±(99.9%) 295.195 us/op [Average]
+  (min, avg, max) = (16054.734, 16135.051, 16232.984), stdev = 76.661
+  CI (99.9%): [15839.856, 16430.246] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 44.44% complete, ETA 00:01:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.690 us/op
+# Warmup Iteration   2: 2.409 us/op
+# Warmup Iteration   3: 2.324 us/op
+Iteration   1: 2.299 us/op
+Iteration   2: 2.332 us/op
+Iteration   3: 2.310 us/op
+Iteration   4: 2.317 us/op
+Iteration   5: 2.308 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse":
+  2.313 ±(99.9%) 0.048 us/op [Average]
+  (min, avg, max) = (2.299, 2.313, 2.332), stdev = 0.012
+  CI (99.9%): [2.266, 2.361] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 46.30% complete, ETA 00:01:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 26.211 us/op
+# Warmup Iteration   2: 23.517 us/op
+# Warmup Iteration   3: 22.993 us/op
+Iteration   1: 22.850 us/op
+Iteration   2: 22.936 us/op
+Iteration   3: 22.864 us/op
+Iteration   4: 22.928 us/op
+Iteration   5: 22.923 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse":
+  22.900 ±(99.9%) 0.153 us/op [Average]
+  (min, avg, max) = (22.850, 22.900, 22.936), stdev = 0.040
+  CI (99.9%): [22.747, 23.054] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 48.15% complete, ETA 00:01:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 260.525 us/op
+# Warmup Iteration   2: 232.662 us/op
+# Warmup Iteration   3: 231.981 us/op
+Iteration   1: 227.909 us/op
+Iteration   2: 230.015 us/op
+Iteration   3: 227.840 us/op
+Iteration   4: 229.702 us/op
+Iteration   5: 228.350 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.gson_pretty_reuse":
+  228.763 ±(99.9%) 3.945 us/op [Average]
+  (min, avg, max) = (227.840, 228.763, 230.015), stdev = 1.025
+  CI (99.9%): [224.818, 232.708] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 50.00% complete, ETA 00:01:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.477 us/op
+# Warmup Iteration   2: 0.331 us/op
+# Warmup Iteration   3: 0.328 us/op
+Iteration   1: 0.327 us/op
+Iteration   2: 0.327 us/op
+Iteration   3: 0.323 us/op
+Iteration   4: 0.325 us/op
+Iteration   5: 0.325 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse":
+  0.325 ±(99.9%) 0.006 us/op [Average]
+  (min, avg, max) = (0.323, 0.325, 0.327), stdev = 0.002
+  CI (99.9%): [0.320, 0.331] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 51.85% complete, ETA 00:01:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.771 us/op
+# Warmup Iteration   2: 0.568 us/op
+# Warmup Iteration   3: 0.565 us/op
+Iteration   1: 0.563 us/op
+Iteration   2: 0.566 us/op
+Iteration   3: 0.560 us/op
+Iteration   4: 0.565 us/op
+Iteration   5: 0.561 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse":
+  0.563 ±(99.9%) 0.009 us/op [Average]
+  (min, avg, max) = (0.560, 0.563, 0.566), stdev = 0.002
+  CI (99.9%): [0.553, 0.572] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 53.70% complete, ETA 00:01:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.946 us/op
+# Warmup Iteration   2: 3.096 us/op
+# Warmup Iteration   3: 2.996 us/op
+Iteration   1: 3.012 us/op
+Iteration   2: 3.063 us/op
+Iteration   3: 3.015 us/op
+Iteration   4: 3.010 us/op
+Iteration   5: 3.004 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse":
+  3.021 ±(99.9%) 0.093 us/op [Average]
+  (min, avg, max) = (3.004, 3.021, 3.063), stdev = 0.024
+  CI (99.9%): [2.928, 3.114] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 55.56% complete, ETA 00:01:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.000 us/op
+# Warmup Iteration   2: 0.707 us/op
+# Warmup Iteration   3: 0.709 us/op
+Iteration   1: 0.705 us/op
+Iteration   2: 0.709 us/op
+Iteration   3: 0.702 us/op
+Iteration   4: 0.703 us/op
+Iteration   5: 0.701 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse":
+  0.704 ±(99.9%) 0.012 us/op [Average]
+  (min, avg, max) = (0.701, 0.704, 0.709), stdev = 0.003
+  CI (99.9%): [0.692, 0.716] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 57.41% complete, ETA 00:01:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 27.577 us/op
+# Warmup Iteration   2: 19.441 us/op
+# Warmup Iteration   3: 18.673 us/op
+Iteration   1: 18.762 us/op
+Iteration   2: 18.663 us/op
+Iteration   3: 18.606 us/op
+Iteration   4: 18.818 us/op
+Iteration   5: 18.746 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse":
+  18.719 ±(99.9%) 0.323 us/op [Average]
+  (min, avg, max) = (18.606, 18.719, 18.818), stdev = 0.084
+  CI (99.9%): [18.396, 19.042] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 59.26% complete, ETA 00:00:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 3382.581 us/op
+# Warmup Iteration   2: 2216.232 us/op
+# Warmup Iteration   3: 2159.085 us/op
+Iteration   1: 2175.640 us/op
+Iteration   2: 2187.774 us/op
+Iteration   3: 2167.104 us/op
+Iteration   4: 2187.571 us/op
+Iteration   5: 2178.479 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse":
+  2179.314 ±(99.9%) 33.515 us/op [Average]
+  (min, avg, max) = (2167.104, 2179.314, 2187.774), stdev = 8.704
+  CI (99.9%): [2145.798, 2212.829] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 61.11% complete, ETA 00:00:54
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.480 us/op
+# Warmup Iteration   2: 0.329 us/op
+# Warmup Iteration   3: 0.327 us/op
+Iteration   1: 0.330 us/op
+Iteration   2: 0.329 us/op
+Iteration   3: 0.329 us/op
+Iteration   4: 0.329 us/op
+Iteration   5: 0.326 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse":
+  0.329 ±(99.9%) 0.005 us/op [Average]
+  (min, avg, max) = (0.326, 0.329, 0.330), stdev = 0.001
+  CI (99.9%): [0.323, 0.334] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 62.96% complete, ETA 00:00:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.596 us/op
+# Warmup Iteration   2: 2.728 us/op
+# Warmup Iteration   3: 2.648 us/op
+Iteration   1: 2.648 us/op
+Iteration   2: 2.661 us/op
+Iteration   3: 2.643 us/op
+Iteration   4: 2.639 us/op
+Iteration   5: 2.659 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse":
+  2.650 ±(99.9%) 0.037 us/op [Average]
+  (min, avg, max) = (2.639, 2.650, 2.661), stdev = 0.010
+  CI (99.9%): [2.613, 2.687] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 64.81% complete, ETA 00:00:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 36.403 us/op
+# Warmup Iteration   2: 27.786 us/op
+# Warmup Iteration   3: 26.773 us/op
+Iteration   1: 26.804 us/op
+Iteration   2: 27.017 us/op
+Iteration   3: 26.880 us/op
+Iteration   4: 26.760 us/op
+Iteration   5: 26.776 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_compact_reuse":
+  26.848 ±(99.9%) 0.406 us/op [Average]
+  (min, avg, max) = (26.760, 26.848, 27.017), stdev = 0.105
+  CI (99.9%): [26.442, 27.254] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 66.67% complete, ETA 00:00:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 79.170 us/op
+# Warmup Iteration   2: 20.571 us/op
+# Warmup Iteration   3: 12.033 us/op
+Iteration   1: 12.090 us/op
+Iteration   2: 11.938 us/op
+Iteration   3: 11.918 us/op
+Iteration   4: 11.948 us/op
+Iteration   5: 11.853 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty":
+  11.949 ±(99.9%) 0.334 us/op [Average]
+  (min, avg, max) = (11.853, 11.949, 12.090), stdev = 0.087
+  CI (99.9%): [11.615, 12.283] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 68.52% complete, ETA 00:00:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 62.126 us/op
+# Warmup Iteration   2: 18.414 us/op
+# Warmup Iteration   3: 12.565 us/op
+Iteration   1: 12.607 us/op
+Iteration   2: 12.540 us/op
+Iteration   3: 12.516 us/op
+Iteration   4: 12.510 us/op
+Iteration   5: 12.516 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty":
+  12.538 ±(99.9%) 0.155 us/op [Average]
+  (min, avg, max) = (12.510, 12.538, 12.607), stdev = 0.040
+  CI (99.9%): [12.383, 12.693] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 70.37% complete, ETA 00:00:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 87.248 us/op
+# Warmup Iteration   2: 26.238 us/op
+# Warmup Iteration   3: 16.043 us/op
+Iteration   1: 16.001 us/op
+Iteration   2: 16.090 us/op
+Iteration   3: 16.055 us/op
+Iteration   4: 16.025 us/op
+Iteration   5: 15.844 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty":
+  16.003 ±(99.9%) 0.365 us/op [Average]
+  (min, avg, max) = (15.844, 16.003, 16.090), stdev = 0.095
+  CI (99.9%): [15.637, 16.368] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 72.22% complete, ETA 00:00:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 71.673 us/op
+# Warmup Iteration   2: 20.092 us/op
+# Warmup Iteration   3: 14.195 us/op
+Iteration   1: 14.233 us/op
+Iteration   2: 14.250 us/op
+Iteration   3: 14.205 us/op
+Iteration   4: 14.239 us/op
+Iteration   5: 14.030 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty":
+  14.192 ±(99.9%) 0.353 us/op [Average]
+  (min, avg, max) = (14.030, 14.192, 14.250), stdev = 0.092
+  CI (99.9%): [13.839, 14.544] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 74.07% complete, ETA 00:00:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 190.337 us/op
+# Warmup Iteration   2: 61.246 us/op
+# Warmup Iteration   3: 45.062 us/op
+Iteration   1: 44.283 us/op
+Iteration   2: 44.285 us/op
+Iteration   3: 44.129 us/op
+Iteration   4: 44.279 us/op
+Iteration   5: 44.321 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty":
+  44.259 ±(99.9%) 0.287 us/op [Average]
+  (min, avg, max) = (44.129, 44.259, 44.321), stdev = 0.075
+  CI (99.9%): [43.972, 44.546] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 75.93% complete, ETA 00:00:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 6678.246 us/op
+# Warmup Iteration   2: 3932.833 us/op
+# Warmup Iteration   3: 3747.344 us/op
+Iteration   1: 3639.459 us/op
+Iteration   2: 3595.159 us/op
+Iteration   3: 3610.099 us/op
+Iteration   4: 3555.822 us/op
+Iteration   5: 3534.398 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty":
+  3586.987 ±(99.9%) 162.130 us/op [Average]
+  (min, avg, max) = (3534.398, 3586.987, 3639.459), stdev = 42.105
+  CI (99.9%): [3424.858, 3749.117] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 77.78% complete, ETA 00:00:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 71.618 us/op
+# Warmup Iteration   2: 19.455 us/op
+# Warmup Iteration   3: 12.536 us/op
+Iteration   1: 12.680 us/op
+Iteration   2: 12.447 us/op
+Iteration   3: 12.637 us/op
+Iteration   4: 12.536 us/op
+Iteration   5: 12.502 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty":
+  12.560 ±(99.9%) 0.370 us/op [Average]
+  (min, avg, max) = (12.447, 12.560, 12.680), stdev = 0.096
+  CI (99.9%): [12.190, 12.931] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 79.63% complete, ETA 00:00:28
+# Fork: 1 of 1
+# Warmup Iteration   1: 78.258 us/op
+# Warmup Iteration   2: 24.410 us/op
+# Warmup Iteration   3: 16.678 us/op
+Iteration   1: 16.719 us/op
+Iteration   2: 16.602 us/op
+Iteration   3: 16.576 us/op
+Iteration   4: 16.494 us/op
+Iteration   5: 16.513 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty":
+  16.581 ±(99.9%) 0.342 us/op [Average]
+  (min, avg, max) = (16.494, 16.581, 16.719), stdev = 0.089
+  CI (99.9%): [16.238, 16.923] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 81.48% complete, ETA 00:00:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 160.581 us/op
+# Warmup Iteration   2: 79.414 us/op
+# Warmup Iteration   3: 57.763 us/op
+Iteration   1: 54.971 us/op
+Iteration   2: 54.872 us/op
+Iteration   3: 55.079 us/op
+Iteration   4: 55.003 us/op
+Iteration   5: 54.956 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_newMapper_eachCall_pretty":
+  54.976 ±(99.9%) 0.289 us/op [Average]
+  (min, avg, max) = (54.872, 54.976, 55.079), stdev = 0.075
+  CI (99.9%): [54.687, 55.265] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 83.33% complete, ETA 00:00:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.662 us/op
+# Warmup Iteration   2: 0.467 us/op
+# Warmup Iteration   3: 0.462 us/op
+Iteration   1: 0.465 us/op
+Iteration   2: 0.466 us/op
+Iteration   3: 0.465 us/op
+Iteration   4: 0.468 us/op
+Iteration   5: 0.477 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse":
+  0.468 ±(99.9%) 0.020 us/op [Average]
+  (min, avg, max) = (0.465, 0.468, 0.477), stdev = 0.005
+  CI (99.9%): [0.448, 0.488] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 85.19% complete, ETA 00:00:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.139 us/op
+# Warmup Iteration   2: 0.846 us/op
+# Warmup Iteration   3: 0.832 us/op
+Iteration   1: 0.838 us/op
+Iteration   2: 0.836 us/op
+Iteration   3: 0.837 us/op
+Iteration   4: 0.835 us/op
+Iteration   5: 0.832 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse":
+  0.836 ±(99.9%) 0.010 us/op [Average]
+  (min, avg, max) = (0.832, 0.836, 0.838), stdev = 0.003
+  CI (99.9%): [0.826, 0.846] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 87.04% complete, ETA 00:00:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 5.393 us/op
+# Warmup Iteration   2: 4.471 us/op
+# Warmup Iteration   3: 4.366 us/op
+Iteration   1: 4.346 us/op
+Iteration   2: 4.355 us/op
+Iteration   3: 4.382 us/op
+Iteration   4: 4.416 us/op
+Iteration   5: 4.326 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse":
+  4.365 ±(99.9%) 0.135 us/op [Average]
+  (min, avg, max) = (4.326, 4.365, 4.416), stdev = 0.035
+  CI (99.9%): [4.230, 4.500] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 88.89% complete, ETA 00:00:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.541 us/op
+# Warmup Iteration   2: 1.118 us/op
+# Warmup Iteration   3: 1.082 us/op
+Iteration   1: 1.089 us/op
+Iteration   2: 1.090 us/op
+Iteration   3: 1.087 us/op
+Iteration   4: 1.081 us/op
+Iteration   5: 1.087 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse":
+  1.087 ±(99.9%) 0.014 us/op [Average]
+  (min, avg, max) = (1.081, 1.087, 1.090), stdev = 0.004
+  CI (99.9%): [1.073, 1.100] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 90.74% complete, ETA 00:00:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 45.347 us/op
+# Warmup Iteration   2: 30.885 us/op
+# Warmup Iteration   3: 29.844 us/op
+Iteration   1: 29.680 us/op
+Iteration   2: 29.711 us/op
+Iteration   3: 29.881 us/op
+Iteration   4: 29.841 us/op
+Iteration   5: 29.538 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse":
+  29.730 ±(99.9%) 0.527 us/op [Average]
+  (min, avg, max) = (29.538, 29.730, 29.881), stdev = 0.137
+  CI (99.9%): [29.203, 30.257] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 92.59% complete, ETA 00:00:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 5386.170 us/op
+# Warmup Iteration   2: 3523.115 us/op
+# Warmup Iteration   3: 3473.396 us/op
+Iteration   1: 3457.415 us/op
+Iteration   2: 3451.596 us/op
+Iteration   3: 3457.274 us/op
+Iteration   4: 3435.042 us/op
+Iteration   5: 3464.498 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse":
+  3453.165 ±(99.9%) 42.805 us/op [Average]
+  (min, avg, max) = (3435.042, 3453.165, 3464.498), stdev = 11.116
+  CI (99.9%): [3410.360, 3495.970] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 94.44% complete, ETA 00:00:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.733 us/op
+# Warmup Iteration   2: 0.504 us/op
+# Warmup Iteration   3: 0.498 us/op
+Iteration   1: 0.499 us/op
+Iteration   2: 0.498 us/op
+Iteration   3: 0.498 us/op
+Iteration   4: 0.496 us/op
+Iteration   5: 0.500 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse":
+  0.498 ±(99.9%) 0.006 us/op [Average]
+  (min, avg, max) = (0.496, 0.498, 0.500), stdev = 0.002
+  CI (99.9%): [0.492, 0.504] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 96.30% complete, ETA 00:00:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 5.705 us/op
+# Warmup Iteration   2: 4.268 us/op
+# Warmup Iteration   3: 4.094 us/op
+Iteration   1: 4.106 us/op
+Iteration   2: 4.059 us/op
+Iteration   3: 4.117 us/op
+Iteration   4: 4.089 us/op
+Iteration   5: 4.109 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse":
+  4.096 ±(99.9%) 0.089 us/op [Average]
+  (min, avg, max) = (4.059, 4.096, 4.117), stdev = 0.023
+  CI (99.9%): [4.008, 4.185] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 98.15% complete, ETA 00:00:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 57.056 us/op
+# Warmup Iteration   2: 42.747 us/op
+# Warmup Iteration   3: 40.648 us/op
+Iteration   1: 41.374 us/op
+Iteration   2: 41.017 us/op
+Iteration   3: 41.069 us/op
+Iteration   4: 40.707 us/op
+Iteration   5: 41.234 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JsonHelperBenchmark.jackson_pretty_reuse":
+  41.080 ±(99.9%) 0.970 us/op [Average]
+  (min, avg, max) = (40.707, 41.080, 41.374), stdev = 0.252
+  CI (99.9%): [40.110, 42.050] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:02:21
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                              (payloadType)  (size)  Mode  Cnt      Score     Error  Units
+JsonHelperBenchmark.baseline_jsonHelper_pretty                simple       1  avgt    5     12.002 ±   0.307  us/op
+JsonHelperBenchmark.baseline_jsonHelper_pretty                simple      10  avgt    5     12.395 ±   0.512  us/op
+JsonHelperBenchmark.baseline_jsonHelper_pretty                simple     100  avgt    5     15.895 ±   0.434  us/op
+JsonHelperBenchmark.baseline_jsonHelper_pretty                nested       1  avgt    5     14.371 ±   0.223  us/op
+JsonHelperBenchmark.baseline_jsonHelper_pretty                nested      10  avgt    5     44.417 ±   1.241  us/op
+JsonHelperBenchmark.baseline_jsonHelper_pretty                nested     100  avgt    5   3592.848 ± 276.614  us/op
+JsonHelperBenchmark.baseline_jsonHelper_pretty                  list       1  avgt    5     12.585 ±   0.404  us/op
+JsonHelperBenchmark.baseline_jsonHelper_pretty                  list      10  avgt    5     16.661 ±   0.400  us/op
+JsonHelperBenchmark.baseline_jsonHelper_pretty                  list     100  avgt    5     55.458 ±   1.002  us/op
+JsonHelperBenchmark.gson_compact_reuse                        simple       1  avgt    5      1.454 ±   0.025  us/op
+JsonHelperBenchmark.gson_compact_reuse                        simple      10  avgt    5      3.034 ±   0.011  us/op
+JsonHelperBenchmark.gson_compact_reuse                        simple     100  avgt    5     19.101 ±   0.258  us/op
+JsonHelperBenchmark.gson_compact_reuse                        nested       1  avgt    5      3.363 ±   0.037  us/op
+JsonHelperBenchmark.gson_compact_reuse                        nested      10  avgt    5     99.051 ±   0.270  us/op
+JsonHelperBenchmark.gson_compact_reuse                        nested     100  avgt    5   8486.248 ±  70.323  us/op
+JsonHelperBenchmark.gson_compact_reuse                          list       1  avgt    5      1.483 ±   0.025  us/op
+JsonHelperBenchmark.gson_compact_reuse                          list      10  avgt    5     14.459 ±   0.215  us/op
+JsonHelperBenchmark.gson_compact_reuse                          list     100  avgt    5    144.082 ±   2.356  us/op
+JsonHelperBenchmark.gson_pretty_reuse                         simple       1  avgt    5      1.998 ±   0.043  us/op
+JsonHelperBenchmark.gson_pretty_reuse                         simple      10  avgt    5      4.404 ±   0.098  us/op
+JsonHelperBenchmark.gson_pretty_reuse                         simple     100  avgt    5     28.753 ±   0.299  us/op
+JsonHelperBenchmark.gson_pretty_reuse                         nested       1  avgt    5      6.019 ±   0.074  us/op
+JsonHelperBenchmark.gson_pretty_reuse                         nested      10  avgt    5    188.718 ±   0.931  us/op
+JsonHelperBenchmark.gson_pretty_reuse                         nested     100  avgt    5  16135.051 ± 295.195  us/op
+JsonHelperBenchmark.gson_pretty_reuse                           list       1  avgt    5      2.313 ±   0.048  us/op
+JsonHelperBenchmark.gson_pretty_reuse                           list      10  avgt    5     22.900 ±   0.153  us/op
+JsonHelperBenchmark.gson_pretty_reuse                           list     100  avgt    5    228.763 ±   3.945  us/op
+JsonHelperBenchmark.jackson_compact_reuse                     simple       1  avgt    5      0.325 ±   0.006  us/op
+JsonHelperBenchmark.jackson_compact_reuse                     simple      10  avgt    5      0.563 ±   0.009  us/op
+JsonHelperBenchmark.jackson_compact_reuse                     simple     100  avgt    5      3.021 ±   0.093  us/op
+JsonHelperBenchmark.jackson_compact_reuse                     nested       1  avgt    5      0.704 ±   0.012  us/op
+JsonHelperBenchmark.jackson_compact_reuse                     nested      10  avgt    5     18.719 ±   0.323  us/op
+JsonHelperBenchmark.jackson_compact_reuse                     nested     100  avgt    5   2179.314 ±  33.515  us/op
+JsonHelperBenchmark.jackson_compact_reuse                       list       1  avgt    5      0.329 ±   0.005  us/op
+JsonHelperBenchmark.jackson_compact_reuse                       list      10  avgt    5      2.650 ±   0.037  us/op
+JsonHelperBenchmark.jackson_compact_reuse                       list     100  avgt    5     26.848 ±   0.406  us/op
+JsonHelperBenchmark.jackson_newMapper_eachCall_pretty         simple       1  avgt    5     11.949 ±   0.334  us/op
+JsonHelperBenchmark.jackson_newMapper_eachCall_pretty         simple      10  avgt    5     12.538 ±   0.155  us/op
+JsonHelperBenchmark.jackson_newMapper_eachCall_pretty         simple     100  avgt    5     16.003 ±   0.365  us/op
+JsonHelperBenchmark.jackson_newMapper_eachCall_pretty         nested       1  avgt    5     14.192 ±   0.353  us/op
+JsonHelperBenchmark.jackson_newMapper_eachCall_pretty         nested      10  avgt    5     44.259 ±   0.287  us/op
+JsonHelperBenchmark.jackson_newMapper_eachCall_pretty         nested     100  avgt    5   3586.987 ± 162.130  us/op
+JsonHelperBenchmark.jackson_newMapper_eachCall_pretty           list       1  avgt    5     12.560 ±   0.370  us/op
+JsonHelperBenchmark.jackson_newMapper_eachCall_pretty           list      10  avgt    5     16.581 ±   0.342  us/op
+JsonHelperBenchmark.jackson_newMapper_eachCall_pretty           list     100  avgt    5     54.976 ±   0.289  us/op
+JsonHelperBenchmark.jackson_pretty_reuse                      simple       1  avgt    5      0.468 ±   0.020  us/op
+JsonHelperBenchmark.jackson_pretty_reuse                      simple      10  avgt    5      0.836 ±   0.010  us/op
+JsonHelperBenchmark.jackson_pretty_reuse                      simple     100  avgt    5      4.365 ±   0.135  us/op
+JsonHelperBenchmark.jackson_pretty_reuse                      nested       1  avgt    5      1.087 ±   0.014  us/op
+JsonHelperBenchmark.jackson_pretty_reuse                      nested      10  avgt    5     29.730 ±   0.527  us/op
+JsonHelperBenchmark.jackson_pretty_reuse                      nested     100  avgt    5   3453.165 ±  42.805  us/op
+JsonHelperBenchmark.jackson_pretty_reuse                        list       1  avgt    5      0.498 ±   0.006  us/op
+JsonHelperBenchmark.jackson_pretty_reuse                        list      10  avgt    5      4.096 ±   0.089  us/op
+JsonHelperBenchmark.jackson_pretty_reuse                        list     100  avgt    5     41.080 ±   0.970  us/op
+
+Benchmark result is saved to ../sse-reports/baseline/jmh//JsonHelperBenchmark/results.json

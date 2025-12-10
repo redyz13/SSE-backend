@@ -1,0 +1,3089 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 0.00% complete, ETA 00:03:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.117 us/op
+# Warmup Iteration   2: 1.234 us/op
+# Warmup Iteration   3: 1.219 us/op
+Iteration   1: 1.227 us/op
+Iteration   2: 1.217 us/op
+Iteration   3: 1.223 us/op
+Iteration   4: 1.214 us/op
+Iteration   5: 1.224 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  1.221 ±(99.9%) 0.021 us/op [Average]
+  (min, avg, max) = (1.214, 1.221, 1.227), stdev = 0.005
+  CI (99.9%): [1.200, 1.242] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 1.04% complete, ETA 00:04:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.053 us/op
+# Warmup Iteration   2: 1.229 us/op
+# Warmup Iteration   3: 1.215 us/op
+Iteration   1: 1.229 us/op
+Iteration   2: 1.218 us/op
+Iteration   3: 1.218 us/op
+Iteration   4: 1.218 us/op
+Iteration   5: 1.261 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  1.229 ±(99.9%) 0.071 us/op [Average]
+  (min, avg, max) = (1.218, 1.229, 1.261), stdev = 0.018
+  CI (99.9%): [1.158, 1.300] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 2.08% complete, ETA 00:04:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.731 us/op
+# Warmup Iteration   2: 1.423 us/op
+# Warmup Iteration   3: 1.362 us/op
+Iteration   1: 1.375 us/op
+Iteration   2: 1.368 us/op
+Iteration   3: 1.376 us/op
+Iteration   4: 1.368 us/op
+Iteration   5: 1.371 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  1.372 ±(99.9%) 0.016 us/op [Average]
+  (min, avg, max) = (1.368, 1.372, 1.376), stdev = 0.004
+  CI (99.9%): [1.356, 1.387] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 3.13% complete, ETA 00:04:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.584 us/op
+# Warmup Iteration   2: 1.225 us/op
+# Warmup Iteration   3: 1.252 us/op
+Iteration   1: 1.224 us/op
+Iteration   2: 1.222 us/op
+Iteration   3: 1.223 us/op
+Iteration   4: 1.217 us/op
+Iteration   5: 1.217 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  1.220 ±(99.9%) 0.014 us/op [Average]
+  (min, avg, max) = (1.217, 1.220, 1.224), stdev = 0.004
+  CI (99.9%): [1.207, 1.234] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 4.17% complete, ETA 00:04:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.062 us/op
+# Warmup Iteration   2: 1.267 us/op
+# Warmup Iteration   3: 1.244 us/op
+Iteration   1: 1.247 us/op
+Iteration   2: 1.252 us/op
+Iteration   3: 1.244 us/op
+Iteration   4: 1.261 us/op
+Iteration   5: 1.238 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  1.248 ±(99.9%) 0.034 us/op [Average]
+  (min, avg, max) = (1.238, 1.248, 1.261), stdev = 0.009
+  CI (99.9%): [1.214, 1.282] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 5.21% complete, ETA 00:04:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.357 us/op
+# Warmup Iteration   2: 1.442 us/op
+# Warmup Iteration   3: 1.372 us/op
+Iteration   1: 1.377 us/op
+Iteration   2: 1.379 us/op
+Iteration   3: 1.370 us/op
+Iteration   4: 1.381 us/op
+Iteration   5: 1.372 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  1.376 ±(99.9%) 0.018 us/op [Average]
+  (min, avg, max) = (1.370, 1.376, 1.381), stdev = 0.005
+  CI (99.9%): [1.358, 1.394] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 6.25% complete, ETA 00:03:58
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.544 us/op
+# Warmup Iteration   2: 1.612 us/op
+# Warmup Iteration   3: 1.598 us/op
+Iteration   1: 1.587 us/op
+Iteration   2: 1.600 us/op
+Iteration   3: 1.590 us/op
+Iteration   4: 1.600 us/op
+Iteration   5: 1.646 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  1.605 ±(99.9%) 0.092 us/op [Average]
+  (min, avg, max) = (1.587, 1.605, 1.646), stdev = 0.024
+  CI (99.9%): [1.513, 1.696] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 7.29% complete, ETA 00:03:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.682 us/op
+# Warmup Iteration   2: 1.661 us/op
+# Warmup Iteration   3: 1.657 us/op
+Iteration   1: 1.654 us/op
+Iteration   2: 1.659 us/op
+Iteration   3: 1.688 us/op
+Iteration   4: 1.652 us/op
+Iteration   5: 1.642 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  1.659 ±(99.9%) 0.067 us/op [Average]
+  (min, avg, max) = (1.642, 1.659, 1.688), stdev = 0.017
+  CI (99.9%): [1.592, 1.726] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 8.33% complete, ETA 00:03:53
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.771 us/op
+# Warmup Iteration   2: 1.828 us/op
+# Warmup Iteration   3: 1.861 us/op
+Iteration   1: 1.789 us/op
+Iteration   2: 1.834 us/op
+Iteration   3: 1.790 us/op
+Iteration   4: 1.811 us/op
+Iteration   5: 1.790 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  1.803 ±(99.9%) 0.075 us/op [Average]
+  (min, avg, max) = (1.789, 1.803, 1.834), stdev = 0.020
+  CI (99.9%): [1.728, 1.878] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 9.38% complete, ETA 00:03:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.191 us/op
+# Warmup Iteration   2: 2.032 us/op
+# Warmup Iteration   3: 2.041 us/op
+Iteration   1: 2.005 us/op
+Iteration   2: 2.032 us/op
+Iteration   3: 2.005 us/op
+Iteration   4: 2.022 us/op
+Iteration   5: 2.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  2.017 ±(99.9%) 0.045 us/op [Average]
+  (min, avg, max) = (2.005, 2.017, 2.032), stdev = 0.012
+  CI (99.9%): [1.972, 2.062] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 10.42% complete, ETA 00:03:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.180 us/op
+# Warmup Iteration   2: 2.176 us/op
+# Warmup Iteration   3: 2.116 us/op
+Iteration   1: 2.101 us/op
+Iteration   2: 2.120 us/op
+Iteration   3: 2.089 us/op
+Iteration   4: 2.098 us/op
+Iteration   5: 2.110 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  2.104 ±(99.9%) 0.045 us/op [Average]
+  (min, avg, max) = (2.089, 2.104, 2.120), stdev = 0.012
+  CI (99.9%): [2.058, 2.149] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 11.46% complete, ETA 00:03:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.382 us/op
+# Warmup Iteration   2: 2.248 us/op
+# Warmup Iteration   3: 2.296 us/op
+Iteration   1: 2.222 us/op
+Iteration   2: 2.228 us/op
+Iteration   3: 2.231 us/op
+Iteration   4: 2.213 us/op
+Iteration   5: 2.228 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  2.224 ±(99.9%) 0.028 us/op [Average]
+  (min, avg, max) = (2.213, 2.224, 2.231), stdev = 0.007
+  CI (99.9%): [2.197, 2.252] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 12.50% complete, ETA 00:03:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.691 us/op
+# Warmup Iteration   2: 2.612 us/op
+# Warmup Iteration   3: 2.630 us/op
+Iteration   1: 2.621 us/op
+Iteration   2: 2.628 us/op
+Iteration   3: 2.644 us/op
+Iteration   4: 2.627 us/op
+Iteration   5: 2.624 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  2.629 ±(99.9%) 0.033 us/op [Average]
+  (min, avg, max) = (2.621, 2.629, 2.644), stdev = 0.009
+  CI (99.9%): [2.595, 2.662] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 13.54% complete, ETA 00:03:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.010 us/op
+# Warmup Iteration   2: 2.616 us/op
+# Warmup Iteration   3: 2.608 us/op
+Iteration   1: 2.600 us/op
+Iteration   2: 2.615 us/op
+Iteration   3: 2.630 us/op
+Iteration   4: 2.650 us/op
+Iteration   5: 2.624 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  2.624 ±(99.9%) 0.071 us/op [Average]
+  (min, avg, max) = (2.600, 2.624, 2.650), stdev = 0.018
+  CI (99.9%): [2.553, 2.695] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 14.58% complete, ETA 00:03:37
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.890 us/op
+# Warmup Iteration   2: 2.731 us/op
+# Warmup Iteration   3: 2.738 us/op
+Iteration   1: 2.710 us/op
+Iteration   2: 2.724 us/op
+Iteration   3: 2.729 us/op
+Iteration   4: 2.719 us/op
+Iteration   5: 2.710 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  2.719 ±(99.9%) 0.032 us/op [Average]
+  (min, avg, max) = (2.710, 2.719, 2.729), stdev = 0.008
+  CI (99.9%): [2.686, 2.751] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 15.63% complete, ETA 00:03:34
+# Fork: 1 of 1
+# Warmup Iteration   1: 6.075 us/op
+# Warmup Iteration   2: 4.497 us/op
+# Warmup Iteration   3: 4.493 us/op
+Iteration   1: 4.513 us/op
+Iteration   2: 4.468 us/op
+Iteration   3: 4.492 us/op
+Iteration   4: 4.491 us/op
+Iteration   5: 4.490 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  4.491 ±(99.9%) 0.062 us/op [Average]
+  (min, avg, max) = (4.468, 4.491, 4.513), stdev = 0.016
+  CI (99.9%): [4.429, 4.553] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 16.67% complete, ETA 00:03:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 5.930 us/op
+# Warmup Iteration   2: 4.642 us/op
+# Warmup Iteration   3: 4.514 us/op
+Iteration   1: 4.556 us/op
+Iteration   2: 4.564 us/op
+Iteration   3: 4.479 us/op
+Iteration   4: 4.471 us/op
+Iteration   5: 4.485 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  4.511 ±(99.9%) 0.174 us/op [Average]
+  (min, avg, max) = (4.471, 4.511, 4.564), stdev = 0.045
+  CI (99.9%): [4.337, 4.685] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 17.71% complete, ETA 00:03:29
+# Fork: 1 of 1
+# Warmup Iteration   1: 6.609 us/op
+# Warmup Iteration   2: 4.943 us/op
+# Warmup Iteration   3: 4.804 us/op
+Iteration   1: 4.837 us/op
+Iteration   2: 4.811 us/op
+Iteration   3: 4.838 us/op
+Iteration   4: 4.806 us/op
+Iteration   5: 4.807 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  4.820 ±(99.9%) 0.063 us/op [Average]
+  (min, avg, max) = (4.806, 4.820, 4.838), stdev = 0.016
+  CI (99.9%): [4.757, 4.883] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 18.75% complete, ETA 00:03:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 6.135 us/op
+# Warmup Iteration   2: 4.637 us/op
+# Warmup Iteration   3: 4.605 us/op
+Iteration   1: 4.629 us/op
+Iteration   2: 4.607 us/op
+Iteration   3: 4.606 us/op
+Iteration   4: 4.854 us/op
+Iteration   5: 4.616 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  4.662 ±(99.9%) 0.414 us/op [Average]
+  (min, avg, max) = (4.606, 4.662, 4.854), stdev = 0.108
+  CI (99.9%): [4.248, 5.076] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 19.79% complete, ETA 00:03:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 6.284 us/op
+# Warmup Iteration   2: 4.841 us/op
+# Warmup Iteration   3: 4.735 us/op
+Iteration   1: 4.767 us/op
+Iteration   2: 4.778 us/op
+Iteration   3: 4.782 us/op
+Iteration   4: 4.761 us/op
+Iteration   5: 4.736 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  4.765 ±(99.9%) 0.070 us/op [Average]
+  (min, avg, max) = (4.736, 4.765, 4.782), stdev = 0.018
+  CI (99.9%): [4.694, 4.835] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 20.83% complete, ETA 00:03:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 6.508 us/op
+# Warmup Iteration   2: 4.966 us/op
+# Warmup Iteration   3: 4.909 us/op
+Iteration   1: 4.893 us/op
+Iteration   2: 4.882 us/op
+Iteration   3: 4.894 us/op
+Iteration   4: 4.949 us/op
+Iteration   5: 4.879 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  4.899 ±(99.9%) 0.109 us/op [Average]
+  (min, avg, max) = (4.879, 4.899, 4.949), stdev = 0.028
+  CI (99.9%): [4.790, 5.009] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 21.88% complete, ETA 00:03:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.856 us/op
+# Warmup Iteration   2: 9.997 us/op
+# Warmup Iteration   3: 9.822 us/op
+Iteration   1: 9.938 us/op
+Iteration   2: 9.961 us/op
+Iteration   3: 9.857 us/op
+Iteration   4: 9.858 us/op
+Iteration   5: 9.918 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  9.906 ±(99.9%) 0.181 us/op [Average]
+  (min, avg, max) = (9.857, 9.906, 9.961), stdev = 0.047
+  CI (99.9%): [9.725, 10.087] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 22.92% complete, ETA 00:03:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.790 us/op
+# Warmup Iteration   2: 9.807 us/op
+# Warmup Iteration   3: 10.020 us/op
+Iteration   1: 9.719 us/op
+Iteration   2: 9.714 us/op
+Iteration   3: 9.681 us/op
+Iteration   4: 9.717 us/op
+Iteration   5: 9.647 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  9.696 ±(99.9%) 0.121 us/op [Average]
+  (min, avg, max) = (9.647, 9.696, 9.719), stdev = 0.031
+  CI (99.9%): [9.575, 9.816] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 23.96% complete, ETA 00:03:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.770 us/op
+# Warmup Iteration   2: 9.733 us/op
+# Warmup Iteration   3: 9.813 us/op
+Iteration   1: 9.691 us/op
+Iteration   2: 9.730 us/op
+Iteration   3: 9.660 us/op
+Iteration   4: 9.791 us/op
+Iteration   5: 9.699 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign":
+  9.714 ±(99.9%) 0.191 us/op [Average]
+  (min, avg, max) = (9.660, 9.714, 9.791), stdev = 0.050
+  CI (99.9%): [9.523, 9.906] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 25.00% complete, ETA 00:03:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.304 us/op
+# Warmup Iteration   2: 1.342 us/op
+# Warmup Iteration   3: 1.347 us/op
+Iteration   1: 1.320 us/op
+Iteration   2: 1.368 us/op
+Iteration   3: 1.319 us/op
+Iteration   4: 1.320 us/op
+Iteration   5: 1.319 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  1.329 ±(99.9%) 0.084 us/op [Average]
+  (min, avg, max) = (1.319, 1.329, 1.368), stdev = 0.022
+  CI (99.9%): [1.245, 1.413] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 26.04% complete, ETA 00:03:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.505 us/op
+# Warmup Iteration   2: 1.404 us/op
+# Warmup Iteration   3: 1.412 us/op
+Iteration   1: 1.383 us/op
+Iteration   2: 1.380 us/op
+Iteration   3: 1.370 us/op
+Iteration   4: 1.369 us/op
+Iteration   5: 1.367 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  1.374 ±(99.9%) 0.027 us/op [Average]
+  (min, avg, max) = (1.367, 1.374, 1.383), stdev = 0.007
+  CI (99.9%): [1.346, 1.401] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 27.08% complete, ETA 00:03:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.549 us/op
+# Warmup Iteration   2: 1.584 us/op
+# Warmup Iteration   3: 1.519 us/op
+Iteration   1: 1.519 us/op
+Iteration   2: 1.538 us/op
+Iteration   3: 1.513 us/op
+Iteration   4: 1.516 us/op
+Iteration   5: 1.533 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  1.524 ±(99.9%) 0.042 us/op [Average]
+  (min, avg, max) = (1.513, 1.524, 1.538), stdev = 0.011
+  CI (99.9%): [1.481, 1.566] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 28.13% complete, ETA 00:03:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.279 us/op
+# Warmup Iteration   2: 1.463 us/op
+# Warmup Iteration   3: 1.402 us/op
+Iteration   1: 1.393 us/op
+Iteration   2: 1.398 us/op
+Iteration   3: 1.395 us/op
+Iteration   4: 1.387 us/op
+Iteration   5: 1.412 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  1.397 ±(99.9%) 0.035 us/op [Average]
+  (min, avg, max) = (1.387, 1.397, 1.412), stdev = 0.009
+  CI (99.9%): [1.362, 1.432] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 29.17% complete, ETA 00:03:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.306 us/op
+# Warmup Iteration   2: 1.509 us/op
+# Warmup Iteration   3: 1.458 us/op
+Iteration   1: 1.448 us/op
+Iteration   2: 1.457 us/op
+Iteration   3: 1.443 us/op
+Iteration   4: 1.438 us/op
+Iteration   5: 1.443 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  1.446 ±(99.9%) 0.028 us/op [Average]
+  (min, avg, max) = (1.438, 1.446, 1.457), stdev = 0.007
+  CI (99.9%): [1.418, 1.474] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 30.21% complete, ETA 00:02:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.561 us/op
+# Warmup Iteration   2: 1.684 us/op
+# Warmup Iteration   3: 1.720 us/op
+Iteration   1: 1.619 us/op
+Iteration   2: 1.670 us/op
+Iteration   3: 1.624 us/op
+Iteration   4: 1.611 us/op
+Iteration   5: 1.616 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  1.628 ±(99.9%) 0.092 us/op [Average]
+  (min, avg, max) = (1.611, 1.628, 1.670), stdev = 0.024
+  CI (99.9%): [1.536, 1.720] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 31.25% complete, ETA 00:02:54
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.858 us/op
+# Warmup Iteration   2: 1.756 us/op
+# Warmup Iteration   3: 1.758 us/op
+Iteration   1: 1.754 us/op
+Iteration   2: 1.750 us/op
+Iteration   3: 1.756 us/op
+Iteration   4: 1.758 us/op
+Iteration   5: 1.767 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  1.757 ±(99.9%) 0.025 us/op [Average]
+  (min, avg, max) = (1.750, 1.757, 1.767), stdev = 0.006
+  CI (99.9%): [1.732, 1.782] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 32.29% complete, ETA 00:02:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.126 us/op
+# Warmup Iteration   2: 1.832 us/op
+# Warmup Iteration   3: 1.870 us/op
+Iteration   1: 1.819 us/op
+Iteration   2: 1.826 us/op
+Iteration   3: 1.884 us/op
+Iteration   4: 1.821 us/op
+Iteration   5: 1.822 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  1.834 ±(99.9%) 0.106 us/op [Average]
+  (min, avg, max) = (1.819, 1.834, 1.884), stdev = 0.028
+  CI (99.9%): [1.728, 1.941] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 33.33% complete, ETA 00:02:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.078 us/op
+# Warmup Iteration   2: 1.963 us/op
+# Warmup Iteration   3: 2.027 us/op
+Iteration   1: 1.978 us/op
+Iteration   2: 1.949 us/op
+Iteration   3: 1.952 us/op
+Iteration   4: 1.947 us/op
+Iteration   5: 1.977 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  1.961 ±(99.9%) 0.060 us/op [Average]
+  (min, avg, max) = (1.947, 1.961, 1.978), stdev = 0.016
+  CI (99.9%): [1.900, 2.021] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 34.38% complete, ETA 00:02:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.642 us/op
+# Warmup Iteration   2: 2.373 us/op
+# Warmup Iteration   3: 2.356 us/op
+Iteration   1: 2.355 us/op
+Iteration   2: 2.361 us/op
+Iteration   3: 2.367 us/op
+Iteration   4: 2.359 us/op
+Iteration   5: 2.416 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  2.371 ±(99.9%) 0.097 us/op [Average]
+  (min, avg, max) = (2.355, 2.371, 2.416), stdev = 0.025
+  CI (99.9%): [2.274, 2.469] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 35.42% complete, ETA 00:02:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.595 us/op
+# Warmup Iteration   2: 2.440 us/op
+# Warmup Iteration   3: 2.337 us/op
+Iteration   1: 2.342 us/op
+Iteration   2: 2.366 us/op
+Iteration   3: 2.375 us/op
+Iteration   4: 2.329 us/op
+Iteration   5: 2.357 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  2.354 ±(99.9%) 0.071 us/op [Average]
+  (min, avg, max) = (2.329, 2.354, 2.375), stdev = 0.018
+  CI (99.9%): [2.283, 2.425] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 36.46% complete, ETA 00:02:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.087 us/op
+# Warmup Iteration   2: 2.511 us/op
+# Warmup Iteration   3: 2.645 us/op
+Iteration   1: 2.588 us/op
+Iteration   2: 2.488 us/op
+Iteration   3: 2.498 us/op
+Iteration   4: 2.482 us/op
+Iteration   5: 2.483 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  2.507 ±(99.9%) 0.174 us/op [Average]
+  (min, avg, max) = (2.482, 2.507, 2.588), stdev = 0.045
+  CI (99.9%): [2.333, 2.682] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 37.50% complete, ETA 00:02:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.162 us/op
+# Warmup Iteration   2: 3.075 us/op
+# Warmup Iteration   3: 2.966 us/op
+Iteration   1: 2.945 us/op
+Iteration   2: 2.949 us/op
+Iteration   3: 2.955 us/op
+Iteration   4: 2.945 us/op
+Iteration   5: 2.940 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  2.947 ±(99.9%) 0.022 us/op [Average]
+  (min, avg, max) = (2.940, 2.947, 2.955), stdev = 0.006
+  CI (99.9%): [2.925, 2.969] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 38.54% complete, ETA 00:02:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.107 us/op
+# Warmup Iteration   2: 3.001 us/op
+# Warmup Iteration   3: 2.974 us/op
+Iteration   1: 2.989 us/op
+Iteration   2: 2.962 us/op
+Iteration   3: 2.955 us/op
+Iteration   4: 2.988 us/op
+Iteration   5: 2.982 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  2.975 ±(99.9%) 0.061 us/op [Average]
+  (min, avg, max) = (2.955, 2.975, 2.989), stdev = 0.016
+  CI (99.9%): [2.914, 3.036] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 39.58% complete, ETA 00:02:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.384 us/op
+# Warmup Iteration   2: 3.176 us/op
+# Warmup Iteration   3: 3.098 us/op
+Iteration   1: 3.187 us/op
+Iteration   2: 3.093 us/op
+Iteration   3: 3.045 us/op
+Iteration   4: 3.074 us/op
+Iteration   5: 3.052 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  3.090 ±(99.9%) 0.221 us/op [Average]
+  (min, avg, max) = (3.045, 3.090, 3.187), stdev = 0.057
+  CI (99.9%): [2.870, 3.311] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 40.63% complete, ETA 00:02:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.284 us/op
+# Warmup Iteration   2: 5.369 us/op
+# Warmup Iteration   3: 5.210 us/op
+Iteration   1: 5.363 us/op
+Iteration   2: 5.207 us/op
+Iteration   3: 5.174 us/op
+Iteration   4: 5.254 us/op
+Iteration   5: 5.204 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  5.240 ±(99.9%) 0.286 us/op [Average]
+  (min, avg, max) = (5.174, 5.240, 5.363), stdev = 0.074
+  CI (99.9%): [4.955, 5.526] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 41.67% complete, ETA 00:02:28
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.244 us/op
+# Warmup Iteration   2: 5.318 us/op
+# Warmup Iteration   3: 5.229 us/op
+Iteration   1: 5.130 us/op
+Iteration   2: 5.191 us/op
+Iteration   3: 5.160 us/op
+Iteration   4: 5.147 us/op
+Iteration   5: 5.140 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  5.154 ±(99.9%) 0.090 us/op [Average]
+  (min, avg, max) = (5.130, 5.154, 5.191), stdev = 0.023
+  CI (99.9%): [5.063, 5.244] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 42.71% complete, ETA 00:02:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.331 us/op
+# Warmup Iteration   2: 5.393 us/op
+# Warmup Iteration   3: 5.284 us/op
+Iteration   1: 5.246 us/op
+Iteration   2: 5.265 us/op
+Iteration   3: 5.288 us/op
+Iteration   4: 5.433 us/op
+Iteration   5: 5.245 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  5.295 ±(99.9%) 0.303 us/op [Average]
+  (min, avg, max) = (5.245, 5.295, 5.433), stdev = 0.079
+  CI (99.9%): [4.992, 5.598] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 43.75% complete, ETA 00:02:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.346 us/op
+# Warmup Iteration   2: 5.575 us/op
+# Warmup Iteration   3: 5.546 us/op
+Iteration   1: 5.506 us/op
+Iteration   2: 5.524 us/op
+Iteration   3: 5.520 us/op
+Iteration   4: 5.524 us/op
+Iteration   5: 5.530 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  5.521 ±(99.9%) 0.035 us/op [Average]
+  (min, avg, max) = (5.506, 5.521, 5.530), stdev = 0.009
+  CI (99.9%): [5.486, 5.556] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 44.79% complete, ETA 00:02:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.224 us/op
+# Warmup Iteration   2: 5.462 us/op
+# Warmup Iteration   3: 5.356 us/op
+Iteration   1: 5.288 us/op
+Iteration   2: 5.364 us/op
+Iteration   3: 5.363 us/op
+Iteration   4: 5.342 us/op
+Iteration   5: 5.403 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  5.352 ±(99.9%) 0.162 us/op [Average]
+  (min, avg, max) = (5.288, 5.352, 5.403), stdev = 0.042
+  CI (99.9%): [5.190, 5.514] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 45.83% complete, ETA 00:02:17
+# Fork: 1 of 1
+# Warmup Iteration   1: 7.550 us/op
+# Warmup Iteration   2: 5.754 us/op
+# Warmup Iteration   3: 5.566 us/op
+Iteration   1: 5.533 us/op
+Iteration   2: 5.622 us/op
+Iteration   3: 5.515 us/op
+Iteration   4: 5.554 us/op
+Iteration   5: 5.491 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  5.543 ±(99.9%) 0.192 us/op [Average]
+  (min, avg, max) = (5.491, 5.543, 5.622), stdev = 0.050
+  CI (99.9%): [5.350, 5.735] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 46.88% complete, ETA 00:02:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 13.813 us/op
+# Warmup Iteration   2: 10.424 us/op
+# Warmup Iteration   3: 10.507 us/op
+Iteration   1: 10.541 us/op
+Iteration   2: 10.471 us/op
+Iteration   3: 10.553 us/op
+Iteration   4: 10.378 us/op
+Iteration   5: 10.491 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  10.487 ±(99.9%) 0.267 us/op [Average]
+  (min, avg, max) = (10.378, 10.487, 10.553), stdev = 0.069
+  CI (99.9%): [10.219, 10.754] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 47.92% complete, ETA 00:02:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 13.764 us/op
+# Warmup Iteration   2: 10.913 us/op
+# Warmup Iteration   3: 10.714 us/op
+Iteration   1: 10.722 us/op
+Iteration   2: 10.513 us/op
+Iteration   3: 10.483 us/op
+Iteration   4: 10.443 us/op
+Iteration   5: 10.512 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  10.535 ±(99.9%) 0.419 us/op [Average]
+  (min, avg, max) = (10.443, 10.535, 10.722), stdev = 0.109
+  CI (99.9%): [10.116, 10.954] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 48.96% complete, ETA 00:02:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 13.926 us/op
+# Warmup Iteration   2: 10.715 us/op
+# Warmup Iteration   3: 10.904 us/op
+Iteration   1: 10.778 us/op
+Iteration   2: 10.704 us/op
+Iteration   3: 10.867 us/op
+Iteration   4: 10.724 us/op
+Iteration   5: 10.694 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims":
+  10.753 ±(99.9%) 0.275 us/op [Average]
+  (min, avg, max) = (10.694, 10.753, 10.867), stdev = 0.071
+  CI (99.9%): [10.478, 11.029] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 50.00% complete, ETA 00:02:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 21.941 us/op
+# Warmup Iteration   2: 6.576 us/op
+# Warmup Iteration   3: 4.619 us/op
+Iteration   1: 4.713 us/op
+Iteration   2: 4.538 us/op
+Iteration   3: 4.504 us/op
+Iteration   4: 4.467 us/op
+Iteration   5: 4.501 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  4.545 ±(99.9%) 0.374 us/op [Average]
+  (min, avg, max) = (4.467, 4.545, 4.713), stdev = 0.097
+  CI (99.9%): [4.171, 4.919] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 51.04% complete, ETA 00:02:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 21.509 us/op
+# Warmup Iteration   2: 6.572 us/op
+# Warmup Iteration   3: 4.717 us/op
+Iteration   1: 4.566 us/op
+Iteration   2: 4.519 us/op
+Iteration   3: 4.561 us/op
+Iteration   4: 4.488 us/op
+Iteration   5: 4.505 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  4.528 ±(99.9%) 0.132 us/op [Average]
+  (min, avg, max) = (4.488, 4.528, 4.566), stdev = 0.034
+  CI (99.9%): [4.396, 4.660] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 52.08% complete, ETA 00:02:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 21.944 us/op
+# Warmup Iteration   2: 5.640 us/op
+# Warmup Iteration   3: 4.841 us/op
+Iteration   1: 5.027 us/op
+Iteration   2: 4.846 us/op
+Iteration   3: 4.780 us/op
+Iteration   4: 4.792 us/op
+Iteration   5: 4.758 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  4.841 ±(99.9%) 0.421 us/op [Average]
+  (min, avg, max) = (4.758, 4.841, 5.027), stdev = 0.109
+  CI (99.9%): [4.420, 5.261] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 53.13% complete, ETA 00:01:59
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.570 us/op
+# Warmup Iteration   2: 6.154 us/op
+# Warmup Iteration   3: 4.640 us/op
+Iteration   1: 4.486 us/op
+Iteration   2: 4.488 us/op
+Iteration   3: 4.436 us/op
+Iteration   4: 4.467 us/op
+Iteration   5: 4.416 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  4.459 ±(99.9%) 0.121 us/op [Average]
+  (min, avg, max) = (4.416, 4.459, 4.488), stdev = 0.031
+  CI (99.9%): [4.338, 4.580] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 54.17% complete, ETA 00:01:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 20.424 us/op
+# Warmup Iteration   2: 5.809 us/op
+# Warmup Iteration   3: 4.716 us/op
+Iteration   1: 4.556 us/op
+Iteration   2: 4.536 us/op
+Iteration   3: 4.517 us/op
+Iteration   4: 4.546 us/op
+Iteration   5: 4.513 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  4.533 ±(99.9%) 0.071 us/op [Average]
+  (min, avg, max) = (4.513, 4.533, 4.556), stdev = 0.019
+  CI (99.9%): [4.462, 4.605] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 55.21% complete, ETA 00:01:53
+# Fork: 1 of 1
+# Warmup Iteration   1: 22.230 us/op
+# Warmup Iteration   2: 5.537 us/op
+# Warmup Iteration   3: 4.948 us/op
+Iteration   1: 4.851 us/op
+Iteration   2: 4.941 us/op
+Iteration   3: 4.776 us/op
+Iteration   4: 4.802 us/op
+Iteration   5: 4.816 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  4.837 ±(99.9%) 0.247 us/op [Average]
+  (min, avg, max) = (4.776, 4.837, 4.941), stdev = 0.064
+  CI (99.9%): [4.591, 5.084] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 56.25% complete, ETA 00:01:51
+# Fork: 1 of 1
+# Warmup Iteration   1: 22.481 us/op
+# Warmup Iteration   2: 6.668 us/op
+# Warmup Iteration   3: 5.507 us/op
+Iteration   1: 5.230 us/op
+Iteration   2: 5.342 us/op
+Iteration   3: 5.360 us/op
+Iteration   4: 5.257 us/op
+Iteration   5: 5.215 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  5.281 ±(99.9%) 0.254 us/op [Average]
+  (min, avg, max) = (5.215, 5.281, 5.360), stdev = 0.066
+  CI (99.9%): [5.027, 5.535] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 57.29% complete, ETA 00:01:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 22.326 us/op
+# Warmup Iteration   2: 6.034 us/op
+# Warmup Iteration   3: 5.597 us/op
+Iteration   1: 5.329 us/op
+Iteration   2: 5.322 us/op
+Iteration   3: 5.311 us/op
+Iteration   4: 5.328 us/op
+Iteration   5: 5.508 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  5.360 ±(99.9%) 0.321 us/op [Average]
+  (min, avg, max) = (5.311, 5.360, 5.508), stdev = 0.083
+  CI (99.9%): [5.039, 5.680] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 58.33% complete, ETA 00:01:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 23.870 us/op
+# Warmup Iteration   2: 6.346 us/op
+# Warmup Iteration   3: 5.799 us/op
+Iteration   1: 5.582 us/op
+Iteration   2: 5.591 us/op
+Iteration   3: 5.524 us/op
+Iteration   4: 5.555 us/op
+Iteration   5: 5.563 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  5.563 ±(99.9%) 0.101 us/op [Average]
+  (min, avg, max) = (5.524, 5.563, 5.591), stdev = 0.026
+  CI (99.9%): [5.462, 5.664] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 59.38% complete, ETA 00:01:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 26.283 us/op
+# Warmup Iteration   2: 8.157 us/op
+# Warmup Iteration   3: 6.333 us/op
+Iteration   1: 6.091 us/op
+Iteration   2: 6.102 us/op
+Iteration   3: 6.044 us/op
+Iteration   4: 6.070 us/op
+Iteration   5: 6.101 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  6.081 ±(99.9%) 0.095 us/op [Average]
+  (min, avg, max) = (6.044, 6.081, 6.102), stdev = 0.025
+  CI (99.9%): [5.986, 6.177] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 60.42% complete, ETA 00:01:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 25.690 us/op
+# Warmup Iteration   2: 7.893 us/op
+# Warmup Iteration   3: 6.615 us/op
+Iteration   1: 6.526 us/op
+Iteration   2: 6.318 us/op
+Iteration   3: 6.287 us/op
+Iteration   4: 6.366 us/op
+Iteration   5: 6.292 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  6.358 ±(99.9%) 0.383 us/op [Average]
+  (min, avg, max) = (6.287, 6.358, 6.526), stdev = 0.099
+  CI (99.9%): [5.975, 6.740] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 61.46% complete, ETA 00:01:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 26.183 us/op
+# Warmup Iteration   2: 7.125 us/op
+# Warmup Iteration   3: 6.674 us/op
+Iteration   1: 6.500 us/op
+Iteration   2: 6.481 us/op
+Iteration   3: 6.464 us/op
+Iteration   4: 6.419 us/op
+Iteration   5: 6.384 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  6.450 ±(99.9%) 0.183 us/op [Average]
+  (min, avg, max) = (6.384, 6.450, 6.500), stdev = 0.047
+  CI (99.9%): [6.267, 6.632] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 62.50% complete, ETA 00:01:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 26.796 us/op
+# Warmup Iteration   2: 8.239 us/op
+# Warmup Iteration   3: 7.693 us/op
+Iteration   1: 7.651 us/op
+Iteration   2: 7.500 us/op
+Iteration   3: 7.476 us/op
+Iteration   4: 7.491 us/op
+Iteration   5: 7.568 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  7.537 ±(99.9%) 0.280 us/op [Average]
+  (min, avg, max) = (7.476, 7.537, 7.651), stdev = 0.073
+  CI (99.9%): [7.257, 7.817] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 63.54% complete, ETA 00:01:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 28.672 us/op
+# Warmup Iteration   2: 9.084 us/op
+# Warmup Iteration   3: 7.792 us/op
+Iteration   1: 7.758 us/op
+Iteration   2: 7.517 us/op
+Iteration   3: 7.358 us/op
+Iteration   4: 7.462 us/op
+Iteration   5: 7.374 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  7.494 ±(99.9%) 0.621 us/op [Average]
+  (min, avg, max) = (7.358, 7.494, 7.758), stdev = 0.161
+  CI (99.9%): [6.872, 8.115] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 64.58% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 28.603 us/op
+# Warmup Iteration   2: 8.460 us/op
+# Warmup Iteration   3: 7.921 us/op
+Iteration   1: 7.666 us/op
+Iteration   2: 7.665 us/op
+Iteration   3: 7.928 us/op
+Iteration   4: 7.666 us/op
+Iteration   5: 7.591 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  7.703 ±(99.9%) 0.500 us/op [Average]
+  (min, avg, max) = (7.591, 7.703, 7.928), stdev = 0.130
+  CI (99.9%): [7.203, 8.203] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 65.63% complete, ETA 00:01:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 33.613 us/op
+# Warmup Iteration   2: 11.863 us/op
+# Warmup Iteration   3: 11.294 us/op
+Iteration   1: 10.794 us/op
+Iteration   2: 10.952 us/op
+Iteration   3: 10.877 us/op
+Iteration   4: 11.256 us/op
+Iteration   5: 10.862 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  10.948 ±(99.9%) 0.696 us/op [Average]
+  (min, avg, max) = (10.794, 10.948, 11.256), stdev = 0.181
+  CI (99.9%): [10.252, 11.645] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 66.67% complete, ETA 00:01:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 31.836 us/op
+# Warmup Iteration   2: 11.832 us/op
+# Warmup Iteration   3: 11.029 us/op
+Iteration   1: 10.913 us/op
+Iteration   2: 11.090 us/op
+Iteration   3: 11.034 us/op
+Iteration   4: 10.816 us/op
+Iteration   5: 11.057 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  10.982 ±(99.9%) 0.441 us/op [Average]
+  (min, avg, max) = (10.816, 10.982, 11.090), stdev = 0.114
+  CI (99.9%): [10.542, 11.423] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 67.71% complete, ETA 00:01:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 32.864 us/op
+# Warmup Iteration   2: 12.286 us/op
+# Warmup Iteration   3: 11.882 us/op
+Iteration   1: 11.375 us/op
+Iteration   2: 11.290 us/op
+Iteration   3: 11.352 us/op
+Iteration   4: 11.466 us/op
+Iteration   5: 11.340 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  11.365 ±(99.9%) 0.249 us/op [Average]
+  (min, avg, max) = (11.290, 11.365, 11.466), stdev = 0.065
+  CI (99.9%): [11.115, 11.614] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 68.75% complete, ETA 00:01:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 41.444 us/op
+# Warmup Iteration   2: 13.946 us/op
+# Warmup Iteration   3: 12.436 us/op
+Iteration   1: 11.959 us/op
+Iteration   2: 12.325 us/op
+Iteration   3: 12.703 us/op
+Iteration   4: 11.934 us/op
+Iteration   5: 11.968 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  12.178 ±(99.9%) 1.289 us/op [Average]
+  (min, avg, max) = (11.934, 12.178, 12.703), stdev = 0.335
+  CI (99.9%): [10.889, 13.467] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 69.79% complete, ETA 00:01:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 32.756 us/op
+# Warmup Iteration   2: 13.011 us/op
+# Warmup Iteration   3: 12.256 us/op
+Iteration   1: 11.913 us/op
+Iteration   2: 12.043 us/op
+Iteration   3: 12.423 us/op
+Iteration   4: 11.809 us/op
+Iteration   5: 11.869 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  12.011 ±(99.9%) 0.946 us/op [Average]
+  (min, avg, max) = (11.809, 12.011, 12.423), stdev = 0.246
+  CI (99.9%): [11.065, 12.957] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 70.83% complete, ETA 00:01:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 33.511 us/op
+# Warmup Iteration   2: 14.774 us/op
+# Warmup Iteration   3: 12.524 us/op
+Iteration   1: 12.548 us/op
+Iteration   2: 12.599 us/op
+Iteration   3: 12.768 us/op
+Iteration   4: 12.541 us/op
+Iteration   5: 12.714 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  12.634 ±(99.9%) 0.393 us/op [Average]
+  (min, avg, max) = (12.541, 12.634, 12.768), stdev = 0.102
+  CI (99.9%): [12.241, 13.027] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 71.88% complete, ETA 00:01:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 53.212 us/op
+# Warmup Iteration   2: 22.985 us/op
+# Warmup Iteration   3: 21.870 us/op
+Iteration   1: 21.615 us/op
+Iteration   2: 21.232 us/op
+Iteration   3: 21.414 us/op
+Iteration   4: 20.809 us/op
+Iteration   5: 20.917 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  21.197 ±(99.9%) 1.295 us/op [Average]
+  (min, avg, max) = (20.809, 21.197, 21.615), stdev = 0.336
+  CI (99.9%): [19.902, 22.492] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 72.92% complete, ETA 00:01:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 59.306 us/op
+# Warmup Iteration   2: 23.245 us/op
+# Warmup Iteration   3: 21.614 us/op
+Iteration   1: 21.418 us/op
+Iteration   2: 21.797 us/op
+Iteration   3: 20.912 us/op
+Iteration   4: 21.041 us/op
+Iteration   5: 21.000 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  21.233 ±(99.9%) 1.423 us/op [Average]
+  (min, avg, max) = (20.912, 21.233, 21.797), stdev = 0.370
+  CI (99.9%): [19.810, 22.657] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 73.96% complete, ETA 00:01:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 59.601 us/op
+# Warmup Iteration   2: 24.206 us/op
+# Warmup Iteration   3: 22.175 us/op
+Iteration   1: 22.189 us/op
+Iteration   2: 21.796 us/op
+Iteration   3: 21.515 us/op
+Iteration   4: 21.541 us/op
+Iteration   5: 21.344 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt":
+  21.677 ±(99.9%) 1.264 us/op [Average]
+  (min, avg, max) = (21.344, 21.677, 22.189), stdev = 0.328
+  CI (99.9%): [20.413, 22.941] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 75.00% complete, ETA 00:01:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.876 us/op
+# Warmup Iteration   2: 3.708 us/op
+# Warmup Iteration   3: 3.485 us/op
+Iteration   1: 3.338 us/op
+Iteration   2: 3.251 us/op
+Iteration   3: 3.256 us/op
+Iteration   4: 3.257 us/op
+Iteration   5: 3.248 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  3.270 ±(99.9%) 0.147 us/op [Average]
+  (min, avg, max) = (3.248, 3.270, 3.338), stdev = 0.038
+  CI (99.9%): [3.123, 3.417] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 76.04% complete, ETA 00:01:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 13.528 us/op
+# Warmup Iteration   2: 3.762 us/op
+# Warmup Iteration   3: 3.343 us/op
+Iteration   1: 3.332 us/op
+Iteration   2: 3.278 us/op
+Iteration   3: 3.254 us/op
+Iteration   4: 3.276 us/op
+Iteration   5: 3.266 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  3.281 ±(99.9%) 0.115 us/op [Average]
+  (min, avg, max) = (3.254, 3.281, 3.332), stdev = 0.030
+  CI (99.9%): [3.166, 3.396] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 0, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 77.08% complete, ETA 00:00:58
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.281 us/op
+# Warmup Iteration   2: 3.658 us/op
+# Warmup Iteration   3: 3.567 us/op
+Iteration   1: 3.574 us/op
+Iteration   2: 3.522 us/op
+Iteration   3: 3.502 us/op
+Iteration   4: 3.569 us/op
+Iteration   5: 3.513 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  3.536 ±(99.9%) 0.127 us/op [Average]
+  (min, avg, max) = (3.502, 3.536, 3.574), stdev = 0.033
+  CI (99.9%): [3.409, 3.663] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 78.13% complete, ETA 00:00:55
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.825 us/op
+# Warmup Iteration   2: 3.690 us/op
+# Warmup Iteration   3: 3.410 us/op
+Iteration   1: 3.301 us/op
+Iteration   2: 3.281 us/op
+Iteration   3: 3.252 us/op
+Iteration   4: 3.263 us/op
+Iteration   5: 3.235 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  3.267 ±(99.9%) 0.099 us/op [Average]
+  (min, avg, max) = (3.235, 3.267, 3.301), stdev = 0.026
+  CI (99.9%): [3.168, 3.365] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 79.17% complete, ETA 00:00:53
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.214 us/op
+# Warmup Iteration   2: 3.751 us/op
+# Warmup Iteration   3: 3.458 us/op
+Iteration   1: 3.421 us/op
+Iteration   2: 3.398 us/op
+Iteration   3: 3.316 us/op
+Iteration   4: 3.410 us/op
+Iteration   5: 3.298 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  3.369 ±(99.9%) 0.220 us/op [Average]
+  (min, avg, max) = (3.298, 3.369, 3.421), stdev = 0.057
+  CI (99.9%): [3.149, 3.588] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 0, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 80.21% complete, ETA 00:00:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 13.106 us/op
+# Warmup Iteration   2: 3.869 us/op
+# Warmup Iteration   3: 3.587 us/op
+Iteration   1: 3.459 us/op
+Iteration   2: 3.476 us/op
+Iteration   3: 3.496 us/op
+Iteration   4: 3.603 us/op
+Iteration   5: 3.609 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  3.529 ±(99.9%) 0.277 us/op [Average]
+  (min, avg, max) = (3.459, 3.529, 3.609), stdev = 0.072
+  CI (99.9%): [3.252, 3.806] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 81.25% complete, ETA 00:00:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 17.213 us/op
+# Warmup Iteration   2: 4.466 us/op
+# Warmup Iteration   3: 3.783 us/op
+Iteration   1: 3.759 us/op
+Iteration   2: 3.751 us/op
+Iteration   3: 3.726 us/op
+Iteration   4: 3.650 us/op
+Iteration   5: 3.602 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  3.697 ±(99.9%) 0.264 us/op [Average]
+  (min, avg, max) = (3.602, 3.697, 3.759), stdev = 0.069
+  CI (99.9%): [3.434, 3.961] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 82.29% complete, ETA 00:00:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.696 us/op
+# Warmup Iteration   2: 4.103 us/op
+# Warmup Iteration   3: 3.803 us/op
+Iteration   1: 3.753 us/op
+Iteration   2: 3.716 us/op
+Iteration   3: 3.674 us/op
+Iteration   4: 3.754 us/op
+Iteration   5: 3.708 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  3.721 ±(99.9%) 0.130 us/op [Average]
+  (min, avg, max) = (3.674, 3.721, 3.754), stdev = 0.034
+  CI (99.9%): [3.591, 3.851] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 5, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 83.33% complete, ETA 00:00:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 21.993 us/op
+# Warmup Iteration   2: 4.151 us/op
+# Warmup Iteration   3: 3.994 us/op
+Iteration   1: 3.888 us/op
+Iteration   2: 3.786 us/op
+Iteration   3: 3.805 us/op
+Iteration   4: 3.781 us/op
+Iteration   5: 3.889 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  3.830 ±(99.9%) 0.209 us/op [Average]
+  (min, avg, max) = (3.781, 3.830, 3.889), stdev = 0.054
+  CI (99.9%): [3.621, 4.039] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 84.38% complete, ETA 00:00:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 13.910 us/op
+# Warmup Iteration   2: 4.743 us/op
+# Warmup Iteration   3: 4.157 us/op
+Iteration   1: 4.066 us/op
+Iteration   2: 4.128 us/op
+Iteration   3: 4.041 us/op
+Iteration   4: 4.123 us/op
+Iteration   5: 4.205 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  4.113 ±(99.9%) 0.246 us/op [Average]
+  (min, avg, max) = (4.041, 4.113, 4.205), stdev = 0.064
+  CI (99.9%): [3.867, 4.358] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 85.42% complete, ETA 00:00:37
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.037 us/op
+# Warmup Iteration   2: 4.728 us/op
+# Warmup Iteration   3: 4.260 us/op
+Iteration   1: 4.111 us/op
+Iteration   2: 4.108 us/op
+Iteration   3: 4.179 us/op
+Iteration   4: 4.064 us/op
+Iteration   5: 4.096 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  4.112 ±(99.9%) 0.161 us/op [Average]
+  (min, avg, max) = (4.064, 4.112, 4.179), stdev = 0.042
+  CI (99.9%): [3.950, 4.273] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 5, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 86.46% complete, ETA 00:00:34
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.011 us/op
+# Warmup Iteration   2: 4.487 us/op
+# Warmup Iteration   3: 4.214 us/op
+Iteration   1: 4.261 us/op
+Iteration   2: 4.185 us/op
+Iteration   3: 4.197 us/op
+Iteration   4: 4.242 us/op
+Iteration   5: 4.283 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  4.234 ±(99.9%) 0.161 us/op [Average]
+  (min, avg, max) = (4.185, 4.234, 4.283), stdev = 0.042
+  CI (99.9%): [4.073, 4.395] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 87.50% complete, ETA 00:00:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 14.712 us/op
+# Warmup Iteration   2: 4.919 us/op
+# Warmup Iteration   3: 4.747 us/op
+Iteration   1: 4.970 us/op
+Iteration   2: 5.005 us/op
+Iteration   3: 4.870 us/op
+Iteration   4: 4.809 us/op
+Iteration   5: 4.956 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  4.922 ±(99.9%) 0.310 us/op [Average]
+  (min, avg, max) = (4.809, 4.922, 5.005), stdev = 0.080
+  CI (99.9%): [4.612, 5.232] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 88.54% complete, ETA 00:00:29
+# Fork: 1 of 1
+# Warmup Iteration   1: 23.218 us/op
+# Warmup Iteration   2: 4.979 us/op
+# Warmup Iteration   3: 4.760 us/op
+Iteration   1: 4.676 us/op
+Iteration   2: 4.782 us/op
+Iteration   3: 4.649 us/op
+Iteration   4: 4.696 us/op
+Iteration   5: 4.619 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  4.684 ±(99.9%) 0.238 us/op [Average]
+  (min, avg, max) = (4.619, 4.684, 4.782), stdev = 0.062
+  CI (99.9%): [4.446, 4.922] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 20, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 89.58% complete, ETA 00:00:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.991 us/op
+# Warmup Iteration   2: 5.208 us/op
+# Warmup Iteration   3: 4.848 us/op
+Iteration   1: 4.882 us/op
+Iteration   2: 4.839 us/op
+Iteration   3: 4.835 us/op
+Iteration   4: 4.857 us/op
+Iteration   5: 4.913 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  4.865 ±(99.9%) 0.125 us/op [Average]
+  (min, avg, max) = (4.835, 4.865, 4.913), stdev = 0.032
+  CI (99.9%): [4.741, 4.990] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 90.63% complete, ETA 00:00:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 18.229 us/op
+# Warmup Iteration   2: 6.774 us/op
+# Warmup Iteration   3: 6.606 us/op
+Iteration   1: 6.470 us/op
+Iteration   2: 6.588 us/op
+Iteration   3: 6.665 us/op
+Iteration   4: 6.382 us/op
+Iteration   5: 6.377 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  6.496 ±(99.9%) 0.490 us/op [Average]
+  (min, avg, max) = (6.377, 6.496, 6.665), stdev = 0.127
+  CI (99.9%): [6.006, 6.987] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 91.67% complete, ETA 00:00:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 18.427 us/op
+# Warmup Iteration   2: 7.292 us/op
+# Warmup Iteration   3: 6.650 us/op
+Iteration   1: 6.472 us/op
+Iteration   2: 6.518 us/op
+Iteration   3: 6.544 us/op
+Iteration   4: 6.477 us/op
+Iteration   5: 6.414 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  6.485 ±(99.9%) 0.191 us/op [Average]
+  (min, avg, max) = (6.414, 6.485, 6.544), stdev = 0.049
+  CI (99.9%): [6.294, 6.675] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 20, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 92.71% complete, ETA 00:00:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 18.865 us/op
+# Warmup Iteration   2: 6.799 us/op
+# Warmup Iteration   3: 6.772 us/op
+Iteration   1: 6.603 us/op
+Iteration   2: 6.573 us/op
+Iteration   3: 6.510 us/op
+Iteration   4: 6.659 us/op
+Iteration   5: 6.743 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  6.618 ±(99.9%) 0.340 us/op [Average]
+  (min, avg, max) = (6.510, 6.618, 6.743), stdev = 0.088
+  CI (99.9%): [6.278, 6.958] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 93.75% complete, ETA 00:00:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 20.241 us/op
+# Warmup Iteration   2: 7.497 us/op
+# Warmup Iteration   3: 7.107 us/op
+Iteration   1: 7.160 us/op
+Iteration   2: 7.008 us/op
+Iteration   3: 6.961 us/op
+Iteration   4: 6.971 us/op
+Iteration   5: 7.022 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  7.024 ±(99.9%) 0.308 us/op [Average]
+  (min, avg, max) = (6.961, 7.024, 7.160), stdev = 0.080
+  CI (99.9%): [6.717, 7.332] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 94.79% complete, ETA 00:00:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.762 us/op
+# Warmup Iteration   2: 7.454 us/op
+# Warmup Iteration   3: 7.520 us/op
+Iteration   1: 7.051 us/op
+Iteration   2: 7.209 us/op
+Iteration   3: 7.006 us/op
+Iteration   4: 7.115 us/op
+Iteration   5: 6.972 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  7.071 ±(99.9%) 0.363 us/op [Average]
+  (min, avg, max) = (6.972, 7.071, 7.209), stdev = 0.094
+  CI (99.9%): [6.708, 7.433] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 50, claimValueLen = 8, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 95.83% complete, ETA 00:00:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.053 us/op
+# Warmup Iteration   2: 8.232 us/op
+# Warmup Iteration   3: 7.634 us/op
+Iteration   1: 7.412 us/op
+Iteration   2: 7.419 us/op
+Iteration   3: 7.148 us/op
+Iteration   4: 7.476 us/op
+Iteration   5: 7.384 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  7.368 ±(99.9%) 0.490 us/op [Average]
+  (min, avg, max) = (7.148, 7.368, 7.476), stdev = 0.127
+  CI (99.9%): [6.878, 7.858] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 8)
+
+# Run progress: 96.88% complete, ETA 00:00:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 30.263 us/op
+# Warmup Iteration   2: 11.710 us/op
+# Warmup Iteration   3: 11.571 us/op
+Iteration   1: 11.708 us/op
+Iteration   2: 11.523 us/op
+Iteration   3: 11.449 us/op
+Iteration   4: 11.308 us/op
+Iteration   5: 11.245 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  11.447 ±(99.9%) 0.705 us/op [Average]
+  (min, avg, max) = (11.245, 11.447, 11.708), stdev = 0.183
+  CI (99.9%): [10.742, 12.151] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 32)
+
+# Run progress: 97.92% complete, ETA 00:00:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 30.426 us/op
+# Warmup Iteration   2: 12.394 us/op
+# Warmup Iteration   3: 11.448 us/op
+Iteration   1: 11.398 us/op
+Iteration   2: 11.747 us/op
+Iteration   3: 11.592 us/op
+Iteration   4: 11.718 us/op
+Iteration   5: 11.333 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  11.557 ±(99.9%) 0.718 us/op [Average]
+  (min, avg, max) = (11.333, 11.557, 11.747), stdev = 0.186
+  CI (99.9%): [10.840, 12.275] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens
+# Parameters: (claimCount = 50, claimValueLen = 64, fixedSecret = true, subjectLen = 128)
+
+# Run progress: 98.96% complete, ETA 00:00:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 39.342 us/op
+# Warmup Iteration   2: 12.634 us/op
+# Warmup Iteration   3: 11.602 us/op
+Iteration   1: 11.829 us/op
+Iteration   2: 11.540 us/op
+Iteration   3: 11.555 us/op
+Iteration   4: 11.479 us/op
+Iteration   5: 11.421 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens":
+  11.565 ±(99.9%) 0.605 us/op [Average]
+  (min, avg, max) = (11.421, 11.565, 11.829), stdev = 0.157
+  CI (99.9%): [10.960, 12.170] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:04:15
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                         (claimCount)  (claimValueLen)  (fixedSecret)  (subjectLen)  Mode  Cnt   Score   Error  Units
+JwtProviderBenchmark.createJwt_buildAndSign                  0                8           true             8  avgt    5   1.221 ± 0.021  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  0                8           true            32  avgt    5   1.229 ± 0.071  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  0                8           true           128  avgt    5   1.372 ± 0.016  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  0               64           true             8  avgt    5   1.220 ± 0.014  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  0               64           true            32  avgt    5   1.248 ± 0.034  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  0               64           true           128  avgt    5   1.376 ± 0.018  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  5                8           true             8  avgt    5   1.605 ± 0.092  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  5                8           true            32  avgt    5   1.659 ± 0.067  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  5                8           true           128  avgt    5   1.803 ± 0.075  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  5               64           true             8  avgt    5   2.017 ± 0.045  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  5               64           true            32  avgt    5   2.104 ± 0.045  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                  5               64           true           128  avgt    5   2.224 ± 0.028  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 20                8           true             8  avgt    5   2.629 ± 0.033  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 20                8           true            32  avgt    5   2.624 ± 0.071  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 20                8           true           128  avgt    5   2.719 ± 0.032  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 20               64           true             8  avgt    5   4.491 ± 0.062  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 20               64           true            32  avgt    5   4.511 ± 0.174  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 20               64           true           128  avgt    5   4.820 ± 0.063  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 50                8           true             8  avgt    5   4.662 ± 0.414  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 50                8           true            32  avgt    5   4.765 ± 0.070  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 50                8           true           128  avgt    5   4.899 ± 0.109  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 50               64           true             8  avgt    5   9.906 ± 0.181  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 50               64           true            32  avgt    5   9.696 ± 0.121  us/op
+JwtProviderBenchmark.createJwt_buildAndSign                 50               64           true           128  avgt    5   9.714 ± 0.191  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             0                8           true             8  avgt    5   1.329 ± 0.084  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             0                8           true            32  avgt    5   1.374 ± 0.027  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             0                8           true           128  avgt    5   1.524 ± 0.042  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             0               64           true             8  avgt    5   1.397 ± 0.035  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             0               64           true            32  avgt    5   1.446 ± 0.028  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             0               64           true           128  avgt    5   1.628 ± 0.092  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             5                8           true             8  avgt    5   1.757 ± 0.025  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             5                8           true            32  avgt    5   1.834 ± 0.106  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             5                8           true           128  avgt    5   1.961 ± 0.060  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             5               64           true             8  avgt    5   2.371 ± 0.097  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             5               64           true            32  avgt    5   2.354 ± 0.071  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims             5               64           true           128  avgt    5   2.507 ± 0.174  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            20                8           true             8  avgt    5   2.947 ± 0.022  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            20                8           true            32  avgt    5   2.975 ± 0.061  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            20                8           true           128  avgt    5   3.090 ± 0.221  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            20               64           true             8  avgt    5   5.240 ± 0.286  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            20               64           true            32  avgt    5   5.154 ± 0.090  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            20               64           true           128  avgt    5   5.295 ± 0.303  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            50                8           true             8  avgt    5   5.521 ± 0.035  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            50                8           true            32  avgt    5   5.352 ± 0.162  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            50                8           true           128  avgt    5   5.543 ± 0.192  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            50               64           true             8  avgt    5  10.487 ± 0.267  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            50               64           true            32  avgt    5  10.535 ± 0.419  us/op
+JwtProviderBenchmark.createJwt_withVariantClaims            50               64           true           128  avgt    5  10.753 ± 0.275  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     0                8           true             8  avgt    5   4.545 ± 0.374  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     0                8           true            32  avgt    5   4.528 ± 0.132  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     0                8           true           128  avgt    5   4.841 ± 0.421  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     0               64           true             8  avgt    5   4.459 ± 0.121  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     0               64           true            32  avgt    5   4.533 ± 0.071  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     0               64           true           128  avgt    5   4.837 ± 0.247  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     5                8           true             8  avgt    5   5.281 ± 0.254  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     5                8           true            32  avgt    5   5.360 ± 0.321  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     5                8           true           128  avgt    5   5.563 ± 0.101  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     5               64           true             8  avgt    5   6.081 ± 0.095  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     5               64           true            32  avgt    5   6.358 ± 0.383  us/op
+JwtProviderBenchmark.createThenVerifyJwt                     5               64           true           128  avgt    5   6.450 ± 0.183  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    20                8           true             8  avgt    5   7.537 ± 0.280  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    20                8           true            32  avgt    5   7.494 ± 0.621  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    20                8           true           128  avgt    5   7.703 ± 0.500  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    20               64           true             8  avgt    5  10.948 ± 0.696  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    20               64           true            32  avgt    5  10.982 ± 0.441  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    20               64           true           128  avgt    5  11.365 ± 0.249  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    50                8           true             8  avgt    5  12.178 ± 1.289  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    50                8           true            32  avgt    5  12.011 ± 0.946  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    50                8           true           128  avgt    5  12.634 ± 0.393  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    50               64           true             8  avgt    5  21.197 ± 1.295  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    50               64           true            32  avgt    5  21.233 ± 1.423  us/op
+JwtProviderBenchmark.createThenVerifyJwt                    50               64           true           128  avgt    5  21.677 ± 1.264  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                0                8           true             8  avgt    5   3.270 ± 0.147  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                0                8           true            32  avgt    5   3.281 ± 0.115  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                0                8           true           128  avgt    5   3.536 ± 0.127  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                0               64           true             8  avgt    5   3.267 ± 0.099  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                0               64           true            32  avgt    5   3.369 ± 0.220  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                0               64           true           128  avgt    5   3.529 ± 0.277  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                5                8           true             8  avgt    5   3.697 ± 0.264  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                5                8           true            32  avgt    5   3.721 ± 0.130  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                5                8           true           128  avgt    5   3.830 ± 0.209  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                5               64           true             8  avgt    5   4.113 ± 0.246  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                5               64           true            32  avgt    5   4.112 ± 0.161  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens                5               64           true           128  avgt    5   4.234 ± 0.161  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               20                8           true             8  avgt    5   4.922 ± 0.310  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               20                8           true            32  avgt    5   4.684 ± 0.238  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               20                8           true           128  avgt    5   4.865 ± 0.125  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               20               64           true             8  avgt    5   6.496 ± 0.490  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               20               64           true            32  avgt    5   6.485 ± 0.191  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               20               64           true           128  avgt    5   6.618 ± 0.340  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               50                8           true             8  avgt    5   7.024 ± 0.308  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               50                8           true            32  avgt    5   7.071 ± 0.363  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               50                8           true           128  avgt    5   7.368 ± 0.490  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               50               64           true             8  avgt    5  11.447 ± 0.705  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               50               64           true            32  avgt    5  11.557 ± 0.718  us/op
+JwtProviderBenchmark.verifyJwt_prebuiltTokens               50               64           true           128  avgt    5  11.565 ± 0.605  us/op
+
+Benchmark result is saved to ../sse-reports/baseline/jmh//JwtProviderBenchmark/results.json

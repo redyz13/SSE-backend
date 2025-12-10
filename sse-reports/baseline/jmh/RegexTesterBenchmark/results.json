@@ -1,0 +1,1484 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 11355.822699187593,
+            "scoreError" : 59.682808226353565,
+            "scoreConfidence" : [
+                11296.13989096124,
+                11415.505507413945
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11220.336174268972,
+                "50.0" : 11351.853028315221,
+                "90.0" : 11442.973742171478,
+                "95.0" : 11468.4164811331,
+                "99.0" : 11469.737032154526,
+                "99.9" : 11469.737032154526,
+                "99.99" : 11469.737032154526,
+                "99.999" : 11469.737032154526,
+                "99.9999" : 11469.737032154526,
+                "100.0" : 11469.737032154526
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    11310.860057649918,
+                    11257.497186902217,
+                    11220.336174268972,
+                    11357.107825889563,
+                    11439.803316180674,
+                    11443.326011726012,
+                    11422.395737031331,
+                    11401.580722342485,
+                    11469.737032154526,
+                    11407.725629916771
+                ],
+                [
+                    11327.458014834947,
+                    11346.598230740878,
+                    11319.34536607446,
+                    11400.373333333333,
+                    11407.399133434054,
+                    11335.04554466663,
+                    11280.690945991657,
+                    11299.585491203796,
+                    11280.884878901514,
+                    11388.703350508127
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 291.88041038668126,
+            "scoreError" : 1.2231659489803415,
+            "scoreConfidence" : [
+                290.6572444377009,
+                293.1035763356616
+            ],
+            "scorePercentiles" : {
+                "0.0" : 288.443259426252,
+                "50.0" : 292.0071001473409,
+                "90.0" : 293.39544328998085,
+                "95.0" : 295.3080467304851,
+                "99.0" : 295.4082641028953,
+                "99.9" : 295.4082641028953,
+                "99.99" : 295.4082641028953,
+                "99.999" : 295.4082641028953,
+                "99.9999" : 295.4082641028953,
+                "100.0" : 295.4082641028953
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    292.0204622200305,
+                    290.2740119755268,
+                    290.74021682197366,
+                    293.3191830075898,
+                    292.3639817335058,
+                    291.99373807465133,
+                    290.9465522781032,
+                    291.4773640374864,
+                    290.76595302537646,
+                    292.23966280039554
+                ],
+                [
+                    288.443259426252,
+                    295.4082641028953,
+                    291.86560698172826,
+                    292.12450267901914,
+                    292.4758584298716,
+                    291.3550898399811,
+                    293.40391665469093,
+                    292.43484472989337,
+                    291.1179773727874,
+                    292.8377615418668
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 107271.01074254283,
+            "scoreError" : 1785.1310302407403,
+            "scoreConfidence" : [
+                105485.87971230209,
+                109056.14177278357
+            ],
+            "scorePercentiles" : {
+                "0.0" : 104662.5384414226,
+                "50.0" : 107437.34590604027,
+                "90.0" : 108998.61091836734,
+                "95.0" : 112969.06270497596,
+                "99.0" : 113177.48657054,
+                "99.9" : 113177.48657054,
+                "99.99" : 113177.48657054,
+                "99.999" : 113177.48657054,
+                "99.9999" : 113177.48657054,
+                "100.0" : 113177.48657054
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    105337.72834956567,
+                    105874.10634920635,
+                    105708.26552179657,
+                    105716.88748019017,
+                    104662.5384414226,
+                    105006.4930464445,
+                    105033.30971128609,
+                    105662.17243200423,
+                    108239.17149039762,
+                    106089.83006362672
+                ],
+                [
+                    108905.02585034014,
+                    108688.71265616512,
+                    107772.76655896608,
+                    113177.48657054,
+                    107427.73073825504,
+                    108517.62347519652,
+                    108405.51042512862,
+                    107446.9610738255,
+                    108738.88535723988,
+                    109009.00925925926
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 1626.2233632214454,
+            "scoreError" : 971.4196084096297,
+            "scoreConfidence" : [
+                654.8037548118157,
+                2597.642971631075
+            ],
+            "scorePercentiles" : {
+                "0.0" : 533.7995376768059,
+                "50.0" : 1622.589679034325,
+                "90.0" : 2722.407533684951,
+                "95.0" : 2732.16718110095,
+                "99.0" : 2732.6757962174975,
+                "99.9" : 2732.6757962174975,
+                "99.99" : 2732.6757962174975,
+                "99.999" : 2732.6757962174975,
+                "99.9999" : 2732.6757962174975,
+                "100.0" : 2732.6757962174975
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2721.543891870566,
+                    2716.2547725729805,
+                    2710.5523969540122,
+                    2732.6757962174975,
+                    2722.503493886549,
+                    2718.5214470108695,
+                    2711.6923863921243,
+                    2707.0536493314125,
+                    2709.1256362701033,
+                    2715.8088377995073
+                ],
+                [
+                    538.1134788397144,
+                    534.883651816576,
+                    533.7995376768059,
+                    534.8158831642309,
+                    535.8035465170766,
+                    535.9634390885893,
+                    534.9398769380518,
+                    538.1257087372373,
+                    536.941942627076,
+                    535.347890717928
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 10807.160665942562,
+            "scoreError" : 49.63417308721901,
+            "scoreConfidence" : [
+                10757.526492855342,
+                10856.79483902978
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10714.358271300809,
+                "50.0" : 10801.762240124477,
+                "90.0" : 10880.212497817962,
+                "95.0" : 10915.913540197827,
+                "99.0" : 10917.733251500273,
+                "99.9" : 10917.733251500273,
+                "99.99" : 10917.733251500273,
+                "99.999" : 10917.733251500273,
+                "99.9999" : 10917.733251500273,
+                "100.0" : 10917.733251500273
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    10720.655174261297,
+                    10863.019596135056,
+                    10778.535507500068,
+                    10752.053137760584,
+                    10747.58371599667,
+                    10752.69857050731,
+                    10795.772724820628,
+                    10750.642239295117,
+                    10807.751755428324,
+                    10714.358271300809
+                ],
+                [
+                    10792.051735764573,
+                    10834.354382734437,
+                    10861.404186008633,
+                    10834.157324668291,
+                    10841.349497467017,
+                    10881.339025451382,
+                    10841.944309009155,
+                    10917.733251500273,
+                    10785.7351641244,
+                    10870.073749117184
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 259.4438930877058,
+            "scoreError" : 1.848870751427737,
+            "scoreConfidence" : [
+                257.5950223362781,
+                261.29276383913356
+            ],
+            "scorePercentiles" : {
+                "0.0" : 256.7828100719738,
+                "50.0" : 259.18006597064846,
+                "90.0" : 262.4337693226523,
+                "95.0" : 265.93486758228266,
+                "99.0" : 266.1117470869028,
+                "99.9" : 266.1117470869028,
+                "99.99" : 266.1117470869028,
+                "99.999" : 266.1117470869028,
+                "99.9999" : 266.1117470869028,
+                "100.0" : 266.1117470869028
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    259.97674450329055,
+                    259.9898532862859,
+                    256.7828100719738,
+                    258.29717106252474,
+                    258.44044760173335,
+                    257.703555561279,
+                    257.61894606746637,
+                    257.10485980996145,
+                    259.6748817312303,
+                    258.0360436405657
+                ],
+                [
+                    258.6111358807748,
+                    260.3976986262891,
+                    259.08620572447444,
+                    257.8755101567274,
+                    260.18614805595763,
+                    259.9657393993335,
+                    266.1117470869028,
+                    261.1702802760219,
+                    259.27392621682253,
+                    262.57415699450013
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 102690.41494401434,
+            "scoreError" : 822.3967587519254,
+            "scoreConfidence" : [
+                101868.01818526241,
+                103512.81170276627
+            ],
+            "scorePercentiles" : {
+                "0.0" : 101272.28922064777,
+                "50.0" : 102382.57712970069,
+                "90.0" : 104082.78897292154,
+                "95.0" : 104877.62178715869,
+                "99.0" : 104918.8744429882,
+                "99.9" : 104918.8744429882,
+                "99.99" : 104918.8744429882,
+                "99.999" : 104918.8744429882,
+                "99.9999" : 104918.8744429882,
+                "100.0" : 104918.8744429882
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    102593.67110997181,
+                    101272.28922064777,
+                    102048.21463165944,
+                    102323.17740286299,
+                    102378.38833461243,
+                    102035.85827173082,
+                    101566.70159857903,
+                    102356.12097186701,
+                    101856.78544158819,
+                    101760.40681413679
+                ],
+                [
+                    102386.76592478895,
+                    103983.49779163419,
+                    102661.25211592716,
+                    103343.82649109217,
+                    103671.24857586743,
+                    104093.82132639791,
+                    104918.8744429882,
+                    103415.94236236754,
+                    103000.5093951094,
+                    102140.94665645738
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 619.9703602233728,
+            "scoreError" : 36.154373286152655,
+            "scoreConfidence" : [
+                583.8159869372201,
+                656.1247335095255
+            ],
+            "scorePercentiles" : {
+                "0.0" : 576.7356329789764,
+                "50.0" : 619.9890776297375,
+                "90.0" : 662.2357949928931,
+                "95.0" : 663.1138206799815,
+                "99.0" : 663.1562545049038,
+                "99.9" : 663.1562545049038,
+                "99.99" : 663.1562545049038,
+                "99.999" : 663.1562545049038,
+                "99.9999" : 663.1562545049038,
+                "100.0" : 663.1562545049038
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    661.589747870821,
+                    660.802183648397,
+                    663.1562545049038,
+                    656.9821260567809,
+                    659.7593701727228,
+                    660.4042888366531,
+                    660.5988876837971,
+                    661.4112887900335,
+                    658.0025699924199,
+                    662.3075780064567
+                ],
+                [
+                    576.9379450235929,
+                    579.1609154817479,
+                    576.7356329789764,
+                    581.4618374009016,
+                    579.7670343772722,
+                    577.4575092484115,
+                    582.9960292026942,
+                    579.1083603649485,
+                    582.9716701502429,
+                    577.7959746756857
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 7384.951917899556,
+            "scoreError" : 26.53634560827366,
+            "scoreConfidence" : [
+                7358.415572291283,
+                7411.488263507829
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7328.917356431292,
+                "50.0" : 7381.152386369624,
+                "90.0" : 7422.831831698387,
+                "95.0" : 7469.550444615745,
+                "99.0" : 7471.923943083359,
+                "99.9" : 7471.923943083359,
+                "99.99" : 7471.923943083359,
+                "99.999" : 7471.923943083359,
+                "99.9999" : 7471.923943083359,
+                "100.0" : 7471.923943083359
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    7397.431180787931,
+                    7381.853406135287,
+                    7328.917356431292,
+                    7378.672197640118,
+                    7378.833649927153,
+                    7399.1174153459215,
+                    7339.358483297562,
+                    7471.923943083359,
+                    7380.451366603961,
+                    7399.229342358337
+                ],
+                [
+                    7424.453973731078,
+                    7381.955082088176,
+                    7358.9060419961015,
+                    7385.145622289879,
+                    7408.232553404168,
+                    7370.426311621825,
+                    7373.949665604216,
+                    7403.525506806747,
+                    7380.037662074181,
+                    7356.617596763814
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 3898.54395296913,
+            "scoreError" : 16.267444589342812,
+            "scoreConfidence" : [
+                3882.276508379787,
+                3914.8113975584724
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3866.7256596114817,
+                "50.0" : 3894.286610167621,
+                "90.0" : 3928.827579572148,
+                "95.0" : 3931.874493757709,
+                "99.0" : 3932.020034389585,
+                "99.9" : 3932.020034389585,
+                "99.99" : 3932.020034389585,
+                "99.999" : 3932.020034389585,
+                "99.9999" : 3932.020034389585,
+                "100.0" : 3932.020034389585
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3894.3719807703537,
+                    3932.020034389585,
+                    3904.6591117528833,
+                    3921.302474156092,
+                    3907.839561383809,
+                    3929.109221752064,
+                    3926.2927999529024,
+                    3894.2012395648876,
+                    3878.1289262766154,
+                    3915.380558681082
+                ],
+                [
+                    3894.07422331231,
+                    3904.809775235939,
+                    3895.7811663209964,
+                    3866.7256596114817,
+                    3885.840730309799,
+                    3879.4476292058566,
+                    3886.970776539624,
+                    3874.7848218955196,
+                    3889.6856345641563,
+                    3889.452733706642
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 74961.45041503359,
+            "scoreError" : 425.05944241295805,
+            "scoreConfidence" : [
+                74536.39097262063,
+                75386.50985744654
+            ],
+            "scorePercentiles" : {
+                "0.0" : 74205.72043010753,
+                "50.0" : 74899.49975115215,
+                "90.0" : 75709.24269486942,
+                "95.0" : 75884.66560079248,
+                "99.0" : 75893.63007205157,
+                "99.9" : 75893.63007205157,
+                "99.99" : 75893.63007205157,
+                "99.999" : 75893.63007205157,
+                "99.9999" : 75893.63007205157,
+                "100.0" : 75893.63007205157
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    74464.94195348838,
+                    75893.63007205157,
+                    75063.3827831958,
+                    75341.0111069277,
+                    75412.93198944989,
+                    75295.30963130173,
+                    75017.4678537957,
+                    75714.34064686968,
+                    75663.36112686708,
+                    75304.38445615355
+                ],
+                [
+                    74685.84667039731,
+                    74762.89428464699,
+                    74205.72043010753,
+                    74807.51205382172,
+                    74991.48744848257,
+                    74305.39870009285,
+                    74472.02306976744,
+                    74489.71487064955,
+                    74590.6138650764,
+                    74747.03528752801
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 40766.19573573676,
+            "scoreError" : 449.8268537032555,
+            "scoreConfidence" : [
+                40316.3688820335,
+                41216.022589440014
+            ],
+            "scorePercentiles" : {
+                "0.0" : 39670.558429973236,
+                "50.0" : 40952.79794405964,
+                "90.0" : 41328.183259928235,
+                "95.0" : 41485.89098757188,
+                "99.0" : 41493.64786980408,
+                "99.9" : 41493.64786980408,
+                "99.99" : 41493.64786980408,
+                "99.999" : 41493.64786980408,
+                "99.9999" : 41493.64786980408,
+                "100.0" : 41493.64786980408
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    40905.522894521666,
+                    41338.51022516009,
+                    41104.397966519464,
+                    40883.63472931563,
+                    40980.98116105252,
+                    41034.20227598934,
+                    41021.701752587884,
+                    40302.21125767798,
+                    39670.558429973236,
+                    39978.95175307162
+                ],
+                [
+                    41235.24057284154,
+                    41493.64786980408,
+                    40949.38541027215,
+                    40891.15713118104,
+                    41216.400885593655,
+                    40956.21047784713,
+                    40996.01136945611,
+                    40311.69140900393,
+                    39941.19337457593,
+                    40112.303768290236
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 6207.417124984337,
+            "scoreError" : 22.003430772826125,
+            "scoreConfidence" : [
+                6185.41369421151,
+                6229.420555757163
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6173.15127398359,
+                "50.0" : 6202.057166492039,
+                "90.0" : 6227.23089719429,
+                "95.0" : 6287.918051553626,
+                "99.0" : 6291.091966671907,
+                "99.9" : 6291.091966671907,
+                "99.99" : 6291.091966671907,
+                "99.999" : 6291.091966671907,
+                "99.9999" : 6291.091966671907,
+                "100.0" : 6291.091966671907
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6205.062145227829,
+                    6218.7380078962915,
+                    6221.1586869645,
+                    6219.077695404175,
+                    6196.568132906003,
+                    6201.184072661893,
+                    6194.565617935776,
+                    6223.785993186379,
+                    6215.130642806102,
+                    6202.930260322186
+                ],
+                [
+                    6185.64861982628,
+                    6173.15127398359,
+                    6194.086803083305,
+                    6223.673969833619,
+                    6196.798619066786,
+                    6181.4393291223305,
+                    6193.5686344294,
+                    6183.068364052096,
+                    6227.61366430628,
+                    6291.091966671907
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 3175.772289335494,
+            "scoreError" : 15.910386181168505,
+            "scoreConfidence" : [
+                3159.8619031543253,
+                3191.6826755166626
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3154.132582534066,
+                "50.0" : 3170.230779796533,
+                "90.0" : 3209.479450493135,
+                "95.0" : 3211.897787933459,
+                "99.0" : 3212.0055779386507,
+                "99.9" : 3212.0055779386507,
+                "99.99" : 3212.0055779386507,
+                "99.999" : 3212.0055779386507,
+                "99.9999" : 3212.0055779386507,
+                "100.0" : 3212.0055779386507
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3174.8972129443778,
+                    3188.5688020775247,
+                    3180.5062263086375,
+                    3212.0055779386507,
+                    3201.994343411715,
+                    3209.849777834812,
+                    3206.146504418044,
+                    3160.851656162631,
+                    3169.6040849944957,
+                    3154.132582534066
+                ],
+                [
+                    3170.85747459857,
+                    3166.3676525290257,
+                    3165.868168042224,
+                    3173.526791309383,
+                    3157.071525520028,
+                    3172.39549765288,
+                    3161.446083699466,
+                    3169.1819262028866,
+                    3154.576424206584,
+                    3165.5974743238753
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 72526.7604625354,
+            "scoreError" : 203.16929570505513,
+            "scoreConfidence" : [
+                72323.59116683035,
+                72729.92975824045
+            ],
+            "scorePercentiles" : {
+                "0.0" : 72143.47098053353,
+                "50.0" : 72569.94992005514,
+                "90.0" : 72854.67932696443,
+                "95.0" : 72907.51407113396,
+                "99.0" : 72910.00382165605,
+                "99.9" : 72910.00382165605,
+                "99.99" : 72910.00382165605,
+                "99.999" : 72910.00382165605,
+                "99.9999" : 72910.00382165605,
+                "100.0" : 72910.00382165605
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    72333.82345500542,
+                    72910.00382165605,
+                    72584.17268274986,
+                    72456.53149891383,
+                    72394.79526134925,
+                    72617.43976777939,
+                    72745.85638974732,
+                    72298.72935862692,
+                    72143.47098053353,
+                    72372.41193490055
+                ],
+                [
+                    72804.91396871589,
+                    72555.72715736041,
+                    72750.54770125386,
+                    72652.68663761801,
+                    72335.96927525755,
+                    72860.20881121427,
+                    72591.5235763511,
+                    72722.82158430232,
+                    72255.6943491605,
+                    72147.88103821197
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 32101.107991136094,
+            "scoreError" : 1050.3902720718506,
+            "scoreConfidence" : [
+                31050.717719064243,
+                33151.49826320795
+            ],
+            "scorePercentiles" : {
+                "0.0" : 30508.69532738776,
+                "50.0" : 32215.753159502405,
+                "90.0" : 33388.06923559726,
+                "95.0" : 33419.30295323624,
+                "99.0" : 33420.45941883767,
+                "99.9" : 33420.45941883767,
+                "99.99" : 33420.45941883767,
+                "99.999" : 33420.45941883767,
+                "99.9999" : 33420.45941883767,
+                "100.0" : 33420.45941883767
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    31249.49371535639,
+                    30676.426228251705,
+                    30920.857507147826,
+                    31042.805088032266,
+                    31243.671584699452,
+                    33202.67490667773,
+                    33286.52744510978,
+                    33304.72139469085,
+                    33420.45941883767,
+                    33182.01260364842
+                ],
+                [
+                    30508.69532738776,
+                    30844.643209495916,
+                    30860.222607756958,
+                    30797.726531240383,
+                    31211.59482220836,
+                    33191.818392901565,
+                    33284.984780439125,
+                    33212.32973780285,
+                    33183.16441422768,
+                    33397.33010680908
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 5263.903091509512,
+            "scoreError" : 25.434591055076165,
+            "scoreConfidence" : [
+                5238.468500454435,
+                5289.337682564588
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5206.534895826556,
+                "50.0" : 5259.512355887498,
+                "90.0" : 5299.891200112258,
+                "95.0" : 5307.791550570993,
+                "99.0" : 5308.200191049846,
+                "99.9" : 5308.200191049846,
+                "99.99" : 5308.200191049846,
+                "99.999" : 5308.200191049846,
+                "99.9999" : 5308.200191049846,
+                "100.0" : 5308.200191049846
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5300.027381472797,
+                    5290.533540495868,
+                    5289.436541715132,
+                    5280.6194698439085,
+                    5277.979719127052,
+                    5298.665567867402,
+                    5290.4177141573155,
+                    5259.689533722336,
+                    5290.972070880719,
+                    5308.200191049846
+                ],
+                [
+                    5254.220812815967,
+                    5259.33517805266,
+                    5206.534895826556,
+                    5248.033193007305,
+                    5246.453808730773,
+                    5224.2874267135,
+                    5223.962213401577,
+                    5244.909519939173,
+                    5248.071502590674,
+                    5235.71154877969
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "100",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 3290.759675916812,
+            "scoreError" : 708.9810263163005,
+            "scoreConfidence" : [
+                2581.7786496005115,
+                3999.740702233112
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2479.9437548415085,
+                "50.0" : 3290.234403251886,
+                "90.0" : 4097.97223296628,
+                "95.0" : 4110.693373349749,
+                "99.0" : 4111.337014701501,
+                "99.9" : 4111.337014701501,
+                "99.99" : 4111.337014701501,
+                "99.999" : 4111.337014701501,
+                "99.9999" : 4111.337014701501,
+                "100.0" : 4111.337014701501
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2493.1398577000236,
+                    2499.7311058124437,
+                    2515.976139728766,
+                    2501.02561875,
+                    2482.4101495388545,
+                    2484.324440251026,
+                    2495.324176886101,
+                    2508.019618781379,
+                    2490.692516913655,
+                    2479.9437548415085
+                ],
+                [
+                    4078.682470927566,
+                    4093.5446406646474,
+                    4080.1330587191696,
+                    4098.464187666462,
+                    4091.748054683586,
+                    4088.5626724155545,
+                    4064.492666775006,
+                    4086.20569164633,
+                    4071.4356809326646,
+                    4111.337014701501
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "1.0",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 67044.83279651927,
+            "scoreError" : 12869.484961823367,
+            "scoreConfidence" : [
+                54175.3478346959,
+                79914.31775834264
+            ],
+            "scorePercentiles" : {
+                "0.0" : 52178.927621283256,
+                "50.0" : 67007.31239015976,
+                "90.0" : 81667.20106171512,
+                "95.0" : 81774.31405276874,
+                "99.0" : 81779.61994278709,
+                "99.9" : 81779.61994278709,
+                "99.99" : 81779.61994278709,
+                "99.999" : 81779.61994278709,
+                "99.9999" : 81779.61994278709,
+                "100.0" : 81779.61994278709
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    81779.61994278709,
+                    81527.82603381544,
+                    81363.38686724944,
+                    80918.27092600081,
+                    81673.50214241991,
+                    81371.41959747917,
+                    81610.49133537206,
+                    81588.97924720244,
+                    81457.5989010989,
+                    81591.7721157766
+                ],
+                [
+                    52454.97771952818,
+                    53096.353854318695,
+                    52615.85368739319,
+                    52578.89661061482,
+                    52425.9051611213,
+                    52801.128381052906,
+                    52616.291348935054,
+                    52178.927621283256,
+                    52548.45483193277,
+                    52696.99960500329
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 5,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "400 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "mapSize" : "1000",
+            "matchRatio" : "0.5",
+            "patternType" : "charclass",
+            "strLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 24276.203408006193,
+            "scoreError" : 201.60457379517723,
+            "scoreConfidence" : [
+                24074.598834211014,
+                24477.807981801372
+            ],
+            "scorePercentiles" : {
+                "0.0" : 23812.19256173758,
+                "50.0" : 24271.543532648247,
+                "90.0" : 24553.8601519506,
+                "95.0" : 24882.664779026698,
+                "99.0" : 24899.29535838726,
+                "99.9" : 24899.29535838726,
+                "99.99" : 24899.29535838726,
+                "99.999" : 24899.29535838726,
+                "99.9999" : 24899.29535838726,
+                "100.0" : 24899.29535838726
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    24381.575945896544,
+                    24404.264967686868,
+                    24330.802954766536,
+                    24431.620986448543,
+                    24566.683771176038,
+                    24350.01435872475,
+                    24312.033163265307,
+                    24285.925125902555,
+                    24257.16193939394,
+                    24438.44757892166
+                ],
+                [
+                    24222.26094062103,
+                    23812.19256173758,
+                    23923.04273759713,
+                    24108.95355141876,
+                    24024.05548216645,
+                    24201.064110318133,
+                    24899.29535838726,
+                    24158.599577422276,
+                    24215.314538084578,
+                    24200.75851018804
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

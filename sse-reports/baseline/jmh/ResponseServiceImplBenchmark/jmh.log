@@ -1,0 +1,1169 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 0.00% complete, ETA 00:01:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.024 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.020] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 2.78% complete, ETA 00:01:29
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.024 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.019, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 5.56% complete, ETA 00:01:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 8.33% complete, ETA 00:01:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.020 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 11.11% complete, ETA 00:01:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.019, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 13.89% complete, ETA 00:01:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.022 us/op
+# Warmup Iteration   2: 0.022 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 16.67% complete, ETA 00:01:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.019, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 19.44% complete, ETA 00:01:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.024 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.019, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 22.22% complete, ETA 00:01:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 25.00% complete, ETA 00:01:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 10.467 us/op
+# Warmup Iteration   2: 2.966 us/op
+# Warmup Iteration   3: 2.185 us/op
+Iteration   1: 2.179 us/op
+Iteration   2: 2.150 us/op
+Iteration   3: 2.144 us/op
+Iteration   4: 2.159 us/op
+Iteration   5: 2.140 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data":
+  2.155 ±(99.9%) 0.058 us/op [Average]
+  (min, avg, max) = (2.140, 2.155, 2.179), stdev = 0.015
+  CI (99.9%): [2.096, 2.213] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 27.78% complete, ETA 00:01:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 10.372 us/op
+# Warmup Iteration   2: 2.771 us/op
+# Warmup Iteration   3: 2.560 us/op
+Iteration   1: 2.480 us/op
+Iteration   2: 2.488 us/op
+Iteration   3: 2.459 us/op
+Iteration   4: 2.494 us/op
+Iteration   5: 2.428 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data":
+  2.470 ±(99.9%) 0.102 us/op [Average]
+  (min, avg, max) = (2.428, 2.470, 2.494), stdev = 0.027
+  CI (99.9%): [2.368, 2.572] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 30.56% complete, ETA 00:01:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.062 us/op
+# Warmup Iteration   2: 5.603 us/op
+# Warmup Iteration   3: 5.006 us/op
+Iteration   1: 5.087 us/op
+Iteration   2: 5.050 us/op
+Iteration   3: 5.065 us/op
+Iteration   4: 5.033 us/op
+Iteration   5: 5.081 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data":
+  5.063 ±(99.9%) 0.086 us/op [Average]
+  (min, avg, max) = (5.033, 5.063, 5.087), stdev = 0.022
+  CI (99.9%): [4.978, 5.149] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 33.33% complete, ETA 00:01:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.425 us/op
+# Warmup Iteration   2: 4.093 us/op
+# Warmup Iteration   3: 3.497 us/op
+Iteration   1: 3.400 us/op
+Iteration   2: 3.393 us/op
+Iteration   3: 3.392 us/op
+Iteration   4: 3.375 us/op
+Iteration   5: 3.412 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data":
+  3.394 ±(99.9%) 0.051 us/op [Average]
+  (min, avg, max) = (3.375, 3.394, 3.412), stdev = 0.013
+  CI (99.9%): [3.343, 3.446] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 36.11% complete, ETA 00:00:58
+# Fork: 1 of 1
+# Warmup Iteration   1: 39.349 us/op
+# Warmup Iteration   2: 17.929 us/op
+# Warmup Iteration   3: 16.352 us/op
+Iteration   1: 16.266 us/op
+Iteration   2: 16.321 us/op
+Iteration   3: 16.222 us/op
+Iteration   4: 16.290 us/op
+Iteration   5: 16.275 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data":
+  16.275 ±(99.9%) 0.139 us/op [Average]
+  (min, avg, max) = (16.222, 16.275, 16.321), stdev = 0.036
+  CI (99.9%): [16.136, 16.413] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 38.89% complete, ETA 00:00:55
+# Fork: 1 of 1
+# Warmup Iteration   1: 3175.150 us/op
+# Warmup Iteration   2: 1747.074 us/op
+# Warmup Iteration   3: 1586.214 us/op
+Iteration   1: 1578.838 us/op
+Iteration   2: 1534.186 us/op
+Iteration   3: 1511.475 us/op
+Iteration   4: 1511.588 us/op
+Iteration   5: 1496.310 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data":
+  1526.479 ±(99.9%) 124.149 us/op [Average]
+  (min, avg, max) = (1496.310, 1526.479, 1578.838), stdev = 32.241
+  CI (99.9%): [1402.331, 1650.628] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 41.67% complete, ETA 00:00:53
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.542 us/op
+# Warmup Iteration   2: 2.984 us/op
+# Warmup Iteration   3: 2.557 us/op
+Iteration   1: 2.550 us/op
+Iteration   2: 2.550 us/op
+Iteration   3: 2.543 us/op
+Iteration   4: 2.624 us/op
+Iteration   5: 2.535 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data":
+  2.560 ±(99.9%) 0.139 us/op [Average]
+  (min, avg, max) = (2.535, 2.560, 2.624), stdev = 0.036
+  CI (99.9%): [2.421, 2.699] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 44.44% complete, ETA 00:00:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 20.074 us/op
+# Warmup Iteration   2: 5.671 us/op
+# Warmup Iteration   3: 4.376 us/op
+Iteration   1: 4.406 us/op
+Iteration   2: 4.396 us/op
+Iteration   3: 4.376 us/op
+Iteration   4: 4.487 us/op
+Iteration   5: 4.376 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data":
+  4.408 ±(99.9%) 0.178 us/op [Average]
+  (min, avg, max) = (4.376, 4.408, 4.487), stdev = 0.046
+  CI (99.9%): [4.231, 4.586] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 47.22% complete, ETA 00:00:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 47.947 us/op
+# Warmup Iteration   2: 20.610 us/op
+# Warmup Iteration   3: 18.983 us/op
+Iteration   1: 19.060 us/op
+Iteration   2: 19.103 us/op
+Iteration   3: 18.928 us/op
+Iteration   4: 18.986 us/op
+Iteration   5: 19.062 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.internal_with_data":
+  19.028 ±(99.9%) 0.269 us/op [Average]
+  (min, avg, max) = (18.928, 19.028, 19.103), stdev = 0.070
+  CI (99.9%): [18.759, 19.297] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 50.00% complete, ETA 00:00:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.020 us/op
+# Warmup Iteration   3: 0.020 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 52.78% complete, ETA 00:00:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 55.56% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.019, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 58.33% complete, ETA 00:00:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 61.11% complete, ETA 00:00:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.020 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.019, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 63.89% complete, ETA 00:00:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.027 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 66.67% complete, ETA 00:00:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.020 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 69.44% complete, ETA 00:00:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.019, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 72.22% complete, ETA 00:00:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.023 us/op
+# Warmup Iteration   2: 0.019 us/op
+# Warmup Iteration   3: 0.019 us/op
+Iteration   1: 0.019 us/op
+Iteration   2: 0.019 us/op
+Iteration   3: 0.019 us/op
+Iteration   4: 0.019 us/op
+Iteration   5: 0.019 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_empty":
+  0.019 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.019, 0.019, 0.019), stdev = 0.001
+  CI (99.9%): [0.018, 0.019] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data
+# Parameters: (payloadType = simple, size = 1)
+
+# Run progress: 75.00% complete, ETA 00:00:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 10.651 us/op
+# Warmup Iteration   2: 2.558 us/op
+# Warmup Iteration   3: 2.183 us/op
+Iteration   1: 2.101 us/op
+Iteration   2: 2.126 us/op
+Iteration   3: 2.168 us/op
+Iteration   4: 2.126 us/op
+Iteration   5: 2.124 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data":
+  2.129 ±(99.9%) 0.092 us/op [Average]
+  (min, avg, max) = (2.101, 2.129, 2.168), stdev = 0.024
+  CI (99.9%): [2.037, 2.221] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data
+# Parameters: (payloadType = simple, size = 10)
+
+# Run progress: 77.78% complete, ETA 00:00:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 10.358 us/op
+# Warmup Iteration   2: 2.791 us/op
+# Warmup Iteration   3: 2.510 us/op
+Iteration   1: 2.414 us/op
+Iteration   2: 2.417 us/op
+Iteration   3: 2.402 us/op
+Iteration   4: 2.409 us/op
+Iteration   5: 2.404 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data":
+  2.409 ±(99.9%) 0.024 us/op [Average]
+  (min, avg, max) = (2.402, 2.409, 2.417), stdev = 0.006
+  CI (99.9%): [2.385, 2.434] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data
+# Parameters: (payloadType = simple, size = 100)
+
+# Run progress: 80.56% complete, ETA 00:00:17
+# Fork: 1 of 1
+# Warmup Iteration   1: 14.996 us/op
+# Warmup Iteration   2: 5.581 us/op
+# Warmup Iteration   3: 4.974 us/op
+Iteration   1: 5.003 us/op
+Iteration   2: 4.999 us/op
+Iteration   3: 5.016 us/op
+Iteration   4: 5.026 us/op
+Iteration   5: 4.965 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data":
+  5.002 ±(99.9%) 0.089 us/op [Average]
+  (min, avg, max) = (4.965, 5.002, 5.026), stdev = 0.023
+  CI (99.9%): [4.913, 5.091] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data
+# Parameters: (payloadType = nested, size = 1)
+
+# Run progress: 83.33% complete, ETA 00:00:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.121 us/op
+# Warmup Iteration   2: 4.556 us/op
+# Warmup Iteration   3: 3.355 us/op
+Iteration   1: 3.350 us/op
+Iteration   2: 3.331 us/op
+Iteration   3: 3.445 us/op
+Iteration   4: 3.442 us/op
+Iteration   5: 3.317 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data":
+  3.377 ±(99.9%) 0.238 us/op [Average]
+  (min, avg, max) = (3.317, 3.377, 3.445), stdev = 0.062
+  CI (99.9%): [3.139, 3.615] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data
+# Parameters: (payloadType = nested, size = 10)
+
+# Run progress: 86.11% complete, ETA 00:00:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 38.831 us/op
+# Warmup Iteration   2: 17.532 us/op
+# Warmup Iteration   3: 16.647 us/op
+Iteration   1: 16.502 us/op
+Iteration   2: 16.450 us/op
+Iteration   3: 16.448 us/op
+Iteration   4: 16.429 us/op
+Iteration   5: 16.478 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data":
+  16.461 ±(99.9%) 0.111 us/op [Average]
+  (min, avg, max) = (16.429, 16.461, 16.502), stdev = 0.029
+  CI (99.9%): [16.351, 16.572] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data
+# Parameters: (payloadType = nested, size = 100)
+
+# Run progress: 88.89% complete, ETA 00:00:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 2957.158 us/op
+# Warmup Iteration   2: 1609.704 us/op
+# Warmup Iteration   3: 1577.389 us/op
+Iteration   1: 1566.201 us/op
+Iteration   2: 1516.222 us/op
+Iteration   3: 1526.547 us/op
+Iteration   4: 1520.487 us/op
+Iteration   5: 1509.296 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data":
+  1527.751 ±(99.9%) 86.234 us/op [Average]
+  (min, avg, max) = (1509.296, 1527.751, 1566.201), stdev = 22.395
+  CI (99.9%): [1441.516, 1613.985] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data
+# Parameters: (payloadType = list, size = 1)
+
+# Run progress: 91.67% complete, ETA 00:00:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.297 us/op
+# Warmup Iteration   2: 2.902 us/op
+# Warmup Iteration   3: 2.646 us/op
+Iteration   1: 2.670 us/op
+Iteration   2: 2.588 us/op
+Iteration   3: 2.579 us/op
+Iteration   4: 2.602 us/op
+Iteration   5: 2.567 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data":
+  2.601 ±(99.9%) 0.156 us/op [Average]
+  (min, avg, max) = (2.567, 2.601, 2.670), stdev = 0.041
+  CI (99.9%): [2.445, 2.757] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data
+# Parameters: (payloadType = list, size = 10)
+
+# Run progress: 94.44% complete, ETA 00:00:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 15.563 us/op
+# Warmup Iteration   2: 4.778 us/op
+# Warmup Iteration   3: 4.487 us/op
+Iteration   1: 4.321 us/op
+Iteration   2: 4.360 us/op
+Iteration   3: 4.327 us/op
+Iteration   4: 4.345 us/op
+Iteration   5: 4.331 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data":
+  4.337 ±(99.9%) 0.061 us/op [Average]
+  (min, avg, max) = (4.321, 4.337, 4.360), stdev = 0.016
+  CI (99.9%): [4.276, 4.398] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 300 ms each
+# Measurement: 5 iterations, 300 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data
+# Parameters: (payloadType = list, size = 100)
+
+# Run progress: 97.22% complete, ETA 00:00:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 48.747 us/op
+# Warmup Iteration   2: 21.136 us/op
+# Warmup Iteration   3: 19.201 us/op
+Iteration   1: 19.176 us/op
+Iteration   2: 19.236 us/op
+Iteration   3: 18.960 us/op
+Iteration   4: 19.099 us/op
+Iteration   5: 19.136 us/op
+
+
+Result "it.unisa.c02.rently.rently_application.ResponseServiceImplBenchmark.ok_with_data":
+  19.122 ±(99.9%) 0.398 us/op [Average]
+  (min, avg, max) = (18.960, 19.122, 19.236), stdev = 0.103
+  CI (99.9%): [18.723, 19.520] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:31
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                        (payloadType)  (size)  Mode  Cnt     Score     Error  Units
+ResponseServiceImplBenchmark.internal_empty             simple       1  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.internal_empty             simple      10  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.internal_empty             simple     100  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.internal_empty             nested       1  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.internal_empty             nested      10  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.internal_empty             nested     100  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.internal_empty               list       1  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.internal_empty               list      10  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.internal_empty               list     100  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.internal_with_data         simple       1  avgt    5     2.155 ±   0.058  us/op
+ResponseServiceImplBenchmark.internal_with_data         simple      10  avgt    5     2.470 ±   0.102  us/op
+ResponseServiceImplBenchmark.internal_with_data         simple     100  avgt    5     5.063 ±   0.086  us/op
+ResponseServiceImplBenchmark.internal_with_data         nested       1  avgt    5     3.394 ±   0.051  us/op
+ResponseServiceImplBenchmark.internal_with_data         nested      10  avgt    5    16.275 ±   0.139  us/op
+ResponseServiceImplBenchmark.internal_with_data         nested     100  avgt    5  1526.479 ± 124.149  us/op
+ResponseServiceImplBenchmark.internal_with_data           list       1  avgt    5     2.560 ±   0.139  us/op
+ResponseServiceImplBenchmark.internal_with_data           list      10  avgt    5     4.408 ±   0.178  us/op
+ResponseServiceImplBenchmark.internal_with_data           list     100  avgt    5    19.028 ±   0.269  us/op
+ResponseServiceImplBenchmark.ok_empty                   simple       1  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.ok_empty                   simple      10  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.ok_empty                   simple     100  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.ok_empty                   nested       1  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.ok_empty                   nested      10  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.ok_empty                   nested     100  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.ok_empty                     list       1  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.ok_empty                     list      10  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.ok_empty                     list     100  avgt    5     0.019 ±   0.001  us/op
+ResponseServiceImplBenchmark.ok_with_data               simple       1  avgt    5     2.129 ±   0.092  us/op
+ResponseServiceImplBenchmark.ok_with_data               simple      10  avgt    5     2.409 ±   0.024  us/op
+ResponseServiceImplBenchmark.ok_with_data               simple     100  avgt    5     5.002 ±   0.089  us/op
+ResponseServiceImplBenchmark.ok_with_data               nested       1  avgt    5     3.377 ±   0.238  us/op
+ResponseServiceImplBenchmark.ok_with_data               nested      10  avgt    5    16.461 ±   0.111  us/op
+ResponseServiceImplBenchmark.ok_with_data               nested     100  avgt    5  1527.751 ±  86.234  us/op
+ResponseServiceImplBenchmark.ok_with_data                 list       1  avgt    5     2.601 ±   0.156  us/op
+ResponseServiceImplBenchmark.ok_with_data                 list      10  avgt    5     4.337 ±   0.061  us/op
+ResponseServiceImplBenchmark.ok_with_data                 list     100  avgt    5    19.122 ±   0.398  us/op
+
+Benchmark result is saved to ../sse-reports/baseline/jmh//ResponseServiceImplBenchmark/results.json

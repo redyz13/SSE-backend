@@ -1,0 +1,872 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex
+# Parameters: (length = 8)
+
+# Run progress: 0.00% complete, ETA 00:03:45
+# Fork: 1 of 2
+# Warmup Iteration   1: 278.761 ns/op
+# Warmup Iteration   2: 250.083 ns/op
+# Warmup Iteration   3: 243.375 ns/op
+# Warmup Iteration   4: 242.347 ns/op
+# Warmup Iteration   5: 244.410 ns/op
+Iteration   1: 242.626 ns/op
+Iteration   2: 241.712 ns/op
+Iteration   3: 241.575 ns/op
+Iteration   4: 242.161 ns/op
+Iteration   5: 242.623 ns/op
+Iteration   6: 242.831 ns/op
+Iteration   7: 241.616 ns/op
+Iteration   8: 242.318 ns/op
+Iteration   9: 242.518 ns/op
+Iteration  10: 241.840 ns/op
+
+# Run progress: 3.33% complete, ETA 00:03:41
+# Fork: 2 of 2
+# Warmup Iteration   1: 281.870 ns/op
+# Warmup Iteration   2: 250.332 ns/op
+# Warmup Iteration   3: 243.181 ns/op
+# Warmup Iteration   4: 241.876 ns/op
+# Warmup Iteration   5: 242.085 ns/op
+Iteration   1: 242.107 ns/op
+Iteration   2: 240.462 ns/op
+Iteration   3: 241.196 ns/op
+Iteration   4: 241.121 ns/op
+Iteration   5: 243.145 ns/op
+Iteration   6: 240.974 ns/op
+Iteration   7: 241.423 ns/op
+Iteration   8: 240.682 ns/op
+Iteration   9: 241.388 ns/op
+Iteration  10: 242.043 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex":
+  241.818 ±(99.9%) 0.638 ns/op [Average]
+  (min, avg, max) = (240.462, 241.818, 243.145), stdev = 0.734
+  CI (99.9%): [241.180, 242.456] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex
+# Parameters: (length = 16)
+
+# Run progress: 6.67% complete, ETA 00:03:34
+# Fork: 1 of 2
+# Warmup Iteration   1: 287.145 ns/op
+# Warmup Iteration   2: 254.500 ns/op
+# Warmup Iteration   3: 259.299 ns/op
+# Warmup Iteration   4: 254.134 ns/op
+# Warmup Iteration   5: 252.539 ns/op
+Iteration   1: 251.651 ns/op
+Iteration   2: 253.598 ns/op
+Iteration   3: 250.979 ns/op
+Iteration   4: 253.271 ns/op
+Iteration   5: 252.092 ns/op
+Iteration   6: 253.103 ns/op
+Iteration   7: 252.610 ns/op
+Iteration   8: 251.009 ns/op
+Iteration   9: 251.331 ns/op
+Iteration  10: 253.125 ns/op
+
+# Run progress: 10.00% complete, ETA 00:03:26
+# Fork: 2 of 2
+# Warmup Iteration   1: 291.982 ns/op
+# Warmup Iteration   2: 261.062 ns/op
+# Warmup Iteration   3: 254.493 ns/op
+# Warmup Iteration   4: 253.127 ns/op
+# Warmup Iteration   5: 255.072 ns/op
+Iteration   1: 253.015 ns/op
+Iteration   2: 253.705 ns/op
+Iteration   3: 255.862 ns/op
+Iteration   4: 252.471 ns/op
+Iteration   5: 254.187 ns/op
+Iteration   6: 252.990 ns/op
+Iteration   7: 255.107 ns/op
+Iteration   8: 253.731 ns/op
+Iteration   9: 253.038 ns/op
+Iteration  10: 253.726 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex":
+  253.030 ±(99.9%) 1.090 ns/op [Average]
+  (min, avg, max) = (250.979, 253.030, 255.862), stdev = 1.256
+  CI (99.9%): [251.940, 254.120] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex
+# Parameters: (length = 32)
+
+# Run progress: 13.33% complete, ETA 00:03:18
+# Fork: 1 of 2
+# Warmup Iteration   1: 302.073 ns/op
+# Warmup Iteration   2: 254.032 ns/op
+# Warmup Iteration   3: 253.612 ns/op
+# Warmup Iteration   4: 252.494 ns/op
+# Warmup Iteration   5: 252.425 ns/op
+Iteration   1: 251.500 ns/op
+Iteration   2: 250.844 ns/op
+Iteration   3: 251.044 ns/op
+Iteration   4: 251.319 ns/op
+Iteration   5: 251.713 ns/op
+Iteration   6: 252.067 ns/op
+Iteration   7: 250.582 ns/op
+Iteration   8: 251.034 ns/op
+Iteration   9: 250.714 ns/op
+Iteration  10: 249.804 ns/op
+
+# Run progress: 16.67% complete, ETA 00:03:11
+# Fork: 2 of 2
+# Warmup Iteration   1: 286.847 ns/op
+# Warmup Iteration   2: 254.401 ns/op
+# Warmup Iteration   3: 251.404 ns/op
+# Warmup Iteration   4: 249.786 ns/op
+# Warmup Iteration   5: 250.961 ns/op
+Iteration   1: 251.250 ns/op
+Iteration   2: 250.968 ns/op
+Iteration   3: 251.313 ns/op
+Iteration   4: 251.380 ns/op
+Iteration   5: 251.124 ns/op
+Iteration   6: 251.550 ns/op
+Iteration   7: 251.256 ns/op
+Iteration   8: 251.929 ns/op
+Iteration   9: 253.721 ns/op
+Iteration  10: 254.096 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex":
+  251.460 ±(99.9%) 0.846 ns/op [Average]
+  (min, avg, max) = (249.804, 251.460, 254.096), stdev = 0.974
+  CI (99.9%): [250.615, 252.306] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex
+# Parameters: (length = 64)
+
+# Run progress: 20.00% complete, ETA 00:03:03
+# Fork: 1 of 2
+# Warmup Iteration   1: 329.556 ns/op
+# Warmup Iteration   2: 294.291 ns/op
+# Warmup Iteration   3: 290.002 ns/op
+# Warmup Iteration   4: 286.342 ns/op
+# Warmup Iteration   5: 284.490 ns/op
+Iteration   1: 283.995 ns/op
+Iteration   2: 285.144 ns/op
+Iteration   3: 292.527 ns/op
+Iteration   4: 285.794 ns/op
+Iteration   5: 286.720 ns/op
+Iteration   6: 285.516 ns/op
+Iteration   7: 286.918 ns/op
+Iteration   8: 286.145 ns/op
+Iteration   9: 286.760 ns/op
+Iteration  10: 285.736 ns/op
+
+# Run progress: 23.33% complete, ETA 00:02:55
+# Fork: 2 of 2
+# Warmup Iteration   1: 313.982 ns/op
+# Warmup Iteration   2: 275.564 ns/op
+# Warmup Iteration   3: 274.725 ns/op
+# Warmup Iteration   4: 272.837 ns/op
+# Warmup Iteration   5: 274.032 ns/op
+Iteration   1: 273.954 ns/op
+Iteration   2: 273.562 ns/op
+Iteration   3: 273.667 ns/op
+Iteration   4: 272.471 ns/op
+Iteration   5: 272.096 ns/op
+Iteration   6: 274.095 ns/op
+Iteration   7: 272.550 ns/op
+Iteration   8: 273.386 ns/op
+Iteration   9: 280.667 ns/op
+Iteration  10: 273.945 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex":
+  280.282 ±(99.9%) 5.908 ns/op [Average]
+  (min, avg, max) = (272.096, 280.282, 292.527), stdev = 6.804
+  CI (99.9%): [274.374, 286.191] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex
+# Parameters: (length = 128)
+
+# Run progress: 26.67% complete, ETA 00:02:48
+# Fork: 1 of 2
+# Warmup Iteration   1: 348.514 ns/op
+# Warmup Iteration   2: 315.363 ns/op
+# Warmup Iteration   3: 303.071 ns/op
+# Warmup Iteration   4: 303.319 ns/op
+# Warmup Iteration   5: 300.923 ns/op
+Iteration   1: 303.567 ns/op
+Iteration   2: 302.931 ns/op
+Iteration   3: 301.926 ns/op
+Iteration   4: 303.575 ns/op
+Iteration   5: 302.486 ns/op
+Iteration   6: 302.657 ns/op
+Iteration   7: 302.409 ns/op
+Iteration   8: 301.977 ns/op
+Iteration   9: 300.691 ns/op
+Iteration  10: 302.177 ns/op
+
+# Run progress: 30.00% complete, ETA 00:02:40
+# Fork: 2 of 2
+# Warmup Iteration   1: 352.528 ns/op
+# Warmup Iteration   2: 306.365 ns/op
+# Warmup Iteration   3: 311.392 ns/op
+# Warmup Iteration   4: 303.218 ns/op
+# Warmup Iteration   5: 303.884 ns/op
+Iteration   1: 305.003 ns/op
+Iteration   2: 304.913 ns/op
+Iteration   3: 304.006 ns/op
+Iteration   4: 303.940 ns/op
+Iteration   5: 303.296 ns/op
+Iteration   6: 304.408 ns/op
+Iteration   7: 303.273 ns/op
+Iteration   8: 303.136 ns/op
+Iteration   9: 302.726 ns/op
+Iteration  10: 302.378 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.perCall_getInstance_and_manualHex":
+  303.074 ±(99.9%) 0.928 ns/op [Average]
+  (min, avg, max) = (300.691, 303.074, 305.003), stdev = 1.068
+  CI (99.9%): [302.146, 304.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat
+# Parameters: (length = 8)
+
+# Run progress: 33.33% complete, ETA 00:02:32
+# Fork: 1 of 2
+# Warmup Iteration   1: 93.951 ns/op
+# Warmup Iteration   2: 87.119 ns/op
+# Warmup Iteration   3: 84.731 ns/op
+# Warmup Iteration   4: 84.702 ns/op
+# Warmup Iteration   5: 86.392 ns/op
+Iteration   1: 86.209 ns/op
+Iteration   2: 86.150 ns/op
+Iteration   3: 86.154 ns/op
+Iteration   4: 86.346 ns/op
+Iteration   5: 86.443 ns/op
+Iteration   6: 86.242 ns/op
+Iteration   7: 86.098 ns/op
+Iteration   8: 85.963 ns/op
+Iteration   9: 86.124 ns/op
+Iteration  10: 86.222 ns/op
+
+# Run progress: 36.67% complete, ETA 00:02:25
+# Fork: 2 of 2
+# Warmup Iteration   1: 93.357 ns/op
+# Warmup Iteration   2: 87.472 ns/op
+# Warmup Iteration   3: 86.372 ns/op
+# Warmup Iteration   4: 84.013 ns/op
+# Warmup Iteration   5: 84.551 ns/op
+Iteration   1: 84.283 ns/op
+Iteration   2: 84.952 ns/op
+Iteration   3: 87.070 ns/op
+Iteration   4: 84.794 ns/op
+Iteration   5: 84.787 ns/op
+Iteration   6: 84.570 ns/op
+Iteration   7: 84.190 ns/op
+Iteration   8: 84.288 ns/op
+Iteration   9: 84.605 ns/op
+Iteration  10: 83.991 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat":
+  85.474 ±(99.9%) 0.830 ns/op [Average]
+  (min, avg, max) = (83.991, 85.474, 87.070), stdev = 0.956
+  CI (99.9%): [84.644, 86.304] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat
+# Parameters: (length = 16)
+
+# Run progress: 40.00% complete, ETA 00:02:17
+# Fork: 1 of 2
+# Warmup Iteration   1: 93.397 ns/op
+# Warmup Iteration   2: 87.968 ns/op
+# Warmup Iteration   3: 86.075 ns/op
+# Warmup Iteration   4: 84.774 ns/op
+# Warmup Iteration   5: 85.736 ns/op
+Iteration   1: 85.606 ns/op
+Iteration   2: 85.001 ns/op
+Iteration   3: 85.322 ns/op
+Iteration   4: 84.721 ns/op
+Iteration   5: 85.394 ns/op
+Iteration   6: 85.023 ns/op
+Iteration   7: 85.613 ns/op
+Iteration   8: 85.609 ns/op
+Iteration   9: 85.509 ns/op
+Iteration  10: 85.400 ns/op
+
+# Run progress: 43.33% complete, ETA 00:02:09
+# Fork: 2 of 2
+# Warmup Iteration   1: 94.485 ns/op
+# Warmup Iteration   2: 87.378 ns/op
+# Warmup Iteration   3: 84.360 ns/op
+# Warmup Iteration   4: 84.451 ns/op
+# Warmup Iteration   5: 84.158 ns/op
+Iteration   1: 84.461 ns/op
+Iteration   2: 83.952 ns/op
+Iteration   3: 84.456 ns/op
+Iteration   4: 84.107 ns/op
+Iteration   5: 83.730 ns/op
+Iteration   6: 84.263 ns/op
+Iteration   7: 83.863 ns/op
+Iteration   8: 83.888 ns/op
+Iteration   9: 83.806 ns/op
+Iteration  10: 84.836 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat":
+  84.728 ±(99.9%) 0.598 ns/op [Average]
+  (min, avg, max) = (83.730, 84.728, 85.613), stdev = 0.689
+  CI (99.9%): [84.130, 85.326] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat
+# Parameters: (length = 32)
+
+# Run progress: 46.67% complete, ETA 00:02:02
+# Fork: 1 of 2
+# Warmup Iteration   1: 93.461 ns/op
+# Warmup Iteration   2: 85.711 ns/op
+# Warmup Iteration   3: 83.304 ns/op
+# Warmup Iteration   4: 83.474 ns/op
+# Warmup Iteration   5: 83.465 ns/op
+Iteration   1: 83.386 ns/op
+Iteration   2: 82.989 ns/op
+Iteration   3: 82.863 ns/op
+Iteration   4: 83.149 ns/op
+Iteration   5: 83.149 ns/op
+Iteration   6: 82.750 ns/op
+Iteration   7: 83.156 ns/op
+Iteration   8: 83.010 ns/op
+Iteration   9: 82.825 ns/op
+Iteration  10: 82.729 ns/op
+
+# Run progress: 50.00% complete, ETA 00:01:54
+# Fork: 2 of 2
+# Warmup Iteration   1: 91.033 ns/op
+# Warmup Iteration   2: 84.499 ns/op
+# Warmup Iteration   3: 83.651 ns/op
+# Warmup Iteration   4: 83.552 ns/op
+# Warmup Iteration   5: 82.861 ns/op
+Iteration   1: 83.579 ns/op
+Iteration   2: 83.287 ns/op
+Iteration   3: 83.213 ns/op
+Iteration   4: 83.167 ns/op
+Iteration   5: 83.129 ns/op
+Iteration   6: 82.722 ns/op
+Iteration   7: 83.104 ns/op
+Iteration   8: 83.297 ns/op
+Iteration   9: 83.356 ns/op
+Iteration  10: 82.978 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat":
+  83.092 ±(99.9%) 0.204 ns/op [Average]
+  (min, avg, max) = (82.722, 83.092, 83.579), stdev = 0.235
+  CI (99.9%): [82.888, 83.296] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat
+# Parameters: (length = 64)
+
+# Run progress: 53.33% complete, ETA 00:01:46
+# Fork: 1 of 2
+# Warmup Iteration   1: 122.534 ns/op
+# Warmup Iteration   2: 114.261 ns/op
+# Warmup Iteration   3: 112.585 ns/op
+# Warmup Iteration   4: 110.292 ns/op
+# Warmup Iteration   5: 114.109 ns/op
+Iteration   1: 109.595 ns/op
+Iteration   2: 110.313 ns/op
+Iteration   3: 109.910 ns/op
+Iteration   4: 109.936 ns/op
+Iteration   5: 109.180 ns/op
+Iteration   6: 109.916 ns/op
+Iteration   7: 109.627 ns/op
+Iteration   8: 108.735 ns/op
+Iteration   9: 109.503 ns/op
+Iteration  10: 110.637 ns/op
+
+# Run progress: 56.67% complete, ETA 00:01:39
+# Fork: 2 of 2
+# Warmup Iteration   1: 122.550 ns/op
+# Warmup Iteration   2: 112.707 ns/op
+# Warmup Iteration   3: 110.593 ns/op
+# Warmup Iteration   4: 110.238 ns/op
+# Warmup Iteration   5: 110.035 ns/op
+Iteration   1: 110.141 ns/op
+Iteration   2: 109.856 ns/op
+Iteration   3: 109.236 ns/op
+Iteration   4: 110.413 ns/op
+Iteration   5: 110.668 ns/op
+Iteration   6: 110.467 ns/op
+Iteration   7: 110.427 ns/op
+Iteration   8: 110.210 ns/op
+Iteration   9: 110.019 ns/op
+Iteration  10: 111.064 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat":
+  109.993 ±(99.9%) 0.495 ns/op [Average]
+  (min, avg, max) = (108.735, 109.993, 111.064), stdev = 0.569
+  CI (99.9%): [109.498, 110.487] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat
+# Parameters: (length = 128)
+
+# Run progress: 60.00% complete, ETA 00:01:31
+# Fork: 1 of 2
+# Warmup Iteration   1: 154.624 ns/op
+# Warmup Iteration   2: 139.627 ns/op
+# Warmup Iteration   3: 140.134 ns/op
+# Warmup Iteration   4: 142.768 ns/op
+# Warmup Iteration   5: 139.920 ns/op
+Iteration   1: 140.317 ns/op
+Iteration   2: 139.239 ns/op
+Iteration   3: 139.465 ns/op
+Iteration   4: 139.169 ns/op
+Iteration   5: 138.571 ns/op
+Iteration   6: 139.284 ns/op
+Iteration   7: 139.503 ns/op
+Iteration   8: 139.076 ns/op
+Iteration   9: 139.197 ns/op
+Iteration  10: 138.860 ns/op
+
+# Run progress: 63.33% complete, ETA 00:01:24
+# Fork: 2 of 2
+# Warmup Iteration   1: 155.000 ns/op
+# Warmup Iteration   2: 139.394 ns/op
+# Warmup Iteration   3: 138.249 ns/op
+# Warmup Iteration   4: 138.775 ns/op
+# Warmup Iteration   5: 139.088 ns/op
+Iteration   1: 139.153 ns/op
+Iteration   2: 138.721 ns/op
+Iteration   3: 138.515 ns/op
+Iteration   4: 139.564 ns/op
+Iteration   5: 138.296 ns/op
+Iteration   6: 138.600 ns/op
+Iteration   7: 138.141 ns/op
+Iteration   8: 139.119 ns/op
+Iteration   9: 138.385 ns/op
+Iteration  10: 138.632 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_hexFormat":
+  138.990 ±(99.9%) 0.454 ns/op [Average]
+  (min, avg, max) = (138.141, 138.990, 140.317), stdev = 0.523
+  CI (99.9%): [138.537, 139.444] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex
+# Parameters: (length = 8)
+
+# Run progress: 66.67% complete, ETA 00:01:16
+# Fork: 1 of 2
+# Warmup Iteration   1: 274.458 ns/op
+# Warmup Iteration   2: 239.537 ns/op
+# Warmup Iteration   3: 243.047 ns/op
+# Warmup Iteration   4: 236.824 ns/op
+# Warmup Iteration   5: 236.248 ns/op
+Iteration   1: 236.180 ns/op
+Iteration   2: 236.863 ns/op
+Iteration   3: 244.553 ns/op
+Iteration   4: 237.244 ns/op
+Iteration   5: 237.300 ns/op
+Iteration   6: 235.557 ns/op
+Iteration   7: 238.107 ns/op
+Iteration   8: 238.270 ns/op
+Iteration   9: 238.383 ns/op
+Iteration  10: 238.027 ns/op
+
+# Run progress: 70.00% complete, ETA 00:01:08
+# Fork: 2 of 2
+# Warmup Iteration   1: 268.029 ns/op
+# Warmup Iteration   2: 239.362 ns/op
+# Warmup Iteration   3: 237.903 ns/op
+# Warmup Iteration   4: 237.228 ns/op
+# Warmup Iteration   5: 237.881 ns/op
+Iteration   1: 235.838 ns/op
+Iteration   2: 237.278 ns/op
+Iteration   3: 236.601 ns/op
+Iteration   4: 238.626 ns/op
+Iteration   5: 238.399 ns/op
+Iteration   6: 239.292 ns/op
+Iteration   7: 237.070 ns/op
+Iteration   8: 235.967 ns/op
+Iteration   9: 235.535 ns/op
+Iteration  10: 237.908 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex":
+  237.650 ±(99.9%) 1.700 ns/op [Average]
+  (min, avg, max) = (235.535, 237.650, 244.553), stdev = 1.958
+  CI (99.9%): [235.950, 239.350] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex
+# Parameters: (length = 16)
+
+# Run progress: 73.33% complete, ETA 00:01:01
+# Fork: 1 of 2
+# Warmup Iteration   1: 286.523 ns/op
+# Warmup Iteration   2: 256.909 ns/op
+# Warmup Iteration   3: 249.451 ns/op
+# Warmup Iteration   4: 249.143 ns/op
+# Warmup Iteration   5: 251.366 ns/op
+Iteration   1: 251.051 ns/op
+Iteration   2: 251.349 ns/op
+Iteration   3: 249.901 ns/op
+Iteration   4: 250.721 ns/op
+Iteration   5: 250.233 ns/op
+Iteration   6: 249.086 ns/op
+Iteration   7: 252.571 ns/op
+Iteration   8: 249.999 ns/op
+Iteration   9: 249.073 ns/op
+Iteration  10: 249.011 ns/op
+
+# Run progress: 76.67% complete, ETA 00:00:53
+# Fork: 2 of 2
+# Warmup Iteration   1: 282.208 ns/op
+# Warmup Iteration   2: 254.512 ns/op
+# Warmup Iteration   3: 251.655 ns/op
+# Warmup Iteration   4: 250.147 ns/op
+# Warmup Iteration   5: 250.039 ns/op
+Iteration   1: 249.785 ns/op
+Iteration   2: 253.336 ns/op
+Iteration   3: 252.828 ns/op
+Iteration   4: 251.610 ns/op
+Iteration   5: 249.952 ns/op
+Iteration   6: 249.822 ns/op
+Iteration   7: 250.890 ns/op
+Iteration   8: 251.209 ns/op
+Iteration   9: 250.571 ns/op
+Iteration  10: 252.284 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex":
+  250.764 ±(99.9%) 1.104 ns/op [Average]
+  (min, avg, max) = (249.011, 250.764, 253.336), stdev = 1.271
+  CI (99.9%): [249.660, 251.868] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex
+# Parameters: (length = 32)
+
+# Run progress: 80.00% complete, ETA 00:00:45
+# Fork: 1 of 2
+# Warmup Iteration   1: 282.954 ns/op
+# Warmup Iteration   2: 251.501 ns/op
+# Warmup Iteration   3: 247.899 ns/op
+# Warmup Iteration   4: 247.551 ns/op
+# Warmup Iteration   5: 248.977 ns/op
+Iteration   1: 247.268 ns/op
+Iteration   2: 249.522 ns/op
+Iteration   3: 247.472 ns/op
+Iteration   4: 248.457 ns/op
+Iteration   5: 246.559 ns/op
+Iteration   6: 247.510 ns/op
+Iteration   7: 246.380 ns/op
+Iteration   8: 248.082 ns/op
+Iteration   9: 246.747 ns/op
+Iteration  10: 247.217 ns/op
+
+# Run progress: 83.33% complete, ETA 00:00:38
+# Fork: 2 of 2
+# Warmup Iteration   1: 280.501 ns/op
+# Warmup Iteration   2: 251.087 ns/op
+# Warmup Iteration   3: 247.486 ns/op
+# Warmup Iteration   4: 245.824 ns/op
+# Warmup Iteration   5: 245.524 ns/op
+Iteration   1: 246.281 ns/op
+Iteration   2: 245.619 ns/op
+Iteration   3: 246.218 ns/op
+Iteration   4: 245.411 ns/op
+Iteration   5: 249.767 ns/op
+Iteration   6: 245.971 ns/op
+Iteration   7: 247.084 ns/op
+Iteration   8: 246.286 ns/op
+Iteration   9: 248.088 ns/op
+Iteration  10: 248.260 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex":
+  247.210 ±(99.9%) 1.046 ns/op [Average]
+  (min, avg, max) = (245.411, 247.210, 249.767), stdev = 1.205
+  CI (99.9%): [246.164, 248.256] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex
+# Parameters: (length = 64)
+
+# Run progress: 86.67% complete, ETA 00:00:30
+# Fork: 1 of 2
+# Warmup Iteration   1: 309.055 ns/op
+# Warmup Iteration   2: 274.740 ns/op
+# Warmup Iteration   3: 270.564 ns/op
+# Warmup Iteration   4: 268.162 ns/op
+# Warmup Iteration   5: 268.679 ns/op
+Iteration   1: 268.093 ns/op
+Iteration   2: 270.266 ns/op
+Iteration   3: 268.603 ns/op
+Iteration   4: 269.119 ns/op
+Iteration   5: 268.462 ns/op
+Iteration   6: 269.274 ns/op
+Iteration   7: 267.891 ns/op
+Iteration   8: 268.113 ns/op
+Iteration   9: 267.544 ns/op
+Iteration  10: 269.661 ns/op
+
+# Run progress: 90.00% complete, ETA 00:00:22
+# Fork: 2 of 2
+# Warmup Iteration   1: 306.123 ns/op
+# Warmup Iteration   2: 272.685 ns/op
+# Warmup Iteration   3: 270.039 ns/op
+# Warmup Iteration   4: 269.105 ns/op
+# Warmup Iteration   5: 268.841 ns/op
+Iteration   1: 268.088 ns/op
+Iteration   2: 270.299 ns/op
+Iteration   3: 269.556 ns/op
+Iteration   4: 267.263 ns/op
+Iteration   5: 269.969 ns/op
+Iteration   6: 267.692 ns/op
+Iteration   7: 269.302 ns/op
+Iteration   8: 269.248 ns/op
+Iteration   9: 269.370 ns/op
+Iteration  10: 269.036 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex":
+  268.843 ±(99.9%) 0.792 ns/op [Average]
+  (min, avg, max) = (267.263, 268.843, 270.299), stdev = 0.913
+  CI (99.9%): [268.050, 269.635] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 500 ms each
+# Measurement: 10 iterations, 500 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex
+# Parameters: (length = 128)
+
+# Run progress: 93.33% complete, ETA 00:00:15
+# Fork: 1 of 2
+# Warmup Iteration   1: 342.837 ns/op
+# Warmup Iteration   2: 301.984 ns/op
+# Warmup Iteration   3: 300.614 ns/op
+# Warmup Iteration   4: 299.264 ns/op
+# Warmup Iteration   5: 299.442 ns/op
+Iteration   1: 297.856 ns/op
+Iteration   2: 299.242 ns/op
+Iteration   3: 300.245 ns/op
+Iteration   4: 300.740 ns/op
+Iteration   5: 301.427 ns/op
+Iteration   6: 298.731 ns/op
+Iteration   7: 300.391 ns/op
+Iteration   8: 300.508 ns/op
+Iteration   9: 298.588 ns/op
+Iteration  10: 299.081 ns/op
+
+# Run progress: 96.67% complete, ETA 00:00:07
+# Fork: 2 of 2
+# Warmup Iteration   1: 340.661 ns/op
+# Warmup Iteration   2: 303.793 ns/op
+# Warmup Iteration   3: 303.306 ns/op
+# Warmup Iteration   4: 298.728 ns/op
+# Warmup Iteration   5: 298.794 ns/op
+Iteration   1: 303.405 ns/op
+Iteration   2: 299.519 ns/op
+Iteration   3: 299.315 ns/op
+Iteration   4: 298.793 ns/op
+Iteration   5: 297.915 ns/op
+Iteration   6: 297.111 ns/op
+Iteration   7: 298.906 ns/op
+Iteration   8: 298.613 ns/op
+Iteration   9: 299.565 ns/op
+Iteration  10: 298.777 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.PswCoderBenchmark.threadLocal_digest_and_manualHex":
+  299.436 ±(99.9%) 1.221 ns/op [Average]
+  (min, avg, max) = (297.111, 299.436, 303.405), stdev = 1.406
+  CI (99.9%): [298.215, 300.657] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:03:49
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                            (length)  Mode  Cnt    Score   Error  Units
+PswCoderBenchmark.perCall_getInstance_and_manualHex         8  avgt   20  241.818 ± 0.638  ns/op
+PswCoderBenchmark.perCall_getInstance_and_manualHex        16  avgt   20  253.030 ± 1.090  ns/op
+PswCoderBenchmark.perCall_getInstance_and_manualHex        32  avgt   20  251.460 ± 0.846  ns/op
+PswCoderBenchmark.perCall_getInstance_and_manualHex        64  avgt   20  280.282 ± 5.908  ns/op
+PswCoderBenchmark.perCall_getInstance_and_manualHex       128  avgt   20  303.074 ± 0.928  ns/op
+PswCoderBenchmark.threadLocal_digest_and_hexFormat          8  avgt   20   85.474 ± 0.830  ns/op
+PswCoderBenchmark.threadLocal_digest_and_hexFormat         16  avgt   20   84.728 ± 0.598  ns/op
+PswCoderBenchmark.threadLocal_digest_and_hexFormat         32  avgt   20   83.092 ± 0.204  ns/op
+PswCoderBenchmark.threadLocal_digest_and_hexFormat         64  avgt   20  109.993 ± 0.495  ns/op
+PswCoderBenchmark.threadLocal_digest_and_hexFormat        128  avgt   20  138.990 ± 0.454  ns/op
+PswCoderBenchmark.threadLocal_digest_and_manualHex          8  avgt   20  237.650 ± 1.700  ns/op
+PswCoderBenchmark.threadLocal_digest_and_manualHex         16  avgt   20  250.764 ± 1.104  ns/op
+PswCoderBenchmark.threadLocal_digest_and_manualHex         32  avgt   20  247.210 ± 1.046  ns/op
+PswCoderBenchmark.threadLocal_digest_and_manualHex         64  avgt   20  268.843 ± 0.792  ns/op
+PswCoderBenchmark.threadLocal_digest_and_manualHex        128  avgt   20  299.436 ± 1.221  ns/op
+
+Benchmark result is saved to ../sse-reports/baseline/jmh//PswCoderBenchmark/results.json

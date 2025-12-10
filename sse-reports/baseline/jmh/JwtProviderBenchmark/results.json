@@ -1,0 +1,5476 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 1.220971576930706,
+            "scoreError" : 0.02116568287412255,
+            "scoreConfidence" : [
+                1.1998058940565834,
+                1.2421372598048284
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.2138308146351324,
+                "50.0" : 1.2230348619293228,
+                "90.0" : 1.2271896866760685,
+                "95.0" : 1.2271896866760685,
+                "99.0" : 1.2271896866760685,
+                "99.9" : 1.2271896866760685,
+                "99.99" : 1.2271896866760685,
+                "99.999" : 1.2271896866760685,
+                "99.9999" : 1.2271896866760685,
+                "100.0" : 1.2271896866760685
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.2271896866760685,
+                    1.2167756524065472,
+                    1.2230348619293228,
+                    1.2138308146351324,
+                    1.2240268690064584
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 1.2288306543860166,
+            "scoreError" : 0.071031700497942,
+            "scoreConfidence" : [
+                1.1577989538880746,
+                1.2998623548839585
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.218126088914676,
+                "50.0" : 1.2182109269131836,
+                "90.0" : 1.2607704208258619,
+                "95.0" : 1.2607704208258619,
+                "99.0" : 1.2607704208258619,
+                "99.9" : 1.2607704208258619,
+                "99.99" : 1.2607704208258619,
+                "99.999" : 1.2607704208258619,
+                "99.9999" : 1.2607704208258619,
+                "100.0" : 1.2607704208258619
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.2288738451840542,
+                    1.218171990092307,
+                    1.218126088914676,
+                    1.2182109269131836,
+                    1.2607704208258619
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 1.3715679127028868,
+            "scoreError" : 0.015748570596085504,
+            "scoreConfidence" : [
+                1.3558193421068012,
+                1.3873164832989724
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.3675645597885526,
+                "50.0" : 1.370525893211909,
+                "90.0" : 1.3763126318589591,
+                "95.0" : 1.3763126318589591,
+                "99.0" : 1.3763126318589591,
+                "99.9" : 1.3763126318589591,
+                "99.99" : 1.3763126318589591,
+                "99.999" : 1.3763126318589591,
+                "99.9999" : 1.3763126318589591,
+                "100.0" : 1.3763126318589591
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.3754085929876163,
+                    1.368027885667396,
+                    1.3763126318589591,
+                    1.3675645597885526,
+                    1.370525893211909
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 1.2204395847684641,
+            "scoreError" : 0.01356342742472613,
+            "scoreConfidence" : [
+                1.206876157343738,
+                1.2340030121931902
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.2166488709860432,
+                "50.0" : 1.2217836305392853,
+                "90.0" : 1.2244116615483749,
+                "95.0" : 1.2244116615483749,
+                "99.0" : 1.2244116615483749,
+                "99.9" : 1.2244116615483749,
+                "99.99" : 1.2244116615483749,
+                "99.999" : 1.2244116615483749,
+                "99.9999" : 1.2244116615483749,
+                "100.0" : 1.2244116615483749
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.2244116615483749,
+                    1.2217836305392853,
+                    1.2225501899917324,
+                    1.2166488709860432,
+                    1.2168035707768852
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 1.248333014296189,
+            "scoreError" : 0.03408192548877158,
+            "scoreConfidence" : [
+                1.2142510888074174,
+                1.2824149397849607
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.2377211537272266,
+                "50.0" : 1.2471302987883144,
+                "90.0" : 1.2612835862277563,
+                "95.0" : 1.2612835862277563,
+                "99.0" : 1.2612835862277563,
+                "99.9" : 1.2612835862277563,
+                "99.99" : 1.2612835862277563,
+                "99.999" : 1.2612835862277563,
+                "99.9999" : 1.2612835862277563,
+                "100.0" : 1.2612835862277563
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.2471302987883144,
+                    1.2516980723855895,
+                    1.2438319603520578,
+                    1.2612835862277563,
+                    1.2377211537272266
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 1.375734608097068,
+            "scoreError" : 0.018188480687412474,
+            "scoreConfidence" : [
+                1.3575461274096556,
+                1.3939230887844805
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.3697682796017947,
+                "50.0" : 1.3767587906746395,
+                "90.0" : 1.3808447323860709,
+                "95.0" : 1.3808447323860709,
+                "99.0" : 1.3808447323860709,
+                "99.9" : 1.3808447323860709,
+                "99.99" : 1.3808447323860709,
+                "99.999" : 1.3808447323860709,
+                "99.9999" : 1.3808447323860709,
+                "100.0" : 1.3808447323860709
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.3767587906746395,
+                    1.3792887470240558,
+                    1.3697682796017947,
+                    1.3808447323860709,
+                    1.37201249079878
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 1.6045781752893427,
+            "scoreError" : 0.0915658314831249,
+            "scoreConfidence" : [
+                1.5130123438062177,
+                1.6961440067724676
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.586692824934318,
+                "50.0" : 1.6002385779493633,
+                "90.0" : 1.6456721637728278,
+                "95.0" : 1.6456721637728278,
+                "99.0" : 1.6456721637728278,
+                "99.9" : 1.6456721637728278,
+                "99.99" : 1.6456721637728278,
+                "99.999" : 1.6456721637728278,
+                "99.9999" : 1.6456721637728278,
+                "100.0" : 1.6456721637728278
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.586692824934318,
+                    1.6004529354358759,
+                    1.5898343743543286,
+                    1.6002385779493633,
+                    1.6456721637728278
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 1.6590106507996136,
+            "scoreError" : 0.06710407595334829,
+            "scoreConfidence" : [
+                1.5919065748462653,
+                1.726114726752962
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.6423550102294235,
+                "50.0" : 1.6535114429395272,
+                "90.0" : 1.6883322255399789,
+                "95.0" : 1.6883322255399789,
+                "99.0" : 1.6883322255399789,
+                "99.9" : 1.6883322255399789,
+                "99.99" : 1.6883322255399789,
+                "99.999" : 1.6883322255399789,
+                "99.9999" : 1.6883322255399789,
+                "100.0" : 1.6883322255399789
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.6535114429395272,
+                    1.6587192676065678,
+                    1.6883322255399789,
+                    1.6521353076825704,
+                    1.6423550102294235
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 1.802825937407287,
+            "scoreError" : 0.07519505359794076,
+            "scoreConfidence" : [
+                1.7276308838093462,
+                1.878020991005228
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.7893294771160024,
+                "50.0" : 1.7901117425032944,
+                "90.0" : 1.833539964931788,
+                "95.0" : 1.833539964931788,
+                "99.0" : 1.833539964931788,
+                "99.9" : 1.833539964931788,
+                "99.99" : 1.833539964931788,
+                "99.999" : 1.833539964931788,
+                "99.9999" : 1.833539964931788,
+                "100.0" : 1.833539964931788
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.7893294771160024,
+                    1.833539964931788,
+                    1.789895738920956,
+                    1.8112527635643947,
+                    1.7901117425032944
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 2.0166649588958316,
+            "scoreError" : 0.04514317240451741,
+            "scoreConfidence" : [
+                1.9715217864913142,
+                2.061808131300349
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.0048645225929267,
+                "50.0" : 2.0189592444859987,
+                "90.0" : 2.0323025371639,
+                "95.0" : 2.0323025371639,
+                "99.0" : 2.0323025371639,
+                "99.9" : 2.0323025371639,
+                "99.99" : 2.0323025371639,
+                "99.999" : 2.0323025371639,
+                "99.9999" : 2.0323025371639,
+                "100.0" : 2.0323025371639
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.0048645225929267,
+                    2.0323025371639,
+                    2.0051754596883535,
+                    2.0220230305479774,
+                    2.0189592444859987
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 2.103707708226488,
+            "scoreError" : 0.04543840516650557,
+            "scoreConfidence" : [
+                2.0582693030599826,
+                2.1491461133929937
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.0892700985441084,
+                "50.0" : 2.1005886275223196,
+                "90.0" : 2.1201536771924374,
+                "95.0" : 2.1201536771924374,
+                "99.0" : 2.1201536771924374,
+                "99.9" : 2.1201536771924374,
+                "99.99" : 2.1201536771924374,
+                "99.999" : 2.1201536771924374,
+                "99.9999" : 2.1201536771924374,
+                "100.0" : 2.1201536771924374
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.1005886275223196,
+                    2.1201536771924374,
+                    2.0892700985441084,
+                    2.0984441431177525,
+                    2.1100819947558223
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 2.2242916331104725,
+            "scoreError" : 0.027705320394670357,
+            "scoreConfidence" : [
+                2.196586312715802,
+                2.251996953505143
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.2128893901863647,
+                "50.0" : 2.2275725308641974,
+                "90.0" : 2.231331460381874,
+                "95.0" : 2.231331460381874,
+                "99.0" : 2.231331460381874,
+                "99.9" : 2.231331460381874,
+                "99.99" : 2.231331460381874,
+                "99.999" : 2.231331460381874,
+                "99.9999" : 2.231331460381874,
+                "100.0" : 2.231331460381874
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.221990586215318,
+                    2.2275725308641974,
+                    2.231331460381874,
+                    2.2128893901863647,
+                    2.227674197904609
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 2.6286987541363787,
+            "scoreError" : 0.033425978115039924,
+            "scoreConfidence" : [
+                2.5952727760213388,
+                2.6621247322514185
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.6211906786690298,
+                "50.0" : 2.626883222791943,
+                "90.0" : 2.6435762511886733,
+                "95.0" : 2.6435762511886733,
+                "99.0" : 2.6435762511886733,
+                "99.9" : 2.6435762511886733,
+                "99.99" : 2.6435762511886733,
+                "99.999" : 2.6435762511886733,
+                "99.9999" : 2.6435762511886733,
+                "100.0" : 2.6435762511886733
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.6211906786690298,
+                    2.6275001881920432,
+                    2.6435762511886733,
+                    2.626883222791943,
+                    2.6243434298402044
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 2.6238018478990495,
+            "scoreError" : 0.0709416622307476,
+            "scoreConfidence" : [
+                2.552860185668302,
+                2.694743510129797
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.6000816860414755,
+                "50.0" : 2.6238288601751965,
+                "90.0" : 2.650073757249927,
+                "95.0" : 2.650073757249927,
+                "99.0" : 2.650073757249927,
+                "99.9" : 2.650073757249927,
+                "99.99" : 2.650073757249927,
+                "99.999" : 2.650073757249927,
+                "99.9999" : 2.650073757249927,
+                "100.0" : 2.650073757249927
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.6000816860414755,
+                    2.615388898082903,
+                    2.6296360379457444,
+                    2.650073757249927,
+                    2.6238288601751965
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 2.718664530323797,
+            "scoreError" : 0.0324409141409984,
+            "scoreConfidence" : [
+                2.6862236161827986,
+                2.751105444464795
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.7102159819413094,
+                "50.0" : 2.719392686329215,
+                "90.0" : 2.7291668121079904,
+                "95.0" : 2.7291668121079904,
+                "99.0" : 2.7291668121079904,
+                "99.9" : 2.7291668121079904,
+                "99.99" : 2.7291668121079904,
+                "99.999" : 2.7291668121079904,
+                "99.9999" : 2.7291668121079904,
+                "100.0" : 2.7291668121079904
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.7102159819413094,
+                    2.724267641051246,
+                    2.7291668121079904,
+                    2.719392686329215,
+                    2.7102795301892244
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 4.490861253427343,
+            "scoreError" : 0.06204177508375194,
+            "scoreConfidence" : [
+                4.428819478343591,
+                4.5529030285110945
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.467755405747281,
+                "50.0" : 4.490644456409566,
+                "90.0" : 4.513269799263213,
+                "95.0" : 4.513269799263213,
+                "99.0" : 4.513269799263213,
+                "99.9" : 4.513269799263213,
+                "99.99" : 4.513269799263213,
+                "99.999" : 4.513269799263213,
+                "99.9999" : 4.513269799263213,
+                "100.0" : 4.513269799263213
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.513269799263213,
+                    4.467755405747281,
+                    4.49229425407751,
+                    4.490644456409566,
+                    4.490342351639148
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 4.511199714874179,
+            "scoreError" : 0.17385622518180913,
+            "scoreConfidence" : [
+                4.33734348969237,
+                4.685055940055988
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.470807306099341,
+                "50.0" : 4.4853171912832925,
+                "90.0" : 4.564366733588854,
+                "95.0" : 4.564366733588854,
+                "99.0" : 4.564366733588854,
+                "99.9" : 4.564366733588854,
+                "99.99" : 4.564366733588854,
+                "99.999" : 4.564366733588854,
+                "99.9999" : 4.564366733588854,
+                "100.0" : 4.564366733588854
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.556094022803529,
+                    4.564366733588854,
+                    4.479413320595874,
+                    4.470807306099341,
+                    4.4853171912832925
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 4.819915542091632,
+            "scoreError" : 0.0628055642785225,
+            "scoreConfidence" : [
+                4.757109977813109,
+                4.8827211063701546
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.805951265589728,
+                "50.0" : 4.811218493051882,
+                "90.0" : 4.838347292744652,
+                "95.0" : 4.838347292744652,
+                "99.0" : 4.838347292744652,
+                "99.9" : 4.838347292744652,
+                "99.99" : 4.838347292744652,
+                "99.999" : 4.838347292744652,
+                "99.9999" : 4.838347292744652,
+                "100.0" : 4.838347292744652
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.836943470696266,
+                    4.811218493051882,
+                    4.838347292744652,
+                    4.805951265589728,
+                    4.8071171883756305
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 4.662383926536679,
+            "scoreError" : 0.41396530310026536,
+            "scoreConfidence" : [
+                4.248418623436414,
+                5.076349229636944
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.6057375162997625,
+                "50.0" : 4.616329417372718,
+                "90.0" : 4.85398442755498,
+                "95.0" : 4.85398442755498,
+                "99.0" : 4.85398442755498,
+                "99.9" : 4.85398442755498,
+                "99.99" : 4.85398442755498,
+                "99.999" : 4.85398442755498,
+                "99.9999" : 4.85398442755498,
+                "100.0" : 4.85398442755498
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.628832642111592,
+                    4.60703562934434,
+                    4.6057375162997625,
+                    4.85398442755498,
+                    4.616329417372718
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 4.764551827043008,
+            "scoreError" : 0.07026531186856269,
+            "scoreConfidence" : [
+                4.694286515174445,
+                4.834817138911571
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.735542039271351,
+                "50.0" : 4.76661910431649,
+                "90.0" : 4.78159358774249,
+                "95.0" : 4.78159358774249,
+                "99.0" : 4.78159358774249,
+                "99.9" : 4.78159358774249,
+                "99.99" : 4.78159358774249,
+                "99.999" : 4.78159358774249,
+                "99.9999" : 4.78159358774249,
+                "100.0" : 4.78159358774249
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.76661910431649,
+                    4.7780647835773395,
+                    4.78159358774249,
+                    4.76093962030737,
+                    4.735542039271351
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 4.899458596590995,
+            "scoreError" : 0.10927342680648396,
+            "scoreConfidence" : [
+                4.790185169784511,
+                5.00873202339748
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.879276084093459,
+                "50.0" : 4.892577491196035,
+                "90.0" : 4.948875591615956,
+                "95.0" : 4.948875591615956,
+                "99.0" : 4.948875591615956,
+                "99.9" : 4.948875591615956,
+                "99.99" : 4.948875591615956,
+                "99.999" : 4.948875591615956,
+                "99.9999" : 4.948875591615956,
+                "100.0" : 4.948875591615956
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.892577491196035,
+                    4.882171452276757,
+                    4.894392363772773,
+                    4.948875591615956,
+                    4.879276084093459
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 9.90641466717409,
+            "scoreError" : 0.1809843792172426,
+            "scoreConfidence" : [
+                9.725430287956847,
+                10.087399046391333
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.85732209122853,
+                "50.0" : 9.918284274859596,
+                "90.0" : 9.960891359171754,
+                "95.0" : 9.960891359171754,
+                "99.0" : 9.960891359171754,
+                "99.9" : 9.960891359171754,
+                "99.99" : 9.960891359171754,
+                "99.999" : 9.960891359171754,
+                "99.9999" : 9.960891359171754,
+                "100.0" : 9.960891359171754
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    9.93759281575898,
+                    9.960891359171754,
+                    9.85732209122853,
+                    9.857982794851589,
+                    9.918284274859596
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 9.695562337233593,
+            "scoreError" : 0.12077963354585007,
+            "scoreConfidence" : [
+                9.574782703687744,
+                9.816341970779442
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.647083499389343,
+                "50.0" : 9.71371844974281,
+                "90.0" : 9.7190626679183,
+                "95.0" : 9.7190626679183,
+                "99.0" : 9.7190626679183,
+                "99.9" : 9.7190626679183,
+                "99.99" : 9.7190626679183,
+                "99.999" : 9.7190626679183,
+                "99.9999" : 9.7190626679183,
+                "100.0" : 9.7190626679183
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    9.7190626679183,
+                    9.71371844974281,
+                    9.680535184468525,
+                    9.717411884648994,
+                    9.647083499389343
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_buildAndSign",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 9.714209336162927,
+            "scoreError" : 0.19133238815437373,
+            "scoreConfidence" : [
+                9.522876948008554,
+                9.9055417243173
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.65986020086268,
+                "50.0" : 9.699426373626373,
+                "90.0" : 9.79093810968647,
+                "95.0" : 9.79093810968647,
+                "99.0" : 9.79093810968647,
+                "99.9" : 9.79093810968647,
+                "99.99" : 9.79093810968647,
+                "99.999" : 9.79093810968647,
+                "99.9999" : 9.79093810968647,
+                "100.0" : 9.79093810968647
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    9.690571267114441,
+                    9.730250729524673,
+                    9.65986020086268,
+                    9.79093810968647,
+                    9.699426373626373
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 1.329259957284784,
+            "scoreError" : 0.08393808732245894,
+            "scoreConfidence" : [
+                1.2453218699623252,
+                1.413198044607243
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.318644106884782,
+                "50.0" : 1.3199131206920804,
+                "90.0" : 1.3682388653077229,
+                "95.0" : 1.3682388653077229,
+                "99.0" : 1.3682388653077229,
+                "99.9" : 1.3682388653077229,
+                "99.99" : 1.3682388653077229,
+                "99.999" : 1.3682388653077229,
+                "99.9999" : 1.3682388653077229,
+                "100.0" : 1.3682388653077229
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.3202352084671354,
+                    1.3682388653077229,
+                    1.318644106884782,
+                    1.3199131206920804,
+                    1.3192684850722
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 1.3736218903519999,
+            "scoreError" : 0.02720354799197155,
+            "scoreConfidence" : [
+                1.3464183423600284,
+                1.4008254383439713
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.367339032454934,
+                "50.0" : 1.3697662479868238,
+                "90.0" : 1.3827271743285754,
+                "95.0" : 1.3827271743285754,
+                "99.0" : 1.3827271743285754,
+                "99.9" : 1.3827271743285754,
+                "99.99" : 1.3827271743285754,
+                "99.999" : 1.3827271743285754,
+                "99.9999" : 1.3827271743285754,
+                "100.0" : 1.3827271743285754
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.3827271743285754,
+                    1.37969989612443,
+                    1.3697662479868238,
+                    1.3685771008652365,
+                    1.367339032454934
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 1.5237033317968591,
+            "scoreError" : 0.0424135310711542,
+            "scoreConfidence" : [
+                1.481289800725705,
+                1.5661168628680133
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.5128057271875095,
+                "50.0" : 1.5190692809796082,
+                "90.0" : 1.537567087634808,
+                "95.0" : 1.537567087634808,
+                "99.0" : 1.537567087634808,
+                "99.9" : 1.537567087634808,
+                "99.99" : 1.537567087634808,
+                "99.999" : 1.537567087634808,
+                "99.9999" : 1.537567087634808,
+                "100.0" : 1.537567087634808
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.5190692809796082,
+                    1.537567087634808,
+                    1.5128057271875095,
+                    1.515834868221751,
+                    1.5332396949606186
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 1.3970406506918513,
+            "scoreError" : 0.03500114935079089,
+            "scoreConfidence" : [
+                1.3620395013410604,
+                1.4320418000426423
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.3870141368875748,
+                "50.0" : 1.3954217224182086,
+                "90.0" : 1.411619522951999,
+                "95.0" : 1.411619522951999,
+                "99.0" : 1.411619522951999,
+                "99.9" : 1.411619522951999,
+                "99.99" : 1.411619522951999,
+                "99.999" : 1.411619522951999,
+                "99.9999" : 1.411619522951999,
+                "100.0" : 1.411619522951999
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.3932835499443001,
+                    1.3978643212571742,
+                    1.3954217224182086,
+                    1.3870141368875748,
+                    1.411619522951999
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 1.4455696855028684,
+            "scoreError" : 0.027973263408877805,
+            "scoreConfidence" : [
+                1.4175964220939905,
+                1.4735429489117462
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.4376315131664008,
+                "50.0" : 1.44286033680649,
+                "90.0" : 1.4569219770726356,
+                "95.0" : 1.4569219770726356,
+                "99.0" : 1.4569219770726356,
+                "99.9" : 1.4569219770726356,
+                "99.99" : 1.4569219770726356,
+                "99.999" : 1.4569219770726356,
+                "99.9999" : 1.4569219770726356,
+                "100.0" : 1.4569219770726356
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.4476274609075523,
+                    1.4569219770726356,
+                    1.4428071395612636,
+                    1.4376315131664008,
+                    1.44286033680649
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 1.6279694319781655,
+            "scoreError" : 0.09235983208835803,
+            "scoreConfidence" : [
+                1.5356095998898074,
+                1.7203292640665235
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.610648666047929,
+                "50.0" : 1.6188421969558042,
+                "90.0" : 1.6699360655464333,
+                "95.0" : 1.6699360655464333,
+                "99.0" : 1.6699360655464333,
+                "99.9" : 1.6699360655464333,
+                "99.99" : 1.6699360655464333,
+                "99.999" : 1.6699360655464333,
+                "99.9999" : 1.6699360655464333,
+                "100.0" : 1.6699360655464333
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.6188421969558042,
+                    1.6699360655464333,
+                    1.6244703825964608,
+                    1.610648666047929,
+                    1.6159498487442001
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 1.7569361658028817,
+            "scoreError" : 0.024782357751001596,
+            "scoreConfidence" : [
+                1.7321538080518801,
+                1.7817185235538833
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.7497257158179444,
+                "50.0" : 1.7555292569831422,
+                "90.0" : 1.767096758054833,
+                "95.0" : 1.767096758054833,
+                "99.0" : 1.767096758054833,
+                "99.9" : 1.767096758054833,
+                "99.99" : 1.767096758054833,
+                "99.999" : 1.767096758054833,
+                "99.9999" : 1.767096758054833,
+                "100.0" : 1.767096758054833
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.7542560399742855,
+                    1.7497257158179444,
+                    1.7555292569831422,
+                    1.7580730581842032,
+                    1.767096758054833
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 1.8343202938857341,
+            "scoreError" : 0.10638439771038496,
+            "scoreConfidence" : [
+                1.7279358961753493,
+                1.940704691596119
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.8190115058832084,
+                "50.0" : 1.8224696052783325,
+                "90.0" : 1.8835218297044614,
+                "95.0" : 1.8835218297044614,
+                "99.0" : 1.8835218297044614,
+                "99.9" : 1.8835218297044614,
+                "99.99" : 1.8835218297044614,
+                "99.999" : 1.8835218297044614,
+                "99.9999" : 1.8835218297044614,
+                "100.0" : 1.8835218297044614
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.8190115058832084,
+                    1.8260049942210597,
+                    1.8835218297044614,
+                    1.8205935343416089,
+                    1.8224696052783325
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 1.9605001531842963,
+            "scoreError" : 0.06041256640130245,
+            "scoreConfidence" : [
+                1.9000875867829938,
+                2.0209127195855987
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.9467778008339116,
+                "50.0" : 1.9517876794258373,
+                "90.0" : 1.9784222977870916,
+                "95.0" : 1.9784222977870916,
+                "99.0" : 1.9784222977870916,
+                "99.9" : 1.9784222977870916,
+                "99.99" : 1.9784222977870916,
+                "99.999" : 1.9784222977870916,
+                "99.9999" : 1.9784222977870916,
+                "100.0" : 1.9784222977870916
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1.9784222977870916,
+                    1.9488105761180663,
+                    1.9517876794258373,
+                    1.9467778008339116,
+                    1.9767024117565726
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 2.3713825439794864,
+            "scoreError" : 0.09734710378176326,
+            "scoreConfidence" : [
+                2.274035440197723,
+                2.4687296477612497
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.3546525220992525,
+                "50.0" : 2.361004458984421,
+                "90.0" : 2.4159323884590354,
+                "95.0" : 2.4159323884590354,
+                "99.0" : 2.4159323884590354,
+                "99.9" : 2.4159323884590354,
+                "99.99" : 2.4159323884590354,
+                "99.999" : 2.4159323884590354,
+                "99.9999" : 2.4159323884590354,
+                "100.0" : 2.4159323884590354
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.3546525220992525,
+                    2.361004458984421,
+                    2.366665920396049,
+                    2.3586574299586744,
+                    2.4159323884590354
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 2.3538618242879426,
+            "scoreError" : 0.07088110764831204,
+            "scoreConfidence" : [
+                2.2829807166396305,
+                2.4247429319362546
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.3290884240754397,
+                "50.0" : 2.3569282376318497,
+                "90.0" : 2.37498057092207,
+                "95.0" : 2.37498057092207,
+                "99.0" : 2.37498057092207,
+                "99.9" : 2.37498057092207,
+                "99.99" : 2.37498057092207,
+                "99.999" : 2.37498057092207,
+                "99.9999" : 2.37498057092207,
+                "100.0" : 2.37498057092207
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.3421964289894883,
+                    2.3661154598208656,
+                    2.37498057092207,
+                    2.3290884240754397,
+                    2.3569282376318497
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 2.5074789510673745,
+            "scoreError" : 0.1744087565030095,
+            "scoreConfidence" : [
+                2.333070194564365,
+                2.681887707570384
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.4815284661754857,
+                "50.0" : 2.4878897683477685,
+                "90.0" : 2.587712630698813,
+                "95.0" : 2.587712630698813,
+                "99.0" : 2.587712630698813,
+                "99.9" : 2.587712630698813,
+                "99.99" : 2.587712630698813,
+                "99.999" : 2.587712630698813,
+                "99.9999" : 2.587712630698813,
+                "100.0" : 2.587712630698813
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.587712630698813,
+                    2.4878897683477685,
+                    2.4975320829137995,
+                    2.4815284661754857,
+                    2.482731807201006
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 2.9468992543028394,
+            "scoreError" : 0.021846666113557095,
+            "scoreConfidence" : [
+                2.925052588189282,
+                2.9687459204163966
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.93987517626322,
+                "50.0" : 2.9454013126269216,
+                "90.0" : 2.9553030511878857,
+                "95.0" : 2.9553030511878857,
+                "99.0" : 2.9553030511878857,
+                "99.9" : 2.9553030511878857,
+                "99.99" : 2.9553030511878857,
+                "99.999" : 2.9553030511878857,
+                "99.9999" : 2.9553030511878857,
+                "100.0" : 2.9553030511878857
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.9454013126269216,
+                    2.9487670340681365,
+                    2.9553030511878857,
+                    2.945149697368034,
+                    2.93987517626322
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 2.975018566893782,
+            "scoreError" : 0.06099570804362771,
+            "scoreConfidence" : [
+                2.914022858850154,
+                3.03601427493741
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.9545087063085056,
+                "50.0" : 2.98165231774921,
+                "90.0" : 2.989489853831448,
+                "95.0" : 2.989489853831448,
+                "99.0" : 2.989489853831448,
+                "99.9" : 2.989489853831448,
+                "99.99" : 2.989489853831448,
+                "99.999" : 2.989489853831448,
+                "99.9999" : 2.989489853831448,
+                "100.0" : 2.989489853831448
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.989489853831448,
+                    2.961887121914646,
+                    2.9545087063085056,
+                    2.987554834665101,
+                    2.98165231774921
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 3.090466243751128,
+            "scoreError" : 0.2205830676029029,
+            "scoreConfidence" : [
+                2.869883176148225,
+                3.3110493113540307
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.0454512487066605,
+                "50.0" : 3.074313551425792,
+                "90.0" : 3.1872720681125726,
+                "95.0" : 3.1872720681125726,
+                "99.0" : 3.1872720681125726,
+                "99.9" : 3.1872720681125726,
+                "99.99" : 3.1872720681125726,
+                "99.999" : 3.1872720681125726,
+                "99.9999" : 3.1872720681125726,
+                "100.0" : 3.1872720681125726
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.1872720681125726,
+                    3.0930492865605523,
+                    3.0454512487066605,
+                    3.074313551425792,
+                    3.05224506395006
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 5.240373743182683,
+            "scoreError" : 0.28559130090343327,
+            "scoreConfidence" : [
+                4.95478244227925,
+                5.525965044086116
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.173723243224606,
+                "50.0" : 5.20722916485919,
+                "90.0" : 5.36277547446299,
+                "95.0" : 5.36277547446299,
+                "99.0" : 5.36277547446299,
+                "99.9" : 5.36277547446299,
+                "99.99" : 5.36277547446299,
+                "99.999" : 5.36277547446299,
+                "99.9999" : 5.36277547446299,
+                "100.0" : 5.36277547446299
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.36277547446299,
+                    5.20722916485919,
+                    5.173723243224606,
+                    5.253814107389835,
+                    5.204326725976796
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 5.1535174848627365,
+            "scoreError" : 0.0904431296823776,
+            "scoreConfidence" : [
+                5.063074355180359,
+                5.243960614545114
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.130006595810123,
+                "50.0" : 5.147006172627825,
+                "90.0" : 5.190698426422272,
+                "95.0" : 5.190698426422272,
+                "99.0" : 5.190698426422272,
+                "99.9" : 5.190698426422272,
+                "99.99" : 5.190698426422272,
+                "99.999" : 5.190698426422272,
+                "99.9999" : 5.190698426422272,
+                "100.0" : 5.190698426422272
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.130006595810123,
+                    5.190698426422272,
+                    5.1600252475842305,
+                    5.147006172627825,
+                    5.139850981869232
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 5.295408221569588,
+            "scoreError" : 0.30307603984006964,
+            "scoreConfidence" : [
+                4.992332181729518,
+                5.5984842614096575
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.2450801705458865,
+                "50.0" : 5.2654727859535875,
+                "90.0" : 5.432665616911911,
+                "95.0" : 5.432665616911911,
+                "99.0" : 5.432665616911911,
+                "99.9" : 5.432665616911911,
+                "99.99" : 5.432665616911911,
+                "99.999" : 5.432665616911911,
+                "99.9999" : 5.432665616911911,
+                "100.0" : 5.432665616911911
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.245852583931911,
+                    5.2654727859535875,
+                    5.287969950504642,
+                    5.432665616911911,
+                    5.2450801705458865
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 5.520870760852716,
+            "scoreError" : 0.0350218981058908,
+            "scoreConfidence" : [
+                5.485848862746826,
+                5.555892658958607
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.505997909330986,
+                "50.0" : 5.523777039586285,
+                "90.0" : 5.53023196683556,
+                "95.0" : 5.53023196683556,
+                "99.0" : 5.53023196683556,
+                "99.9" : 5.53023196683556,
+                "99.99" : 5.53023196683556,
+                "99.999" : 5.53023196683556,
+                "99.9999" : 5.53023196683556,
+                "100.0" : 5.53023196683556
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.505997909330986,
+                    5.523777039586285,
+                    5.519914318817126,
+                    5.524432569693624,
+                    5.53023196683556
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 5.352037298656183,
+            "scoreError" : 0.16219002104149896,
+            "scoreConfidence" : [
+                5.189847277614684,
+                5.514227319697682
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.287989660578091,
+                "50.0" : 5.363221309132485,
+                "90.0" : 5.403127490326645,
+                "95.0" : 5.403127490326645,
+                "99.0" : 5.403127490326645,
+                "99.9" : 5.403127490326645,
+                "99.99" : 5.403127490326645,
+                "99.999" : 5.403127490326645,
+                "99.9999" : 5.403127490326645,
+                "100.0" : 5.403127490326645
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.287989660578091,
+                    5.364270689994103,
+                    5.363221309132485,
+                    5.3415773432495905,
+                    5.403127490326645
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 5.542754368756025,
+            "scoreError" : 0.19245308316865067,
+            "scoreConfidence" : [
+                5.350301285587374,
+                5.735207451924676
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.490740014630578,
+                "50.0" : 5.532648601334169,
+                "90.0" : 5.6219786532843985,
+                "95.0" : 5.6219786532843985,
+                "99.0" : 5.6219786532843985,
+                "99.9" : 5.6219786532843985,
+                "99.99" : 5.6219786532843985,
+                "99.999" : 5.6219786532843985,
+                "99.9999" : 5.6219786532843985,
+                "100.0" : 5.6219786532843985
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.532648601334169,
+                    5.6219786532843985,
+                    5.514690746082196,
+                    5.553713828448786,
+                    5.490740014630578
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 10.486774443368319,
+            "scoreError" : 0.26729849861997396,
+            "scoreConfidence" : [
+                10.219475944748345,
+                10.754072941988293
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.378228118086284,
+                "50.0" : 10.49114779995107,
+                "90.0" : 10.552624389215032,
+                "95.0" : 10.552624389215032,
+                "99.0" : 10.552624389215032,
+                "99.9" : 10.552624389215032,
+                "99.99" : 10.552624389215032,
+                "99.999" : 10.552624389215032,
+                "99.9999" : 10.552624389215032,
+                "100.0" : 10.552624389215032
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    10.540596220715816,
+                    10.471275688873387,
+                    10.552624389215032,
+                    10.378228118086284,
+                    10.49114779995107
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 10.534605967617694,
+            "scoreError" : 0.41910390563320077,
+            "scoreConfidence" : [
+                10.115502061984493,
+                10.953709873250894
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.44267384347826,
+                "50.0" : 10.511915951672211,
+                "90.0" : 10.722453837637058,
+                "95.0" : 10.722453837637058,
+                "99.0" : 10.722453837637058,
+                "99.9" : 10.722453837637058,
+                "99.99" : 10.722453837637058,
+                "99.999" : 10.722453837637058,
+                "99.9999" : 10.722453837637058,
+                "100.0" : 10.722453837637058
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    10.722453837637058,
+                    10.512999159663865,
+                    10.482987045637069,
+                    10.44267384347826,
+                    10.511915951672211
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createJwt_withVariantClaims",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 10.75331532403742,
+            "scoreError" : 0.2751969655939491,
+            "scoreConfidence" : [
+                10.47811835844347,
+                11.028512289631369
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.693786935460892,
+                "50.0" : 10.72420382142857,
+                "90.0" : 10.867166895902708,
+                "95.0" : 10.867166895902708,
+                "99.0" : 10.867166895902708,
+                "99.9" : 10.867166895902708,
+                "99.99" : 10.867166895902708,
+                "99.999" : 10.867166895902708,
+                "99.9999" : 10.867166895902708,
+                "100.0" : 10.867166895902708
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    10.777854266125848,
+                    10.703564701269071,
+                    10.867166895902708,
+                    10.72420382142857,
+                    10.693786935460892
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 4.544726383750824,
+            "scoreError" : 0.3738724953514904,
+            "scoreConfidence" : [
+                4.170853888399334,
+                4.918598879102314
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.467458347597005,
+                "50.0" : 4.504414688672168,
+                "90.0" : 4.71259840838814,
+                "95.0" : 4.71259840838814,
+                "99.0" : 4.71259840838814,
+                "99.9" : 4.71259840838814,
+                "99.99" : 4.71259840838814,
+                "99.999" : 4.71259840838814,
+                "99.9999" : 4.71259840838814,
+                "100.0" : 4.71259840838814
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.71259840838814,
+                    4.537849535987425,
+                    4.504414688672168,
+                    4.467458347597005,
+                    4.501310938109381
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 4.5277678107253605,
+            "scoreError" : 0.13220803337151935,
+            "scoreConfidence" : [
+                4.395559777353841,
+                4.65997584409688
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.488225386237531,
+                "50.0" : 4.518817539791294,
+                "90.0" : 4.566082094887513,
+                "95.0" : 4.566082094887513,
+                "99.0" : 4.566082094887513,
+                "99.9" : 4.566082094887513,
+                "99.99" : 4.566082094887513,
+                "99.999" : 4.566082094887513,
+                "99.9999" : 4.566082094887513,
+                "100.0" : 4.566082094887513
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.566082094887513,
+                    4.518817539791294,
+                    4.560712006079028,
+                    4.488225386237531,
+                    4.505002026631439
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 4.8406707471048716,
+            "scoreError" : 0.42078638186803263,
+            "scoreConfidence" : [
+                4.419884365236839,
+                5.261457128972904
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.75814880735399,
+                "50.0" : 4.792322285020915,
+                "90.0" : 5.02744576134994,
+                "95.0" : 5.02744576134994,
+                "99.0" : 5.02744576134994,
+                "99.9" : 5.02744576134994,
+                "99.99" : 5.02744576134994,
+                "99.999" : 5.02744576134994,
+                "99.9999" : 5.02744576134994,
+                "100.0" : 5.02744576134994
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.02744576134994,
+                    4.84566338820722,
+                    4.779773493592295,
+                    4.792322285020915,
+                    4.75814880735399
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 4.458672091031374,
+            "scoreError" : 0.12083613022674031,
+            "scoreConfidence" : [
+                4.337835960804634,
+                4.579508221258115
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.416379237288136,
+                "50.0" : 4.467034286734724,
+                "90.0" : 4.487785779439252,
+                "95.0" : 4.487785779439252,
+                "99.0" : 4.487785779439252,
+                "99.9" : 4.487785779439252,
+                "99.99" : 4.487785779439252,
+                "99.999" : 4.487785779439252,
+                "99.9999" : 4.487785779439252,
+                "100.0" : 4.487785779439252
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.485790775850477,
+                    4.487785779439252,
+                    4.436370375844283,
+                    4.467034286734724,
+                    4.416379237288136
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 4.533471556504507,
+            "scoreError" : 0.07137573428684314,
+            "scoreConfidence" : [
+                4.462095822217663,
+                4.6048472907913505
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.512589178868877,
+                "50.0" : 4.535545372146774,
+                "90.0" : 4.556035766312595,
+                "95.0" : 4.556035766312595,
+                "99.0" : 4.556035766312595,
+                "99.9" : 4.556035766312595,
+                "99.99" : 4.556035766312595,
+                "99.999" : 4.556035766312595,
+                "99.9999" : 4.556035766312595,
+                "100.0" : 4.556035766312595
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.556035766312595,
+                    4.535545372146774,
+                    4.517140871135184,
+                    4.546046594059106,
+                    4.512589178868877
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 4.837229159122545,
+            "scoreError" : 0.24666288041106468,
+            "scoreConfidence" : [
+                4.5905662787114805,
+                5.08389203953361
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.775907129903598,
+                "50.0" : 4.816123068530077,
+                "90.0" : 4.941204622146137,
+                "95.0" : 4.941204622146137,
+                "99.0" : 4.941204622146137,
+                "99.9" : 4.941204622146137,
+                "99.99" : 4.941204622146137,
+                "99.999" : 4.941204622146137,
+                "99.9999" : 4.941204622146137,
+                "100.0" : 4.941204622146137
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.850586258160429,
+                    4.941204622146137,
+                    4.775907129903598,
+                    4.802324716872481,
+                    4.816123068530077
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 5.280670448074835,
+            "scoreError" : 0.2541536794341838,
+            "scoreConfidence" : [
+                5.026516768640651,
+                5.534824127509019
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.21486494797005,
+                "50.0" : 5.257239975485905,
+                "90.0" : 5.3595932935756885,
+                "95.0" : 5.3595932935756885,
+                "99.0" : 5.3595932935756885,
+                "99.9" : 5.3595932935756885,
+                "99.99" : 5.3595932935756885,
+                "99.999" : 5.3595932935756885,
+                "99.9999" : 5.3595932935756885,
+                "100.0" : 5.3595932935756885
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.229861905010711,
+                    5.341792118331821,
+                    5.3595932935756885,
+                    5.257239975485905,
+                    5.21486494797005
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 5.359554668847392,
+            "scoreError" : 0.32067275491395003,
+            "scoreConfidence" : [
+                5.038881913933442,
+                5.680227423761342
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.311172229497752,
+                "50.0" : 5.3276014590507295,
+                "90.0" : 5.5079924565009915,
+                "95.0" : 5.5079924565009915,
+                "99.0" : 5.5079924565009915,
+                "99.9" : 5.5079924565009915,
+                "99.99" : 5.5079924565009915,
+                "99.999" : 5.5079924565009915,
+                "99.9999" : 5.5079924565009915,
+                "100.0" : 5.5079924565009915
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.329116298479898,
+                    5.321890900707585,
+                    5.311172229497752,
+                    5.3276014590507295,
+                    5.5079924565009915
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 5.563103602479232,
+            "scoreError" : 0.10065189004763234,
+            "scoreConfidence" : [
+                5.4624517124316,
+                5.663755492526864
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.524054213209179,
+                "50.0" : 5.562959184430028,
+                "90.0" : 5.59096711298162,
+                "95.0" : 5.59096711298162,
+                "99.0" : 5.59096711298162,
+                "99.9" : 5.59096711298162,
+                "99.99" : 5.59096711298162,
+                "99.999" : 5.59096711298162,
+                "99.9999" : 5.59096711298162,
+                "100.0" : 5.59096711298162
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.582325033935179,
+                    5.59096711298162,
+                    5.524054213209179,
+                    5.555212467840154,
+                    5.562959184430028
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 6.081411466488783,
+            "scoreError" : 0.09521683521403843,
+            "scoreConfidence" : [
+                5.986194631274745,
+                6.176628301702821
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.043692849665835,
+                "50.0" : 6.090878918217046,
+                "90.0" : 6.102121006422242,
+                "95.0" : 6.102121006422242,
+                "99.0" : 6.102121006422242,
+                "99.9" : 6.102121006422242,
+                "99.99" : 6.102121006422242,
+                "99.999" : 6.102121006422242,
+                "99.9999" : 6.102121006422242,
+                "100.0" : 6.102121006422242
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    6.090878918217046,
+                    6.102121006422242,
+                    6.043692849665835,
+                    6.069752613592704,
+                    6.100611944546083
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 6.357846067635793,
+            "scoreError" : 0.38254933446169326,
+            "scoreConfidence" : [
+                5.9752967331741,
+                6.740395402097486
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.286636011312454,
+                "50.0" : 6.318476765975366,
+                "90.0" : 6.52639649435661,
+                "95.0" : 6.52639649435661,
+                "99.0" : 6.52639649435661,
+                "99.9" : 6.52639649435661,
+                "99.99" : 6.52639649435661,
+                "99.999" : 6.52639649435661,
+                "99.9999" : 6.52639649435661,
+                "100.0" : 6.52639649435661
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    6.52639649435661,
+                    6.318476765975366,
+                    6.286636011312454,
+                    6.366068069490699,
+                    6.2916529970438395
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 6.449572330285332,
+            "scoreError" : 0.18274983058037406,
+            "scoreConfidence" : [
+                6.266822499704959,
+                6.632322160865706
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.383732866954432,
+                "50.0" : 6.464024422285874,
+                "90.0" : 6.499973459182127,
+                "95.0" : 6.499973459182127,
+                "99.0" : 6.499973459182127,
+                "99.9" : 6.499973459182127,
+                "99.99" : 6.499973459182127,
+                "99.999" : 6.499973459182127,
+                "99.9999" : 6.499973459182127,
+                "100.0" : 6.499973459182127
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    6.499973459182127,
+                    6.481091068074357,
+                    6.464024422285874,
+                    6.419039834929866,
+                    6.383732866954432
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 7.537204783533366,
+            "scoreError" : 0.27984380909886486,
+            "scoreConfidence" : [
+                7.257360974434501,
+                7.817048592632231
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.476071321807583,
+                "50.0" : 7.499788254404598,
+                "90.0" : 7.650781587803386,
+                "95.0" : 7.650781587803386,
+                "99.0" : 7.650781587803386,
+                "99.9" : 7.650781587803386,
+                "99.99" : 7.650781587803386,
+                "99.999" : 7.650781587803386,
+                "99.9999" : 7.650781587803386,
+                "100.0" : 7.650781587803386
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    7.650781587803386,
+                    7.499788254404598,
+                    7.476071321807583,
+                    7.491113726566986,
+                    7.568269027084279
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 7.493832925659784,
+            "scoreError" : 0.6214030892367702,
+            "scoreConfidence" : [
+                6.872429836423014,
+                8.115236014896555
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.3583827868450715,
+                "50.0" : 7.461645312849579,
+                "90.0" : 7.758344257210793,
+                "95.0" : 7.758344257210793,
+                "99.0" : 7.758344257210793,
+                "99.9" : 7.758344257210793,
+                "99.99" : 7.758344257210793,
+                "99.999" : 7.758344257210793,
+                "99.9999" : 7.758344257210793,
+                "100.0" : 7.758344257210793
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    7.758344257210793,
+                    7.516558306629281,
+                    7.3583827868450715,
+                    7.461645312849579,
+                    7.374233964764195
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 7.703151552568113,
+            "scoreError" : 0.5001584927864579,
+            "scoreConfidence" : [
+                7.202993059781655,
+                8.203310045354572
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.590899329877355,
+                "50.0" : 7.665697685705528,
+                "90.0" : 7.928192951867702,
+                "95.0" : 7.928192951867702,
+                "99.0" : 7.928192951867702,
+                "99.9" : 7.928192951867702,
+                "99.99" : 7.928192951867702,
+                "99.999" : 7.928192951867702,
+                "99.9999" : 7.928192951867702,
+                "100.0" : 7.928192951867702
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    7.66599106367768,
+                    7.664976731712301,
+                    7.928192951867702,
+                    7.665697685705528,
+                    7.590899329877355
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 10.948284190671055,
+            "scoreError" : 0.6963702873519938,
+            "scoreConfidence" : [
+                10.25191390331906,
+                11.64465447802305
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.79373576899565,
+                "50.0" : 10.877355750416697,
+                "90.0" : 11.255705957335133,
+                "95.0" : 11.255705957335133,
+                "99.0" : 11.255705957335133,
+                "99.9" : 11.255705957335133,
+                "99.99" : 11.255705957335133,
+                "99.999" : 11.255705957335133,
+                "99.9999" : 11.255705957335133,
+                "100.0" : 11.255705957335133
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    10.79373576899565,
+                    10.952246088764086,
+                    10.877355750416697,
+                    11.255705957335133,
+                    10.862377387843704
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 10.98204341551977,
+            "scoreError" : 0.44054129893185046,
+            "scoreConfidence" : [
+                10.541502116587921,
+                11.42258471445162
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.815913814224977,
+                "50.0" : 11.03358833474218,
+                "90.0" : 11.090376320650167,
+                "95.0" : 11.090376320650167,
+                "99.0" : 11.090376320650167,
+                "99.9" : 11.090376320650167,
+                "99.99" : 11.090376320650167,
+                "99.999" : 11.090376320650167,
+                "99.9999" : 11.090376320650167,
+                "100.0" : 11.090376320650167
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    10.913250863479368,
+                    11.090376320650167,
+                    11.03358833474218,
+                    10.815913814224977,
+                    11.057087744502155
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 11.364632347291963,
+            "scoreError" : 0.2493094176898368,
+            "scoreConfidence" : [
+                11.115322929602126,
+                11.6139417649818
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.290438146462558,
+                "50.0" : 11.351633661119516,
+                "90.0" : 11.466400817605257,
+                "95.0" : 11.466400817605257,
+                "99.0" : 11.466400817605257,
+                "99.9" : 11.466400817605257,
+                "99.99" : 11.466400817605257,
+                "99.999" : 11.466400817605257,
+                "99.9999" : 11.466400817605257,
+                "100.0" : 11.466400817605257
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    11.375104046680812,
+                    11.290438146462558,
+                    11.351633661119516,
+                    11.466400817605257,
+                    11.339585064591676
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 12.177745348671426,
+            "scoreError" : 1.2891555072365426,
+            "scoreConfidence" : [
+                10.888589841434882,
+                13.46690085590797
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.933592248800032,
+                "50.0" : 11.968195040267922,
+                "90.0" : 12.70251848874598,
+                "95.0" : 12.70251848874598,
+                "99.0" : 12.70251848874598,
+                "99.9" : 12.70251848874598,
+                "99.99" : 12.70251848874598,
+                "99.999" : 12.70251848874598,
+                "99.9999" : 12.70251848874598,
+                "100.0" : 12.70251848874598
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    11.959314457639277,
+                    12.325106507903921,
+                    12.70251848874598,
+                    11.933592248800032,
+                    11.968195040267922
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 12.01108006609402,
+            "scoreError" : 0.9455858728069216,
+            "scoreConfidence" : [
+                11.0654941932871,
+                12.956665938900942
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.808793154996065,
+                "50.0" : 11.912703746329074,
+                "90.0" : 12.422515560337692,
+                "95.0" : 12.422515560337692,
+                "99.0" : 12.422515560337692,
+                "99.9" : 12.422515560337692,
+                "99.99" : 12.422515560337692,
+                "99.999" : 12.422515560337692,
+                "99.9999" : 12.422515560337692,
+                "100.0" : 12.422515560337692
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    11.912703746329074,
+                    12.04286515321675,
+                    12.422515560337692,
+                    11.808793154996065,
+                    11.868522715590526
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 12.6340436791827,
+            "scoreError" : 0.39304955622862775,
+            "scoreConfidence" : [
+                12.240994122954072,
+                13.027093235411327
+            ],
+            "scorePercentiles" : {
+                "0.0" : 12.541350982030924,
+                "50.0" : 12.598532219470215,
+                "90.0" : 12.768133812704761,
+                "95.0" : 12.768133812704761,
+                "99.0" : 12.768133812704761,
+                "99.9" : 12.768133812704761,
+                "99.99" : 12.768133812704761,
+                "99.999" : 12.768133812704761,
+                "99.9999" : 12.768133812704761,
+                "100.0" : 12.768133812704761
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    12.547957163156134,
+                    12.598532219470215,
+                    12.768133812704761,
+                    12.541350982030924,
+                    12.71424421855146
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 21.197425776556212,
+            "scoreError" : 1.2949283677425787,
+            "scoreConfidence" : [
+                19.902497408813634,
+                22.49235414429879
+            ],
+            "scorePercentiles" : {
+                "0.0" : 20.808617565506722,
+                "50.0" : 21.231704575995472,
+                "90.0" : 21.615395363904685,
+                "95.0" : 21.615395363904685,
+                "99.0" : 21.615395363904685,
+                "99.9" : 21.615395363904685,
+                "99.99" : 21.615395363904685,
+                "99.999" : 21.615395363904685,
+                "99.9999" : 21.615395363904685,
+                "100.0" : 21.615395363904685
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    21.615395363904685,
+                    21.231704575995472,
+                    21.4140027108004,
+                    20.808617565506722,
+                    20.917408666573778
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 21.233469963667154,
+            "scoreError" : 1.4233948776890102,
+            "scoreConfidence" : [
+                19.810075085978145,
+                22.656864841356164
+            ],
+            "scorePercentiles" : {
+                "0.0" : 20.911533119732535,
+                "50.0" : 21.041111578357164,
+                "90.0" : 21.796937173155143,
+                "95.0" : 21.796937173155143,
+                "99.0" : 21.796937173155143,
+                "99.9" : 21.796937173155143,
+                "99.99" : 21.796937173155143,
+                "99.999" : 21.796937173155143,
+                "99.9999" : 21.796937173155143,
+                "100.0" : 21.796937173155143
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    21.417712267180477,
+                    21.796937173155143,
+                    20.911533119732535,
+                    21.041111578357164,
+                    21.000055679910464
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.createThenVerifyJwt",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 21.676948103002644,
+            "scoreError" : 1.2643513467074536,
+            "scoreConfidence" : [
+                20.41259675629519,
+                22.941299449710097
+            ],
+            "scorePercentiles" : {
+                "0.0" : 21.344056937731022,
+                "50.0" : 21.541312047068953,
+                "90.0" : 22.188599526942124,
+                "95.0" : 22.188599526942124,
+                "99.0" : 22.188599526942124,
+                "99.9" : 22.188599526942124,
+                "99.99" : 22.188599526942124,
+                "99.999" : 22.188599526942124,
+                "99.9999" : 22.188599526942124,
+                "100.0" : 22.188599526942124
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    22.188599526942124,
+                    21.79559837374764,
+                    21.515173629523467,
+                    21.541312047068953,
+                    21.344056937731022
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 3.2699108093823326,
+            "scoreError" : 0.14676629209228148,
+            "scoreConfidence" : [
+                3.123144517290051,
+                3.416677101474614
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.2484196106861143,
+                "50.0" : 3.255608220930737,
+                "90.0" : 3.337829363755643,
+                "95.0" : 3.337829363755643,
+                "99.0" : 3.337829363755643,
+                "99.9" : 3.337829363755643,
+                "99.99" : 3.337829363755643,
+                "99.999" : 3.337829363755643,
+                "99.9999" : 3.337829363755643,
+                "100.0" : 3.337829363755643
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.337829363755643,
+                    3.251058480039001,
+                    3.255608220930737,
+                    3.256638371500168,
+                    3.2484196106861143
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 3.2812240554180354,
+            "scoreError" : 0.11507043453869245,
+            "scoreConfidence" : [
+                3.166153620879343,
+                3.396294489956728
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.2539348165495707,
+                "50.0" : 3.276350889640869,
+                "90.0" : 3.3318044742332105,
+                "95.0" : 3.3318044742332105,
+                "99.0" : 3.3318044742332105,
+                "99.9" : 3.3318044742332105,
+                "99.99" : 3.3318044742332105,
+                "99.999" : 3.3318044742332105,
+                "99.9999" : 3.3318044742332105,
+                "100.0" : 3.3318044742332105
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.3318044742332105,
+                    3.278164682756361,
+                    3.2539348165495707,
+                    3.276350889640869,
+                    3.2658654139101673
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 3.5360345134096205,
+            "scoreError" : 0.12730800049787291,
+            "scoreConfidence" : [
+                3.4087265129117474,
+                3.6633425139074935
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.5023343678536425,
+                "50.0" : 3.521864824268028,
+                "90.0" : 3.5741298993628297,
+                "95.0" : 3.5741298993628297,
+                "99.0" : 3.5741298993628297,
+                "99.9" : 3.5741298993628297,
+                "99.99" : 3.5741298993628297,
+                "99.999" : 3.5741298993628297,
+                "99.9999" : 3.5741298993628297,
+                "100.0" : 3.5741298993628297
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.5741298993628297,
+                    3.521864824268028,
+                    3.5023343678536425,
+                    3.5686412119338384,
+                    3.5132022636297666
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 3.266513234251673,
+            "scoreError" : 0.09882858124779627,
+            "scoreConfidence" : [
+                3.1676846530038767,
+                3.365341815499469
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.234738277377925,
+                "50.0" : 3.2632008697070174,
+                "90.0" : 3.3009328904093014,
+                "95.0" : 3.3009328904093014,
+                "99.0" : 3.3009328904093014,
+                "99.9" : 3.3009328904093014,
+                "99.99" : 3.3009328904093014,
+                "99.999" : 3.3009328904093014,
+                "99.9999" : 3.3009328904093014,
+                "100.0" : 3.3009328904093014
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.3009328904093014,
+                    3.2814981739054367,
+                    3.252195959858682,
+                    3.2632008697070174,
+                    3.234738277377925
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 3.3686352833228597,
+            "scoreError" : 0.219810404433758,
+            "scoreConfidence" : [
+                3.148824878889102,
+                3.5884456877566175
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.298070200683224,
+                "50.0" : 3.398217787138635,
+                "90.0" : 3.420798391231528,
+                "95.0" : 3.420798391231528,
+                "99.0" : 3.420798391231528,
+                "99.9" : 3.420798391231528,
+                "99.99" : 3.420798391231528,
+                "99.999" : 3.420798391231528,
+                "99.9999" : 3.420798391231528,
+                "100.0" : 3.420798391231528
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.420798391231528,
+                    3.398217787138635,
+                    3.316160511285173,
+                    3.409929526275739,
+                    3.298070200683224
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "0",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 3.528967084096518,
+            "scoreError" : 0.27674596370746124,
+            "scoreConfidence" : [
+                3.2522211203890565,
+                3.8057130478039793
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.459441317799979,
+                "50.0" : 3.4963403551288623,
+                "90.0" : 3.6094368461556963,
+                "95.0" : 3.6094368461556963,
+                "99.0" : 3.6094368461556963,
+                "99.9" : 3.6094368461556963,
+                "99.99" : 3.6094368461556963,
+                "99.999" : 3.6094368461556963,
+                "99.9999" : 3.6094368461556963,
+                "100.0" : 3.6094368461556963
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.459441317799979,
+                    3.4763560020846604,
+                    3.4963403551288623,
+                    3.6032608993133914,
+                    3.6094368461556963
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 3.697462692147392,
+            "scoreError" : 0.2638746065314419,
+            "scoreConfidence" : [
+                3.43358808561595,
+                3.961337298678834
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.601895443420674,
+                "50.0" : 3.72617174288233,
+                "90.0" : 3.7585329794160365,
+                "95.0" : 3.7585329794160365,
+                "99.0" : 3.7585329794160365,
+                "99.9" : 3.7585329794160365,
+                "99.99" : 3.7585329794160365,
+                "99.999" : 3.7585329794160365,
+                "99.9999" : 3.7585329794160365,
+                "100.0" : 3.7585329794160365
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.7585329794160365,
+                    3.7507569361127775,
+                    3.72617174288233,
+                    3.6499563589051425,
+                    3.601895443420674
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 3.7209923549520107,
+            "scoreError" : 0.13018093093959573,
+            "scoreConfidence" : [
+                3.590811424012415,
+                3.8511732858916066
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.6737563903334354,
+                "50.0" : 3.7160595311765143,
+                "90.0" : 3.7543265765484124,
+                "95.0" : 3.7543265765484124,
+                "99.0" : 3.7543265765484124,
+                "99.9" : 3.7543265765484124,
+                "99.99" : 3.7543265765484124,
+                "99.999" : 3.7543265765484124,
+                "99.9999" : 3.7543265765484124,
+                "100.0" : 3.7543265765484124
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.7530778809967367,
+                    3.7160595311765143,
+                    3.6737563903334354,
+                    3.7543265765484124,
+                    3.707741395704953
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 3.8298467729110484,
+            "scoreError" : 0.2088916009120594,
+            "scoreConfidence" : [
+                3.6209551719989888,
+                4.038738373823108
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.7813932169663995,
+                "50.0" : 3.8046465727033056,
+                "90.0" : 3.888837522674268,
+                "95.0" : 3.888837522674268,
+                "99.0" : 3.888837522674268,
+                "99.9" : 3.888837522674268,
+                "99.99" : 3.888837522674268,
+                "99.999" : 3.888837522674268,
+                "99.9999" : 3.888837522674268,
+                "100.0" : 3.888837522674268
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.8881752616038128,
+                    3.786181290607456,
+                    3.8046465727033056,
+                    3.7813932169663995,
+                    3.888837522674268
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 4.112740350383378,
+            "scoreError" : 0.24560859403975488,
+            "scoreConfidence" : [
+                3.867131756343623,
+                4.358348944423133
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.040905071468949,
+                "50.0" : 4.123410408196902,
+                "90.0" : 4.205496175292107,
+                "95.0" : 4.205496175292107,
+                "99.0" : 4.205496175292107,
+                "99.9" : 4.205496175292107,
+                "99.99" : 4.205496175292107,
+                "99.999" : 4.205496175292107,
+                "99.9999" : 4.205496175292107,
+                "100.0" : 4.205496175292107
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.066149800257295,
+                    4.127740296701635,
+                    4.040905071468949,
+                    4.123410408196902,
+                    4.205496175292107
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 4.111520019232849,
+            "scoreError" : 0.1612004779923012,
+            "scoreConfidence" : [
+                3.9503195412405474,
+                4.27272049722515
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.064033806745102,
+                "50.0" : 4.107973142247627,
+                "90.0" : 4.178696423848435,
+                "95.0" : 4.178696423848435,
+                "99.0" : 4.178696423848435,
+                "99.9" : 4.178696423848435,
+                "99.99" : 4.178696423848435,
+                "99.999" : 4.178696423848435,
+                "99.9999" : 4.178696423848435,
+                "100.0" : 4.178696423848435
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.110506484080794,
+                    4.107973142247627,
+                    4.178696423848435,
+                    4.064033806745102,
+                    4.096390239242286
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "5",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 4.233532507064735,
+            "scoreError" : 0.16102397309225472,
+            "scoreConfidence" : [
+                4.0725085339724805,
+                4.39455648015699
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.184650521297948,
+                "50.0" : 4.242330200412698,
+                "90.0" : 4.282634565998973,
+                "95.0" : 4.282634565998973,
+                "99.0" : 4.282634565998973,
+                "99.9" : 4.282634565998973,
+                "99.99" : 4.282634565998973,
+                "99.999" : 4.282634565998973,
+                "99.9999" : 4.282634565998973,
+                "100.0" : 4.282634565998973
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.2612436829254445,
+                    4.184650521297948,
+                    4.196803564688614,
+                    4.242330200412698,
+                    4.282634565998973
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 4.921943563403624,
+            "scoreError" : 0.30956561303367247,
+            "scoreConfidence" : [
+                4.612377950369951,
+                5.231509176437297
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.8089726681406,
+                "50.0" : 4.955688199557566,
+                "90.0" : 5.005045831318068,
+                "95.0" : 5.005045831318068,
+                "99.0" : 5.005045831318068,
+                "99.9" : 5.005045831318068,
+                "99.99" : 5.005045831318068,
+                "99.999" : 5.005045831318068,
+                "99.9999" : 5.005045831318068,
+                "100.0" : 5.005045831318068
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.970193447944616,
+                    5.005045831318068,
+                    4.869817670057267,
+                    4.8089726681406,
+                    4.955688199557566
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 4.684005866461026,
+            "scoreError" : 0.23768453029138564,
+            "scoreConfidence" : [
+                4.44632133616964,
+                4.921690396752411
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.6185527574801934,
+                "50.0" : 4.675553854539792,
+                "90.0" : 4.781519315629331,
+                "95.0" : 4.781519315629331,
+                "99.0" : 4.781519315629331,
+                "99.9" : 4.781519315629331,
+                "99.99" : 4.781519315629331,
+                "99.999" : 4.781519315629331,
+                "99.9999" : 4.781519315629331,
+                "100.0" : 4.781519315629331
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.675553854539792,
+                    4.781519315629331,
+                    4.6487788466006785,
+                    4.69562455805513,
+                    4.6185527574801934
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 4.865430798719478,
+            "scoreError" : 0.12473165815831773,
+            "scoreConfidence" : [
+                4.74069914056116,
+                4.990162456877796
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.8354729235478935,
+                "50.0" : 4.857269475319129,
+                "90.0" : 4.913281921597512,
+                "95.0" : 4.913281921597512,
+                "99.0" : 4.913281921597512,
+                "99.9" : 4.913281921597512,
+                "99.99" : 4.913281921597512,
+                "99.999" : 4.913281921597512,
+                "99.9999" : 4.913281921597512,
+                "100.0" : 4.913281921597512
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.881729756986239,
+                    4.839399916146615,
+                    4.8354729235478935,
+                    4.857269475319129,
+                    4.913281921597512
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 6.496453247526302,
+            "scoreError" : 0.4904161862061422,
+            "scoreConfidence" : [
+                6.006037061320161,
+                6.986869433732444
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.376979164454261,
+                "50.0" : 6.469640603448276,
+                "90.0" : 6.665057163161518,
+                "95.0" : 6.665057163161518,
+                "99.0" : 6.665057163161518,
+                "99.9" : 6.665057163161518,
+                "99.99" : 6.665057163161518,
+                "99.999" : 6.665057163161518,
+                "99.9999" : 6.665057163161518,
+                "100.0" : 6.665057163161518
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    6.469640603448276,
+                    6.58828133301135,
+                    6.665057163161518,
+                    6.382307973556109,
+                    6.376979164454261
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 6.484773120743957,
+            "scoreError" : 0.1905896438601964,
+            "scoreConfidence" : [
+                6.29418347688376,
+                6.675362764604153
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.414096066323369,
+                "50.0" : 6.476596831973758,
+                "90.0" : 6.543757520927799,
+                "95.0" : 6.543757520927799,
+                "99.0" : 6.543757520927799,
+                "99.9" : 6.543757520927799,
+                "99.99" : 6.543757520927799,
+                "99.999" : 6.543757520927799,
+                "99.9999" : 6.543757520927799,
+                "100.0" : 6.543757520927799
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    6.471679528356793,
+                    6.517735656138066,
+                    6.543757520927799,
+                    6.476596831973758,
+                    6.414096066323369
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "20",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 6.617651481984863,
+            "scoreError" : 0.34012956543979567,
+            "scoreConfidence" : [
+                6.2775219165450675,
+                6.957781047424659
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.509777030836622,
+                "50.0" : 6.6034881868977955,
+                "90.0" : 6.742757448433919,
+                "95.0" : 6.742757448433919,
+                "99.0" : 6.742757448433919,
+                "99.9" : 6.742757448433919,
+                "99.99" : 6.742757448433919,
+                "99.999" : 6.742757448433919,
+                "99.9999" : 6.742757448433919,
+                "100.0" : 6.742757448433919
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    6.6034881868977955,
+                    6.5730160318885655,
+                    6.509777030836622,
+                    6.659218711867415,
+                    6.742757448433919
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 7.024248738226062,
+            "scoreError" : 0.3076975313852213,
+            "scoreConfidence" : [
+                6.71655120684084,
+                7.331946269611283
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.960619663768116,
+                "50.0" : 7.008241507319465,
+                "90.0" : 7.159857677902622,
+                "95.0" : 7.159857677902622,
+                "99.0" : 7.159857677902622,
+                "99.9" : 7.159857677902622,
+                "99.99" : 7.159857677902622,
+                "99.999" : 7.159857677902622,
+                "99.9999" : 7.159857677902622,
+                "100.0" : 7.159857677902622
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    7.159857677902622,
+                    7.008241507319465,
+                    6.960619663768116,
+                    6.970963638893398,
+                    7.021561203246708
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 7.07053668758478,
+            "scoreError" : 0.3625792667587819,
+            "scoreConfidence" : [
+                6.707957420825998,
+                7.433115954343561
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.972066597004528,
+                "50.0" : 7.050760788367121,
+                "90.0" : 7.209011501428674,
+                "95.0" : 7.209011501428674,
+                "99.0" : 7.209011501428674,
+                "99.9" : 7.209011501428674,
+                "99.99" : 7.209011501428674,
+                "99.999" : 7.209011501428674,
+                "99.9999" : 7.209011501428674,
+                "100.0" : 7.209011501428674
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    7.050760788367121,
+                    7.209011501428674,
+                    7.005660901834477,
+                    7.1151836492891,
+                    6.972066597004528
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "8",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 7.367870048675238,
+            "scoreError" : 0.4899528440141439,
+            "scoreConfidence" : [
+                6.877917204661094,
+                7.857822892689382
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.148114686547256,
+                "50.0" : 7.412369624817843,
+                "90.0" : 7.475634923402666,
+                "95.0" : 7.475634923402666,
+                "99.0" : 7.475634923402666,
+                "99.9" : 7.475634923402666,
+                "99.99" : 7.475634923402666,
+                "99.999" : 7.475634923402666,
+                "99.9999" : 7.475634923402666,
+                "100.0" : 7.475634923402666
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    7.412369624817843,
+                    7.418875899236113,
+                    7.148114686547256,
+                    7.475634923402666,
+                    7.384355109372309
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "8"
+        },
+        "primaryMetric" : {
+            "score" : 11.44652462984298,
+            "scoreError" : 0.7045052666330494,
+            "scoreConfidence" : [
+                10.74201936320993,
+                12.151029896476029
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.244661010600442,
+                "50.0" : 11.449362842322069,
+                "90.0" : 11.707688989430165,
+                "95.0" : 11.707688989430165,
+                "99.0" : 11.707688989430165,
+                "99.9" : 11.707688989430165,
+                "99.99" : 11.707688989430165,
+                "99.999" : 11.707688989430165,
+                "99.9999" : 11.707688989430165,
+                "100.0" : 11.707688989430165
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    11.707688989430165,
+                    11.52269267974358,
+                    11.449362842322069,
+                    11.308217627118644,
+                    11.244661010600442
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "32"
+        },
+        "primaryMetric" : {
+            "score" : 11.55748765208261,
+            "scoreError" : 0.7179207001735112,
+            "scoreConfidence" : [
+                10.839566951909099,
+                12.275408352256122
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.33251347780127,
+                "50.0" : 11.591870871798834,
+                "90.0" : 11.747254363309072,
+                "95.0" : 11.747254363309072,
+                "99.0" : 11.747254363309072,
+                "99.9" : 11.747254363309072,
+                "99.99" : 11.747254363309072,
+                "99.999" : 11.747254363309072,
+                "99.9999" : 11.747254363309072,
+                "100.0" : 11.747254363309072
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    11.397845502524964,
+                    11.747254363309072,
+                    11.591870871798834,
+                    11.717954044978915,
+                    11.33251347780127
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "it.unisa.c02.rently.rently_application.JwtProviderBenchmark.verifyJwt_prebuiltTokens",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/lib/jvm/java-21-openjdk/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10",
+        "warmupIterations" : 3,
+        "warmupTime" : "300 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "claimCount" : "50",
+            "claimValueLen" : "64",
+            "fixedSecret" : "true",
+            "subjectLen" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 11.565052082656663,
+            "scoreError" : 0.6045826909253182,
+            "scoreConfidence" : [
+                10.960469391731346,
+                12.169634773581981
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.421226283758083,
+                "50.0" : 11.540064729397294,
+                "90.0" : 11.829346650906226,
+                "95.0" : 11.829346650906226,
+                "99.0" : 11.829346650906226,
+                "99.9" : 11.829346650906226,
+                "99.99" : 11.829346650906226,
+                "99.999" : 11.829346650906226,
+                "99.9999" : 11.829346650906226,
+                "100.0" : 11.829346650906226
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    11.829346650906226,
+                    11.540064729397294,
+                    11.55529892622099,
+                    11.479323823000726,
+                    11.421226283758083
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

@@ -1,0 +1,1157 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches
+# Parameters: (mapSize = 100, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 0.00% complete, ETA 00:03:40
+# Fork: 1 of 2
+# Warmup Iteration   1: 15381.045 ns/op
+# Warmup Iteration   2: 11529.613 ns/op
+# Warmup Iteration   3: 11923.587 ns/op
+# Warmup Iteration   4: 11409.221 ns/op
+# Warmup Iteration   5: 11277.865 ns/op
+Iteration   1: 11310.860 ns/op
+Iteration   2: 11257.497 ns/op
+Iteration   3: 11220.336 ns/op
+Iteration   4: 11357.108 ns/op
+Iteration   5: 11439.803 ns/op
+Iteration   6: 11443.326 ns/op
+Iteration   7: 11422.396 ns/op
+Iteration   8: 11401.581 ns/op
+Iteration   9: 11469.737 ns/op
+Iteration  10: 11407.726 ns/op
+
+# Run progress: 2.50% complete, ETA 00:03:40
+# Fork: 2 of 2
+# Warmup Iteration   1: 15147.136 ns/op
+# Warmup Iteration   2: 11507.483 ns/op
+# Warmup Iteration   3: 11996.235 ns/op
+# Warmup Iteration   4: 11305.859 ns/op
+# Warmup Iteration   5: 11488.264 ns/op
+Iteration   1: 11327.458 ns/op
+Iteration   2: 11346.598 ns/op
+Iteration   3: 11319.345 ns/op
+Iteration   4: 11400.373 ns/op
+Iteration   5: 11407.399 ns/op
+Iteration   6: 11335.046 ns/op
+Iteration   7: 11280.691 ns/op
+Iteration   8: 11299.585 ns/op
+Iteration   9: 11280.885 ns/op
+Iteration  10: 11388.703 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches":
+  11355.823 ±(99.9%) 59.683 ns/op [Average]
+  (min, avg, max) = (11220.336, 11355.823, 11469.737), stdev = 68.731
+  CI (99.9%): [11296.140, 11415.506] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches
+# Parameters: (mapSize = 100, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 5.00% complete, ETA 00:03:34
+# Fork: 1 of 2
+# Warmup Iteration   1: 375.509 ns/op
+# Warmup Iteration   2: 296.178 ns/op
+# Warmup Iteration   3: 302.745 ns/op
+# Warmup Iteration   4: 292.677 ns/op
+# Warmup Iteration   5: 292.687 ns/op
+Iteration   1: 292.020 ns/op
+Iteration   2: 290.274 ns/op
+Iteration   3: 290.740 ns/op
+Iteration   4: 293.319 ns/op
+Iteration   5: 292.364 ns/op
+Iteration   6: 291.994 ns/op
+Iteration   7: 290.947 ns/op
+Iteration   8: 291.477 ns/op
+Iteration   9: 290.766 ns/op
+Iteration  10: 292.240 ns/op
+
+# Run progress: 7.50% complete, ETA 00:03:29
+# Fork: 2 of 2
+# Warmup Iteration   1: 370.290 ns/op
+# Warmup Iteration   2: 309.857 ns/op
+# Warmup Iteration   3: 291.844 ns/op
+# Warmup Iteration   4: 289.176 ns/op
+# Warmup Iteration   5: 289.494 ns/op
+Iteration   1: 288.443 ns/op
+Iteration   2: 295.408 ns/op
+Iteration   3: 291.866 ns/op
+Iteration   4: 292.125 ns/op
+Iteration   5: 292.476 ns/op
+Iteration   6: 291.355 ns/op
+Iteration   7: 293.404 ns/op
+Iteration   8: 292.435 ns/op
+Iteration   9: 291.118 ns/op
+Iteration  10: 292.838 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches":
+  291.880 ±(99.9%) 1.223 ns/op [Average]
+  (min, avg, max) = (288.443, 291.880, 295.408), stdev = 1.409
+  CI (99.9%): [290.657, 293.104] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches
+# Parameters: (mapSize = 1000, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 10.00% complete, ETA 00:03:23
+# Fork: 1 of 2
+# Warmup Iteration   1: 138393.222 ns/op
+# Warmup Iteration   2: 112939.199 ns/op
+# Warmup Iteration   3: 107926.609 ns/op
+# Warmup Iteration   4: 105603.072 ns/op
+# Warmup Iteration   5: 105616.733 ns/op
+Iteration   1: 105337.728 ns/op
+Iteration   2: 105874.106 ns/op
+Iteration   3: 105708.266 ns/op
+Iteration   4: 105716.887 ns/op
+Iteration   5: 104662.538 ns/op
+Iteration   6: 105006.493 ns/op
+Iteration   7: 105033.310 ns/op
+Iteration   8: 105662.172 ns/op
+Iteration   9: 108239.171 ns/op
+Iteration  10: 106089.830 ns/op
+
+# Run progress: 12.50% complete, ETA 00:03:17
+# Fork: 2 of 2
+# Warmup Iteration   1: 148550.399 ns/op
+# Warmup Iteration   2: 113452.187 ns/op
+# Warmup Iteration   3: 111014.762 ns/op
+# Warmup Iteration   4: 109930.347 ns/op
+# Warmup Iteration   5: 113107.467 ns/op
+Iteration   1: 108905.026 ns/op
+Iteration   2: 108688.713 ns/op
+Iteration   3: 107772.767 ns/op
+Iteration   4: 113177.487 ns/op
+Iteration   5: 107427.731 ns/op
+Iteration   6: 108517.623 ns/op
+Iteration   7: 108405.510 ns/op
+Iteration   8: 107446.961 ns/op
+Iteration   9: 108738.885 ns/op
+Iteration  10: 109009.009 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches":
+  107271.011 ±(99.9%) 1785.131 ns/op [Average]
+  (min, avg, max) = (104662.538, 107271.011, 113177.487), stdev = 2055.760
+  CI (99.9%): [105485.880, 109056.142] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches
+# Parameters: (mapSize = 1000, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 15.00% complete, ETA 00:03:12
+# Fork: 1 of 2
+# Warmup Iteration   1: 2124.399 ns/op
+# Warmup Iteration   2: 2902.376 ns/op
+# Warmup Iteration   3: 2730.398 ns/op
+# Warmup Iteration   4: 2722.598 ns/op
+# Warmup Iteration   5: 2719.332 ns/op
+Iteration   1: 2721.544 ns/op
+Iteration   2: 2716.255 ns/op
+Iteration   3: 2710.552 ns/op
+Iteration   4: 2732.676 ns/op
+Iteration   5: 2722.503 ns/op
+Iteration   6: 2718.521 ns/op
+Iteration   7: 2711.692 ns/op
+Iteration   8: 2707.054 ns/op
+Iteration   9: 2709.126 ns/op
+Iteration  10: 2715.809 ns/op
+
+# Run progress: 17.50% complete, ETA 00:03:06
+# Fork: 2 of 2
+# Warmup Iteration   1: 2195.406 ns/op
+# Warmup Iteration   2: 591.449 ns/op
+# Warmup Iteration   3: 562.798 ns/op
+# Warmup Iteration   4: 535.701 ns/op
+# Warmup Iteration   5: 539.682 ns/op
+Iteration   1: 538.113 ns/op
+Iteration   2: 534.884 ns/op
+Iteration   3: 533.800 ns/op
+Iteration   4: 534.816 ns/op
+Iteration   5: 535.804 ns/op
+Iteration   6: 535.963 ns/op
+Iteration   7: 534.940 ns/op
+Iteration   8: 538.126 ns/op
+Iteration   9: 536.942 ns/op
+Iteration  10: 535.348 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.baseline_stream_matches":
+  1626.223 ±(99.9%) 971.420 ns/op [Average]
+  (min, avg, max) = (533.800, 1626.223, 2732.676), stdev = 1118.688
+  CI (99.9%): [654.804, 2597.643] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall
+# Parameters: (mapSize = 100, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 20.00% complete, ETA 00:03:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 13661.985 ns/op
+# Warmup Iteration   2: 11269.360 ns/op
+# Warmup Iteration   3: 11420.681 ns/op
+# Warmup Iteration   4: 10763.788 ns/op
+# Warmup Iteration   5: 10834.045 ns/op
+Iteration   1: 10720.655 ns/op
+Iteration   2: 10863.020 ns/op
+Iteration   3: 10778.536 ns/op
+Iteration   4: 10752.053 ns/op
+Iteration   5: 10747.584 ns/op
+Iteration   6: 10752.699 ns/op
+Iteration   7: 10795.773 ns/op
+Iteration   8: 10750.642 ns/op
+Iteration   9: 10807.752 ns/op
+Iteration  10: 10714.358 ns/op
+
+# Run progress: 22.50% complete, ETA 00:02:55
+# Fork: 2 of 2
+# Warmup Iteration   1: 13609.007 ns/op
+# Warmup Iteration   2: 11336.117 ns/op
+# Warmup Iteration   3: 10857.974 ns/op
+# Warmup Iteration   4: 10734.778 ns/op
+# Warmup Iteration   5: 10739.083 ns/op
+Iteration   1: 10792.052 ns/op
+Iteration   2: 10834.354 ns/op
+Iteration   3: 10861.404 ns/op
+Iteration   4: 10834.157 ns/op
+Iteration   5: 10841.349 ns/op
+Iteration   6: 10881.339 ns/op
+Iteration   7: 10841.944 ns/op
+Iteration   8: 10917.733 ns/op
+Iteration   9: 10785.735 ns/op
+Iteration  10: 10870.074 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall":
+  10807.161 ±(99.9%) 49.634 ns/op [Average]
+  (min, avg, max) = (10714.358, 10807.161, 10917.733), stdev = 57.159
+  CI (99.9%): [10757.526, 10856.795] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall
+# Parameters: (mapSize = 100, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 25.00% complete, ETA 00:02:49
+# Fork: 1 of 2
+# Warmup Iteration   1: 334.726 ns/op
+# Warmup Iteration   2: 277.483 ns/op
+# Warmup Iteration   3: 274.287 ns/op
+# Warmup Iteration   4: 265.190 ns/op
+# Warmup Iteration   5: 260.632 ns/op
+Iteration   1: 259.977 ns/op
+Iteration   2: 259.990 ns/op
+Iteration   3: 256.783 ns/op
+Iteration   4: 258.297 ns/op
+Iteration   5: 258.440 ns/op
+Iteration   6: 257.704 ns/op
+Iteration   7: 257.619 ns/op
+Iteration   8: 257.105 ns/op
+Iteration   9: 259.675 ns/op
+Iteration  10: 258.036 ns/op
+
+# Run progress: 27.50% complete, ETA 00:02:43
+# Fork: 2 of 2
+# Warmup Iteration   1: 325.625 ns/op
+# Warmup Iteration   2: 272.847 ns/op
+# Warmup Iteration   3: 261.561 ns/op
+# Warmup Iteration   4: 258.140 ns/op
+# Warmup Iteration   5: 261.032 ns/op
+Iteration   1: 258.611 ns/op
+Iteration   2: 260.398 ns/op
+Iteration   3: 259.086 ns/op
+Iteration   4: 257.876 ns/op
+Iteration   5: 260.186 ns/op
+Iteration   6: 259.966 ns/op
+Iteration   7: 266.112 ns/op
+Iteration   8: 261.170 ns/op
+Iteration   9: 259.274 ns/op
+Iteration  10: 262.574 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall":
+  259.444 ±(99.9%) 1.849 ns/op [Average]
+  (min, avg, max) = (256.783, 259.444, 266.112), stdev = 2.129
+  CI (99.9%): [257.595, 261.293] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall
+# Parameters: (mapSize = 1000, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 30.00% complete, ETA 00:02:38
+# Fork: 1 of 2
+# Warmup Iteration   1: 136719.428 ns/op
+# Warmup Iteration   2: 107869.344 ns/op
+# Warmup Iteration   3: 107629.827 ns/op
+# Warmup Iteration   4: 101148.389 ns/op
+# Warmup Iteration   5: 102035.276 ns/op
+Iteration   1: 102593.671 ns/op
+Iteration   2: 101272.289 ns/op
+Iteration   3: 102048.215 ns/op
+Iteration   4: 102323.177 ns/op
+Iteration   5: 102378.388 ns/op
+Iteration   6: 102035.858 ns/op
+Iteration   7: 101566.702 ns/op
+Iteration   8: 102356.121 ns/op
+Iteration   9: 101856.785 ns/op
+Iteration  10: 101760.407 ns/op
+
+# Run progress: 32.50% complete, ETA 00:02:32
+# Fork: 2 of 2
+# Warmup Iteration   1: 141492.218 ns/op
+# Warmup Iteration   2: 110556.719 ns/op
+# Warmup Iteration   3: 106788.327 ns/op
+# Warmup Iteration   4: 106206.886 ns/op
+# Warmup Iteration   5: 103193.117 ns/op
+Iteration   1: 102386.766 ns/op
+Iteration   2: 103983.498 ns/op
+Iteration   3: 102661.252 ns/op
+Iteration   4: 103343.826 ns/op
+Iteration   5: 103671.249 ns/op
+Iteration   6: 104093.821 ns/op
+Iteration   7: 104918.874 ns/op
+Iteration   8: 103415.942 ns/op
+Iteration   9: 103000.509 ns/op
+Iteration  10: 102140.947 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall":
+  102690.415 ±(99.9%) 822.397 ns/op [Average]
+  (min, avg, max) = (101272.289, 102690.415, 104918.874), stdev = 947.073
+  CI (99.9%): [101868.018, 103512.812] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall
+# Parameters: (mapSize = 1000, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 35.00% complete, ETA 00:02:26
+# Fork: 1 of 2
+# Warmup Iteration   1: 845.990 ns/op
+# Warmup Iteration   2: 669.305 ns/op
+# Warmup Iteration   3: 666.929 ns/op
+# Warmup Iteration   4: 659.932 ns/op
+# Warmup Iteration   5: 662.519 ns/op
+Iteration   1: 661.590 ns/op
+Iteration   2: 660.802 ns/op
+Iteration   3: 663.156 ns/op
+Iteration   4: 656.982 ns/op
+Iteration   5: 659.759 ns/op
+Iteration   6: 660.404 ns/op
+Iteration   7: 660.599 ns/op
+Iteration   8: 661.411 ns/op
+Iteration   9: 658.003 ns/op
+Iteration  10: 662.308 ns/op
+
+# Run progress: 37.50% complete, ETA 00:02:21
+# Fork: 2 of 2
+# Warmup Iteration   1: 715.803 ns/op
+# Warmup Iteration   2: 602.884 ns/op
+# Warmup Iteration   3: 589.546 ns/op
+# Warmup Iteration   4: 616.404 ns/op
+# Warmup Iteration   5: 575.788 ns/op
+Iteration   1: 576.938 ns/op
+Iteration   2: 579.161 ns/op
+Iteration   3: 576.736 ns/op
+Iteration   4: 581.462 ns/op
+Iteration   5: 579.767 ns/op
+Iteration   6: 577.458 ns/op
+Iteration   7: 582.996 ns/op
+Iteration   8: 579.108 ns/op
+Iteration   9: 582.972 ns/op
+Iteration  10: 577.796 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_matches_compileEveryCall":
+  619.970 ±(99.9%) 36.154 ns/op [Average]
+  (min, avg, max) = (576.736, 619.970, 663.156), stdev = 41.635
+  CI (99.9%): [583.816, 656.125] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern
+# Parameters: (mapSize = 100, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 40.00% complete, ETA 00:02:15
+# Fork: 1 of 2
+# Warmup Iteration   1: 8125.108 ns/op
+# Warmup Iteration   2: 6971.282 ns/op
+# Warmup Iteration   3: 7343.339 ns/op
+# Warmup Iteration   4: 7396.775 ns/op
+# Warmup Iteration   5: 7456.461 ns/op
+Iteration   1: 7397.431 ns/op
+Iteration   2: 7381.853 ns/op
+Iteration   3: 7328.917 ns/op
+Iteration   4: 7378.672 ns/op
+Iteration   5: 7378.834 ns/op
+Iteration   6: 7399.117 ns/op
+Iteration   7: 7339.358 ns/op
+Iteration   8: 7471.924 ns/op
+Iteration   9: 7380.451 ns/op
+Iteration  10: 7399.229 ns/op
+
+# Run progress: 42.50% complete, ETA 00:02:09
+# Fork: 2 of 2
+# Warmup Iteration   1: 8139.131 ns/op
+# Warmup Iteration   2: 7172.548 ns/op
+# Warmup Iteration   3: 7156.344 ns/op
+# Warmup Iteration   4: 7377.780 ns/op
+# Warmup Iteration   5: 7426.248 ns/op
+Iteration   1: 7424.454 ns/op
+Iteration   2: 7381.955 ns/op
+Iteration   3: 7358.906 ns/op
+Iteration   4: 7385.146 ns/op
+Iteration   5: 7408.233 ns/op
+Iteration   6: 7370.426 ns/op
+Iteration   7: 7373.950 ns/op
+Iteration   8: 7403.526 ns/op
+Iteration   9: 7380.038 ns/op
+Iteration  10: 7356.618 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern":
+  7384.952 ±(99.9%) 26.536 ns/op [Average]
+  (min, avg, max) = (7328.917, 7384.952, 7471.924), stdev = 30.559
+  CI (99.9%): [7358.416, 7411.488] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern
+# Parameters: (mapSize = 100, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 45.00% complete, ETA 00:02:04
+# Fork: 1 of 2
+# Warmup Iteration   1: 3003.904 ns/op
+# Warmup Iteration   2: 3709.266 ns/op
+# Warmup Iteration   3: 3847.317 ns/op
+# Warmup Iteration   4: 3883.723 ns/op
+# Warmup Iteration   5: 3870.122 ns/op
+Iteration   1: 3894.372 ns/op
+Iteration   2: 3932.020 ns/op
+Iteration   3: 3904.659 ns/op
+Iteration   4: 3921.302 ns/op
+Iteration   5: 3907.840 ns/op
+Iteration   6: 3929.109 ns/op
+Iteration   7: 3926.293 ns/op
+Iteration   8: 3894.201 ns/op
+Iteration   9: 3878.129 ns/op
+Iteration  10: 3915.381 ns/op
+
+# Run progress: 47.50% complete, ETA 00:01:58
+# Fork: 2 of 2
+# Warmup Iteration   1: 2998.422 ns/op
+# Warmup Iteration   2: 3728.834 ns/op
+# Warmup Iteration   3: 3860.131 ns/op
+# Warmup Iteration   4: 3895.209 ns/op
+# Warmup Iteration   5: 3889.500 ns/op
+Iteration   1: 3894.074 ns/op
+Iteration   2: 3904.810 ns/op
+Iteration   3: 3895.781 ns/op
+Iteration   4: 3866.726 ns/op
+Iteration   5: 3885.841 ns/op
+Iteration   6: 3879.448 ns/op
+Iteration   7: 3886.971 ns/op
+Iteration   8: 3874.785 ns/op
+Iteration   9: 3889.686 ns/op
+Iteration  10: 3889.453 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern":
+  3898.544 ±(99.9%) 16.267 ns/op [Average]
+  (min, avg, max) = (3866.726, 3898.544, 3932.020), stdev = 18.734
+  CI (99.9%): [3882.277, 3914.811] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern
+# Parameters: (mapSize = 1000, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 50.00% complete, ETA 00:01:52
+# Fork: 1 of 2
+# Warmup Iteration   1: 88916.459 ns/op
+# Warmup Iteration   2: 77524.571 ns/op
+# Warmup Iteration   3: 75353.083 ns/op
+# Warmup Iteration   4: 74827.089 ns/op
+# Warmup Iteration   5: 74914.113 ns/op
+Iteration   1: 74464.942 ns/op
+Iteration   2: 75893.630 ns/op
+Iteration   3: 75063.383 ns/op
+Iteration   4: 75341.011 ns/op
+Iteration   5: 75412.932 ns/op
+Iteration   6: 75295.310 ns/op
+Iteration   7: 75017.468 ns/op
+Iteration   8: 75714.341 ns/op
+Iteration   9: 75663.361 ns/op
+Iteration  10: 75304.384 ns/op
+
+# Run progress: 52.50% complete, ETA 00:01:47
+# Fork: 2 of 2
+# Warmup Iteration   1: 87538.164 ns/op
+# Warmup Iteration   2: 76946.402 ns/op
+# Warmup Iteration   3: 75038.279 ns/op
+# Warmup Iteration   4: 74037.308 ns/op
+# Warmup Iteration   5: 76459.469 ns/op
+Iteration   1: 74685.847 ns/op
+Iteration   2: 74762.894 ns/op
+Iteration   3: 74205.720 ns/op
+Iteration   4: 74807.512 ns/op
+Iteration   5: 74991.487 ns/op
+Iteration   6: 74305.399 ns/op
+Iteration   7: 74472.023 ns/op
+Iteration   8: 74489.715 ns/op
+Iteration   9: 74590.614 ns/op
+Iteration  10: 74747.035 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern":
+  74961.450 ±(99.9%) 425.059 ns/op [Average]
+  (min, avg, max) = (74205.720, 74961.450, 75893.630), stdev = 489.499
+  CI (99.9%): [74536.391, 75386.510] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern
+# Parameters: (mapSize = 1000, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 55.00% complete, ETA 00:01:41
+# Fork: 1 of 2
+# Warmup Iteration   1: 47514.695 ns/op
+# Warmup Iteration   2: 41137.768 ns/op
+# Warmup Iteration   3: 42627.257 ns/op
+# Warmup Iteration   4: 41230.769 ns/op
+# Warmup Iteration   5: 41201.423 ns/op
+Iteration   1: 40905.523 ns/op
+Iteration   2: 41338.510 ns/op
+Iteration   3: 41104.398 ns/op
+Iteration   4: 40883.635 ns/op
+Iteration   5: 40980.981 ns/op
+Iteration   6: 41034.202 ns/op
+Iteration   7: 41021.702 ns/op
+Iteration   8: 40302.211 ns/op
+Iteration   9: 39670.558 ns/op
+Iteration  10: 39978.952 ns/op
+
+# Run progress: 57.50% complete, ETA 00:01:35
+# Fork: 2 of 2
+# Warmup Iteration   1: 47444.098 ns/op
+# Warmup Iteration   2: 41139.045 ns/op
+# Warmup Iteration   3: 40620.374 ns/op
+# Warmup Iteration   4: 41104.880 ns/op
+# Warmup Iteration   5: 40859.678 ns/op
+Iteration   1: 41235.241 ns/op
+Iteration   2: 41493.648 ns/op
+Iteration   3: 40949.385 ns/op
+Iteration   4: 40891.157 ns/op
+Iteration   5: 41216.401 ns/op
+Iteration   6: 40956.210 ns/op
+Iteration   7: 40996.011 ns/op
+Iteration   8: 40311.691 ns/op
+Iteration   9: 39941.193 ns/op
+Iteration  10: 40112.304 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_precompiledPattern":
+  40766.196 ±(99.9%) 449.827 ns/op [Average]
+  (min, avg, max) = (39670.558, 40766.196, 41493.648), stdev = 518.021
+  CI (99.9%): [40316.369, 41216.023] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher
+# Parameters: (mapSize = 100, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 60.00% complete, ETA 00:01:30
+# Fork: 1 of 2
+# Warmup Iteration   1: 6835.723 ns/op
+# Warmup Iteration   2: 6508.831 ns/op
+# Warmup Iteration   3: 6367.407 ns/op
+# Warmup Iteration   4: 6209.646 ns/op
+# Warmup Iteration   5: 6187.463 ns/op
+Iteration   1: 6205.062 ns/op
+Iteration   2: 6218.738 ns/op
+Iteration   3: 6221.159 ns/op
+Iteration   4: 6219.078 ns/op
+Iteration   5: 6196.568 ns/op
+Iteration   6: 6201.184 ns/op
+Iteration   7: 6194.566 ns/op
+Iteration   8: 6223.786 ns/op
+Iteration   9: 6215.131 ns/op
+Iteration  10: 6202.930 ns/op
+
+# Run progress: 62.50% complete, ETA 00:01:24
+# Fork: 2 of 2
+# Warmup Iteration   1: 6892.468 ns/op
+# Warmup Iteration   2: 6480.316 ns/op
+# Warmup Iteration   3: 6357.251 ns/op
+# Warmup Iteration   4: 6197.320 ns/op
+# Warmup Iteration   5: 6191.671 ns/op
+Iteration   1: 6185.649 ns/op
+Iteration   2: 6173.151 ns/op
+Iteration   3: 6194.087 ns/op
+Iteration   4: 6223.674 ns/op
+Iteration   5: 6196.799 ns/op
+Iteration   6: 6181.439 ns/op
+Iteration   7: 6193.569 ns/op
+Iteration   8: 6183.068 ns/op
+Iteration   9: 6227.614 ns/op
+Iteration  10: 6291.092 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher":
+  6207.417 ±(99.9%) 22.003 ns/op [Average]
+  (min, avg, max) = (6173.151, 6207.417, 6291.092), stdev = 25.339
+  CI (99.9%): [6185.414, 6229.421] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher
+# Parameters: (mapSize = 100, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 65.00% complete, ETA 00:01:18
+# Fork: 1 of 2
+# Warmup Iteration   1: 3543.685 ns/op
+# Warmup Iteration   2: 3379.184 ns/op
+# Warmup Iteration   3: 3213.598 ns/op
+# Warmup Iteration   4: 3219.833 ns/op
+# Warmup Iteration   5: 3210.161 ns/op
+Iteration   1: 3174.897 ns/op
+Iteration   2: 3188.569 ns/op
+Iteration   3: 3180.506 ns/op
+Iteration   4: 3212.006 ns/op
+Iteration   5: 3201.994 ns/op
+Iteration   6: 3209.850 ns/op
+Iteration   7: 3206.147 ns/op
+Iteration   8: 3160.852 ns/op
+Iteration   9: 3169.604 ns/op
+Iteration  10: 3154.133 ns/op
+
+# Run progress: 67.50% complete, ETA 00:01:13
+# Fork: 2 of 2
+# Warmup Iteration   1: 3493.533 ns/op
+# Warmup Iteration   2: 3293.597 ns/op
+# Warmup Iteration   3: 3127.771 ns/op
+# Warmup Iteration   4: 3159.266 ns/op
+# Warmup Iteration   5: 3146.284 ns/op
+Iteration   1: 3170.857 ns/op
+Iteration   2: 3166.368 ns/op
+Iteration   3: 3165.868 ns/op
+Iteration   4: 3173.527 ns/op
+Iteration   5: 3157.072 ns/op
+Iteration   6: 3172.395 ns/op
+Iteration   7: 3161.446 ns/op
+Iteration   8: 3169.182 ns/op
+Iteration   9: 3154.576 ns/op
+Iteration  10: 3165.597 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher":
+  3175.772 ±(99.9%) 15.910 ns/op [Average]
+  (min, avg, max) = (3154.133, 3175.772, 3212.006), stdev = 18.322
+  CI (99.9%): [3159.862, 3191.683] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher
+# Parameters: (mapSize = 1000, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 70.00% complete, ETA 00:01:07
+# Fork: 1 of 2
+# Warmup Iteration   1: 77931.519 ns/op
+# Warmup Iteration   2: 72695.281 ns/op
+# Warmup Iteration   3: 72546.607 ns/op
+# Warmup Iteration   4: 72889.268 ns/op
+# Warmup Iteration   5: 72782.359 ns/op
+Iteration   1: 72333.823 ns/op
+Iteration   2: 72910.004 ns/op
+Iteration   3: 72584.173 ns/op
+Iteration   4: 72456.531 ns/op
+Iteration   5: 72394.795 ns/op
+Iteration   6: 72617.440 ns/op
+Iteration   7: 72745.856 ns/op
+Iteration   8: 72298.729 ns/op
+Iteration   9: 72143.471 ns/op
+Iteration  10: 72372.412 ns/op
+
+# Run progress: 72.50% complete, ETA 00:01:02
+# Fork: 2 of 2
+# Warmup Iteration   1: 78162.398 ns/op
+# Warmup Iteration   2: 73437.330 ns/op
+# Warmup Iteration   3: 73286.379 ns/op
+# Warmup Iteration   4: 72299.196 ns/op
+# Warmup Iteration   5: 72690.919 ns/op
+Iteration   1: 72804.914 ns/op
+Iteration   2: 72555.727 ns/op
+Iteration   3: 72750.548 ns/op
+Iteration   4: 72652.687 ns/op
+Iteration   5: 72335.969 ns/op
+Iteration   6: 72860.209 ns/op
+Iteration   7: 72591.524 ns/op
+Iteration   8: 72722.822 ns/op
+Iteration   9: 72255.694 ns/op
+Iteration  10: 72147.881 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher":
+  72526.760 ±(99.9%) 203.169 ns/op [Average]
+  (min, avg, max) = (72143.471, 72526.760, 72910.004), stdev = 233.970
+  CI (99.9%): [72323.591, 72729.930] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher
+# Parameters: (mapSize = 1000, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 75.00% complete, ETA 00:00:56
+# Fork: 1 of 2
+# Warmup Iteration   1: 33341.375 ns/op
+# Warmup Iteration   2: 31064.190 ns/op
+# Warmup Iteration   3: 31024.075 ns/op
+# Warmup Iteration   4: 31163.819 ns/op
+# Warmup Iteration   5: 31140.534 ns/op
+Iteration   1: 31249.494 ns/op
+Iteration   2: 30676.426 ns/op
+Iteration   3: 30920.858 ns/op
+Iteration   4: 31042.805 ns/op
+Iteration   5: 31243.672 ns/op
+Iteration   6: 33202.675 ns/op
+Iteration   7: 33286.527 ns/op
+Iteration   8: 33304.721 ns/op
+Iteration   9: 33420.459 ns/op
+Iteration  10: 33182.013 ns/op
+
+# Run progress: 77.50% complete, ETA 00:00:50
+# Fork: 2 of 2
+# Warmup Iteration   1: 32941.854 ns/op
+# Warmup Iteration   2: 30939.298 ns/op
+# Warmup Iteration   3: 30658.368 ns/op
+# Warmup Iteration   4: 30902.970 ns/op
+# Warmup Iteration   5: 30852.318 ns/op
+Iteration   1: 30508.695 ns/op
+Iteration   2: 30844.643 ns/op
+Iteration   3: 30860.223 ns/op
+Iteration   4: 30797.727 ns/op
+Iteration   5: 31211.595 ns/op
+Iteration   6: 33191.818 ns/op
+Iteration   7: 33284.985 ns/op
+Iteration   8: 33212.330 ns/op
+Iteration   9: 33183.164 ns/op
+Iteration  10: 33397.330 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.forloop_reuseMatcher":
+  32101.108 ±(99.9%) 1050.390 ns/op [Average]
+  (min, avg, max) = (30508.695, 32101.108, 33420.459), stdev = 1209.631
+  CI (99.9%): [31050.718, 33151.498] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern
+# Parameters: (mapSize = 100, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 80.00% complete, ETA 00:00:45
+# Fork: 1 of 2
+# Warmup Iteration   1: 6195.716 ns/op
+# Warmup Iteration   2: 5335.070 ns/op
+# Warmup Iteration   3: 5253.396 ns/op
+# Warmup Iteration   4: 5283.567 ns/op
+# Warmup Iteration   5: 5275.512 ns/op
+Iteration   1: 5300.027 ns/op
+Iteration   2: 5290.534 ns/op
+Iteration   3: 5289.437 ns/op
+Iteration   4: 5280.619 ns/op
+Iteration   5: 5277.980 ns/op
+Iteration   6: 5298.666 ns/op
+Iteration   7: 5290.418 ns/op
+Iteration   8: 5259.690 ns/op
+Iteration   9: 5290.972 ns/op
+Iteration  10: 5308.200 ns/op
+
+# Run progress: 82.50% complete, ETA 00:00:39
+# Fork: 2 of 2
+# Warmup Iteration   1: 6259.057 ns/op
+# Warmup Iteration   2: 5303.547 ns/op
+# Warmup Iteration   3: 5419.533 ns/op
+# Warmup Iteration   4: 5304.910 ns/op
+# Warmup Iteration   5: 5318.468 ns/op
+Iteration   1: 5254.221 ns/op
+Iteration   2: 5259.335 ns/op
+Iteration   3: 5206.535 ns/op
+Iteration   4: 5248.033 ns/op
+Iteration   5: 5246.454 ns/op
+Iteration   6: 5224.287 ns/op
+Iteration   7: 5223.962 ns/op
+Iteration   8: 5244.910 ns/op
+Iteration   9: 5248.072 ns/op
+Iteration  10: 5235.712 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern":
+  5263.903 ±(99.9%) 25.435 ns/op [Average]
+  (min, avg, max) = (5206.535, 5263.903, 5308.200), stdev = 29.291
+  CI (99.9%): [5238.469, 5289.338] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern
+# Parameters: (mapSize = 100, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 85.00% complete, ETA 00:00:33
+# Fork: 1 of 2
+# Warmup Iteration   1: 2999.616 ns/op
+# Warmup Iteration   2: 2605.758 ns/op
+# Warmup Iteration   3: 2517.140 ns/op
+# Warmup Iteration   4: 2486.383 ns/op
+# Warmup Iteration   5: 2502.462 ns/op
+Iteration   1: 2493.140 ns/op
+Iteration   2: 2499.731 ns/op
+Iteration   3: 2515.976 ns/op
+Iteration   4: 2501.026 ns/op
+Iteration   5: 2482.410 ns/op
+Iteration   6: 2484.324 ns/op
+Iteration   7: 2495.324 ns/op
+Iteration   8: 2508.020 ns/op
+Iteration   9: 2490.693 ns/op
+Iteration  10: 2479.944 ns/op
+
+# Run progress: 87.50% complete, ETA 00:00:28
+# Fork: 2 of 2
+# Warmup Iteration   1: 4764.610 ns/op
+# Warmup Iteration   2: 4161.481 ns/op
+# Warmup Iteration   3: 4071.614 ns/op
+# Warmup Iteration   4: 4113.671 ns/op
+# Warmup Iteration   5: 4136.826 ns/op
+Iteration   1: 4078.682 ns/op
+Iteration   2: 4093.545 ns/op
+Iteration   3: 4080.133 ns/op
+Iteration   4: 4098.464 ns/op
+Iteration   5: 4091.748 ns/op
+Iteration   6: 4088.563 ns/op
+Iteration   7: 4064.493 ns/op
+Iteration   8: 4086.206 ns/op
+Iteration   9: 4071.436 ns/op
+Iteration  10: 4111.337 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern":
+  3290.760 ±(99.9%) 708.981 ns/op [Average]
+  (min, avg, max) = (2479.944, 3290.760, 4111.337), stdev = 816.464
+  CI (99.9%): [2581.779, 3999.741] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern
+# Parameters: (mapSize = 1000, matchRatio = 1.0, patternType = charclass, strLen = 128)
+
+# Run progress: 90.00% complete, ETA 00:00:22
+# Fork: 1 of 2
+# Warmup Iteration   1: 94049.885 ns/op
+# Warmup Iteration   2: 82030.605 ns/op
+# Warmup Iteration   3: 80625.190 ns/op
+# Warmup Iteration   4: 84791.319 ns/op
+# Warmup Iteration   5: 81667.571 ns/op
+Iteration   1: 81779.620 ns/op
+Iteration   2: 81527.826 ns/op
+Iteration   3: 81363.387 ns/op
+Iteration   4: 80918.271 ns/op
+Iteration   5: 81673.502 ns/op
+Iteration   6: 81371.420 ns/op
+Iteration   7: 81610.491 ns/op
+Iteration   8: 81588.979 ns/op
+Iteration   9: 81457.599 ns/op
+Iteration  10: 81591.772 ns/op
+
+# Run progress: 92.50% complete, ETA 00:00:16
+# Fork: 2 of 2
+# Warmup Iteration   1: 62631.353 ns/op
+# Warmup Iteration   2: 52944.123 ns/op
+# Warmup Iteration   3: 52492.605 ns/op
+# Warmup Iteration   4: 52682.739 ns/op
+# Warmup Iteration   5: 54024.789 ns/op
+Iteration   1: 52454.978 ns/op
+Iteration   2: 53096.354 ns/op
+Iteration   3: 52615.854 ns/op
+Iteration   4: 52578.897 ns/op
+Iteration   5: 52425.905 ns/op
+Iteration   6: 52801.128 ns/op
+Iteration   7: 52616.291 ns/op
+Iteration   8: 52178.928 ns/op
+Iteration   9: 52548.455 ns/op
+Iteration  10: 52697.000 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern":
+  67044.833 ±(99.9%) 12869.485 ns/op [Average]
+  (min, avg, max) = (52178.928, 67044.833, 81779.620), stdev = 14820.518
+  CI (99.9%): [54175.348, 79914.318] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.9, OpenJDK 64-Bit Server VM, 21.0.9+10
+# VM invoker: /usr/lib/jvm/java-21-openjdk/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 300 ms each
+# Measurement: 10 iterations, 400 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern
+# Parameters: (mapSize = 1000, matchRatio = 0.5, patternType = charclass, strLen = 128)
+
+# Run progress: 95.00% complete, ETA 00:00:11
+# Fork: 1 of 2
+# Warmup Iteration   1: 29379.451 ns/op
+# Warmup Iteration   2: 25429.614 ns/op
+# Warmup Iteration   3: 24659.886 ns/op
+# Warmup Iteration   4: 24285.019 ns/op
+# Warmup Iteration   5: 24505.758 ns/op
+Iteration   1: 24381.576 ns/op
+Iteration   2: 24404.265 ns/op
+Iteration   3: 24330.803 ns/op
+Iteration   4: 24431.621 ns/op
+Iteration   5: 24566.684 ns/op
+Iteration   6: 24350.014 ns/op
+Iteration   7: 24312.033 ns/op
+Iteration   8: 24285.925 ns/op
+Iteration   9: 24257.162 ns/op
+Iteration  10: 24438.448 ns/op
+
+# Run progress: 97.50% complete, ETA 00:00:05
+# Fork: 2 of 2
+# Warmup Iteration   1: 39130.134 ns/op
+# Warmup Iteration   2: 25154.340 ns/op
+# Warmup Iteration   3: 24446.054 ns/op
+# Warmup Iteration   4: 24272.675 ns/op
+# Warmup Iteration   5: 24220.574 ns/op
+Iteration   1: 24222.261 ns/op
+Iteration   2: 23812.193 ns/op
+Iteration   3: 23923.043 ns/op
+Iteration   4: 24108.954 ns/op
+Iteration   5: 24024.055 ns/op
+Iteration   6: 24201.064 ns/op
+Iteration   7: 24899.295 ns/op
+Iteration   8: 24158.600 ns/op
+Iteration   9: 24215.315 ns/op
+Iteration  10: 24200.759 ns/op
+
+
+Result "it.unisa.c02.rently.rently_application.RegexTesterBenchmark.stream_precompiledPattern":
+  24276.203 ±(99.9%) 201.605 ns/op [Average]
+  (min, avg, max) = (23812.193, 24276.203, 24899.295), stdev = 232.168
+  CI (99.9%): [24074.599, 24477.808] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:03:45
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                              (mapSize)  (matchRatio)  (patternType)  (strLen)  Mode  Cnt       Score       Error  Units
+RegexTesterBenchmark.baseline_stream_matches                 100           1.0      charclass       128  avgt   20   11355.823 ±    59.683  ns/op
+RegexTesterBenchmark.baseline_stream_matches                 100           0.5      charclass       128  avgt   20     291.880 ±     1.223  ns/op
+RegexTesterBenchmark.baseline_stream_matches                1000           1.0      charclass       128  avgt   20  107271.011 ±  1785.131  ns/op
+RegexTesterBenchmark.baseline_stream_matches                1000           0.5      charclass       128  avgt   20    1626.223 ±   971.420  ns/op
+RegexTesterBenchmark.forloop_matches_compileEveryCall        100           1.0      charclass       128  avgt   20   10807.161 ±    49.634  ns/op
+RegexTesterBenchmark.forloop_matches_compileEveryCall        100           0.5      charclass       128  avgt   20     259.444 ±     1.849  ns/op
+RegexTesterBenchmark.forloop_matches_compileEveryCall       1000           1.0      charclass       128  avgt   20  102690.415 ±   822.397  ns/op
+RegexTesterBenchmark.forloop_matches_compileEveryCall       1000           0.5      charclass       128  avgt   20     619.970 ±    36.154  ns/op
+RegexTesterBenchmark.forloop_precompiledPattern              100           1.0      charclass       128  avgt   20    7384.952 ±    26.536  ns/op
+RegexTesterBenchmark.forloop_precompiledPattern              100           0.5      charclass       128  avgt   20    3898.544 ±    16.267  ns/op
+RegexTesterBenchmark.forloop_precompiledPattern             1000           1.0      charclass       128  avgt   20   74961.450 ±   425.059  ns/op
+RegexTesterBenchmark.forloop_precompiledPattern             1000           0.5      charclass       128  avgt   20   40766.196 ±   449.827  ns/op
+RegexTesterBenchmark.forloop_reuseMatcher                    100           1.0      charclass       128  avgt   20    6207.417 ±    22.003  ns/op
+RegexTesterBenchmark.forloop_reuseMatcher                    100           0.5      charclass       128  avgt   20    3175.772 ±    15.910  ns/op
+RegexTesterBenchmark.forloop_reuseMatcher                   1000           1.0      charclass       128  avgt   20   72526.760 ±   203.169  ns/op
+RegexTesterBenchmark.forloop_reuseMatcher                   1000           0.5      charclass       128  avgt   20   32101.108 ±  1050.390  ns/op
+RegexTesterBenchmark.stream_precompiledPattern               100           1.0      charclass       128  avgt   20    5263.903 ±    25.435  ns/op
+RegexTesterBenchmark.stream_precompiledPattern               100           0.5      charclass       128  avgt   20    3290.760 ±   708.981  ns/op
+RegexTesterBenchmark.stream_precompiledPattern              1000           1.0      charclass       128  avgt   20   67044.833 ± 12869.485  ns/op
+RegexTesterBenchmark.stream_precompiledPattern              1000           0.5      charclass       128  avgt   20   24276.203 ±   201.605  ns/op
+
+Benchmark result is saved to ../sse-reports/baseline/jmh//RegexTesterBenchmark/results.json
