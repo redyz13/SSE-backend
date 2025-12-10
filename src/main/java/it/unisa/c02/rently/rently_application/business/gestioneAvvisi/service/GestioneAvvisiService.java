@@ -14,7 +14,7 @@ public interface GestioneAvvisiService {
      * @return Segnalazione aggiunta.
      */
 
-    Segnalazione addSegnalazione (Segnalazione segnalazione);
+    Segnalazione addSegnalazione (final Segnalazione segnalazione);
 
     /**
      * Elimina una segnalazione dalla piattaforma.
@@ -22,7 +22,7 @@ public interface GestioneAvvisiService {
      * @param segnalazione Segnalazione da eliminare.
      *
      */
-    void removeSegnalazione (Segnalazione segnalazione);
+    void removeSegnalazione (final Segnalazione segnalazione);
 
     /**
      * Restituisce una Segnalazione specifica in base all'identificativo.
@@ -30,6 +30,6 @@ public interface GestioneAvvisiService {
      * @param id Identificativo della segnalazione.
      * @return La segnalazione se esiste, null altrimenti.
      */
-    Segnalazione getSegnalazione (long id);
+    Segnalazione getSegnalazione (final long id);
 
 }

@@ -16,7 +16,7 @@ public interface GestioneChatService {
      * @param messaggio messaggio da aggiungere.
      * @return Messaggio aggiunto.
      */
-    Messaggio addMessaggio(Messaggio messaggio);
+    Messaggio addMessaggio(final Messaggio messaggio);
 
     /**
      * Restituisce tutti i messaggi associati a due utenti.
@@ -25,5 +25,5 @@ public interface GestioneChatService {
      * @param id2 id dell'altro utente a cui appartiene la chat.
      * @return Lista di tutti i messaggi associati a due utenti.
      */
-    List<Messaggio> getChat(Utente id1, Utente id2);
+    List<Messaggio> getChat(final Utente id1, final Utente id2);
 }

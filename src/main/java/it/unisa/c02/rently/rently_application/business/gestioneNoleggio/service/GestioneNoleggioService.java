@@ -75,7 +75,7 @@ public interface GestioneNoleggioService {
      * @param fine Data di fine del periodo di noleggio.
      * @return Lista di noleggi che interferiscono con il periodo specificato.
      */
-    List<Noleggio> checkDisponibilita(final Annuncio annuncio, Date inizio, Date fine);
+    List<Noleggio> checkDisponibilita(final Annuncio annuncio, final Date inizio, final Date fine);
 
     /**
      * Restituisce tutti i noleggi in stato 'RICHIESTA' e 'RIFIUTATA'.

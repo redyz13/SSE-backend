@@ -40,7 +40,7 @@ public class AuthorizationFilter extends BasicAuthenticationFilter {
             final DecodedJWT decoded = JwtProvider.verifyJwt(header);
             final ObjectNode userNode = this.mapper.readValue(decoded.getClaim("user").asString(), ObjectNode.class);
             final UtenteDTO user = this.mapper.convertValue(userNode, UtenteDTO.class);
-            this.userRepository.findById(user.getId()).ifPresent(entity -> {
+            this.userRepository.findById(user.getId()).ifPresent((final var entity) -> {
 
                 final UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(
                         user.getEmail(), new ArrayList<>(), new ArrayList<>()

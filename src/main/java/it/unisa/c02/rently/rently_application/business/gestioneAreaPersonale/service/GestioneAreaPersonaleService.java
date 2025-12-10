@@ -13,7 +13,7 @@ public interface GestioneAreaPersonaleService {
      * @param utente Utente contenente le nuove informazioni dell'utente.
      * @return Utente aggiornato con le nuove informazioni.
      */
-    Utente updateUtente(Utente utente);
+    Utente updateUtente(final Utente utente);
 
     /**
      * Restituisce i dati privati dell'utente identificato dal suo ID.
@@ -21,7 +21,7 @@ public interface GestioneAreaPersonaleService {
      * @param id ID dell'utente di cui si vogliono ottenere i dati privati.
      * @return Utente contenente i dati privati dell'utente.
      */
-    Utente getDatiPrivati(long id);
+    Utente getDatiPrivati(final long id);
 
     /**
      * Restituisce un utente nel sistema in base al suo username.
@@ -29,5 +29,5 @@ public interface GestioneAreaPersonaleService {
      * @param utente Utente contenente l'username dell'utente da cercare.
      * @return Utente corrispondente all'username specificato.
      */
-    Utente findByUsername(Utente utente);
+    Utente findByUsername(final Utente utente);
 }
