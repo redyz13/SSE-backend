@@ -115,6 +115,37 @@ It is appropriate for benchmarking:
 * Computation-heavy operations
 ---
 
+## 🔐 **FOSSA (License Compliance & Open-Source Governance)**
+
+FOSSA is an automated tool integrated into the project’s CI/CD pipeline to ensure **license compliance**, detect dependency conflicts, and verify compatibility with the project’s chosen license (MIT).
+It performs static analysis of all dependencies (direct and transitive) and generates:
+
+* A complete **dependency inventory**
+* License compatibility checks
+* Identification of potential **legally risky libraries**
+
+In this project, FOSSA was used to:
+
+* Validate that all dependencies comply with MIT licensing
+* Detect and handle flagged or ambiguous licenses early in CI/CD
+* Ensure sustainable long-term maintainability by avoiding compliance debt
+
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B59104%2Fgithub.com%2Fredyz13%2FSSE-backend.svg?type=shield&issueType=license)](https://app.fossa.com/projects/custom%2B59104%2Fgithub.com%2Fredyz13%2FSSE-backend?ref=badge_shield&issueType=license)
+---
+
+## 🧭 **GUIDO (Community Smell Detection Tool)**
+
+GUIDO is an academic tool developed at the University of Salerno to identify **community smells**—undesirable patterns of collaboration or communication that may lead to social or organizational debt.
+
+GUIDO operates as an interactive chatbot that:
+
+1. Collects information on the team structure and collaboration habits
+2. Computes metrics such as **Dispersion Value**, communication redundancy, and cross-team connectivity
+3. Detects communication patterns.
+4. Suggests refactoring strategies for healthier, more sustainable teamwork.
+
+---
+
 ## 🐳 Running the Backend with Docker
 
 ### 1️⃣ Create a `.env` file
