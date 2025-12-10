@@ -15,14 +15,14 @@ public interface GestioneValutazioneService {
      * @param valutazione Valutazione utente da aggiungere.
      * @return Valutazione utente aggiunta.
      */
-    ValutazioneUtente addValutazioneUtente (ValutazioneUtente valutazione);
+    ValutazioneUtente addValutazioneUtente(final ValutazioneUtente valutazione);
 
     /**
      * Elimina una valutazione dell'utente dalla piattaforma.
      *
      * @param valutazione Valutazione utente da eliminare.
      */
-    void deleteValutazioneUtente (ValutazioneUtente valutazione);
+    void deleteValutazioneUtente(final ValutazioneUtente valutazione);
 
     /**
      * Restituisce tutte le valutazioni associate a un utente specifico.
@@ -30,7 +30,7 @@ public interface GestioneValutazioneService {
      * @param valutato Utente specifico.
      * @return Lista di valutazioni utente associate all'utente specificato.
      */
-    List<ValutazioneUtente> findAllByUtente(Utente valutato);
+    List<ValutazioneUtente> findAllByUtente(final Utente valutato);
 
     /**
      * Calcola la media delle valutazioni associate a un utente specifico.
@@ -38,7 +38,7 @@ public interface GestioneValutazioneService {
      * @param valutato Utente specifico.
      * @return Media delle valutazioni dell'utente specificato.
      */
-    double mediaValutazioniUtenteByUtente(Utente valutato);
+    double mediaValutazioniUtenteByUtente(final Utente valutato);
 
     /**
      * Aggiunge una valutazione dell'oggetto sulla piattaforma.
@@ -46,14 +46,14 @@ public interface GestioneValutazioneService {
      * @param valutazione Valutazione oggetto da aggiungere.
      * @return Valutazione oggetto aggiunta.
      */
-    ValutazioneOggetto addValutazioneOggetto (ValutazioneOggetto valutazione);
+    ValutazioneOggetto addValutazioneOggetto(final ValutazioneOggetto valutazione);
 
     /**
      * Elimina una valutazione dell'oggetto dalla piattaforma.
      *
      * @param valutazione Valutazione oggetto da eliminare.
      */
-    void deleteValutazioneOggetto(ValutazioneOggetto valutazione);
+    void deleteValutazioneOggetto(final ValutazioneOggetto valutazione);
 
     /**
      * Restituisce tutte le valutazioni associate a un annuncio specifico.
@@ -61,7 +61,7 @@ public interface GestioneValutazioneService {
      * @param annuncio Annuncio specifico.
      * @return Lista di valutazioni oggetto associate all'annuncio specificato.
      */
-    List<ValutazioneOggetto> findAllByAnnuncio(Annuncio annuncio);
+    List<ValutazioneOggetto> findAllByAnnuncio(final Annuncio annuncio);
 
     /**
      * Calcola la media delle valutazioni associate a un annuncio specifico.
@@ -69,7 +69,7 @@ public interface GestioneValutazioneService {
      * @param annuncio Annuncio specifico.
      * @return Media delle valutazioni dell'annuncio specificato.
      */
-    double mediaValutazioniOggettoByAnnuncio(Annuncio annuncio);
+    double mediaValutazioniOggettoByAnnuncio(final Annuncio annuncio);
 
     /**
      * Verifica se esiste una valutazione associata al noleggiante in un noleggio specifico.
@@ -77,7 +77,7 @@ public interface GestioneValutazioneService {
      * @param n Noleggio specifico.
      * @return true se esiste una valutazione associata al noleggiante, altrimenti false.
      */
-    boolean valutazioneNoleggianteIsPresent(Noleggio n);
+    boolean valutazioneNoleggianteIsPresent(final Noleggio n);
 
     /**
      * Verifica se esiste una valutazione associata al noleggiatore in un noleggio specifico.
@@ -85,7 +85,7 @@ public interface GestioneValutazioneService {
      * @param n Noleggio specifico.
      * @return true se esiste una valutazione associata al noleggiatore, altrimenti false.
      */
-    boolean valutazioneNoleggiatoreIsPresent(Noleggio n);
+    boolean valutazioneNoleggiatoreIsPresent(final Noleggio n);
 
     /**
      * Verifica se esiste una valutazione associata all'annuncio in un noleggio specifico.
@@ -93,5 +93,5 @@ public interface GestioneValutazioneService {
      * @param n Noleggio specifico.
      * @return true se esiste una valutazione associata all'annuncio, altrimenti false.
      */
-    boolean valutazioneAnnuncioIsPresent(Noleggio n);
+    boolean valutazioneAnnuncioIsPresent(final Noleggio n);
 }

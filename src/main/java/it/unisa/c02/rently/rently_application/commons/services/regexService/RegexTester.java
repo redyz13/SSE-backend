@@ -14,7 +14,7 @@ public class RegexTester {
      */
     public boolean toTest(final HashMap<String, String> regex) {
 
-        return regex.entrySet().stream().allMatch(entry -> {
+        return regex.entrySet().stream().allMatch((final var entry) -> {
 
                     if (entry.getKey() == null) {
                         return true;

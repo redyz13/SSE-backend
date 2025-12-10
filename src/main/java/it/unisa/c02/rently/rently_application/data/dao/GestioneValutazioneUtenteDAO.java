@@ -20,7 +20,7 @@ public interface GestioneValutazioneUtenteDAO extends JpaRepository<ValutazioneU
      * @param valutato Utente di cui si vogliono ottenere le valutazioni.
      * @return Lista di valutazioni associate all'utente specificato.
      */
-    List<ValutazioneUtente> findByValutato(Utente valutato);
+    List<ValutazioneUtente> findByValutato(final Utente valutato);
 
     /**
      * Calcola la media delle valutazioni di un utente identificato dal suo ID.
@@ -29,7 +29,7 @@ public interface GestioneValutazioneUtenteDAO extends JpaRepository<ValutazioneU
      * @return Media delle valutazioni dell'utente, espresso come valore decimale.
      */
     @Query("select AVG(v.voto) from ValutazioneUtente v where v.valutato = ?1")
-    double mediaValutazioniUtenteById(long valutato);
+    double mediaValutazioniUtenteById(final long valutato);
 
     /**
      * Verifica se esiste una valutazione associata al noleggiante in un noleggio specifico.
@@ -38,7 +38,7 @@ public interface GestioneValutazioneUtenteDAO extends JpaRepository<ValutazioneU
      * @return Valutazione associata al noleggiante, se presente.
      */
     @Query("select vu from Noleggio n, ValutazioneUtente vu where n.id =?1 and n = vu.noleggio and n.noleggiante = vu.valutato and  n.noleggiatore = vu.valutatore")
-    ValutazioneUtente valutazioneNoleggianteIsPresent(long idNoleggio);
+    ValutazioneUtente valutazioneNoleggianteIsPresent(final long idNoleggio);
 
     /**
      * Verifica se esiste una valutazione associata al noleggiatore in un noleggio specifico.
@@ -47,5 +47,5 @@ public interface GestioneValutazioneUtenteDAO extends JpaRepository<ValutazioneU
      * @return Valutazione associata al noleggiatore, se presente.
      */
     @Query("select vu from Noleggio n, ValutazioneUtente vu where n.id =?1 and n = vu.noleggio and n.noleggiante = vu.valutatore and  n.noleggiatore = vu.valutato")
-    ValutazioneUtente valutazioneNoleggiatoreIsPresent(long idNoleggio);
+    ValutazioneUtente valutazioneNoleggiatoreIsPresent(final long idNoleggio);
 }

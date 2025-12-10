@@ -17,7 +17,7 @@ public interface GestioneAnnuncioService {
      * @param id Identificativo dell'annuncio.
      * @return Optional contenente l'annuncio se presente, altrimenti Optional vuoto.
      */
-    Optional<Annuncio> getAnnuncio(long id);
+    Optional<Annuncio> getAnnuncio(final long id);
 
     /**
      * Aggiorna le informazioni di un annuncio sulla piattaforma.
@@ -25,7 +25,7 @@ public interface GestioneAnnuncioService {
      * @param annuncio Annuncio da aggiornare.
      * @return Annuncio aggiornato.
      */
-    Annuncio updateAnnuncio(Annuncio annuncio);
+    Annuncio updateAnnuncio(final Annuncio annuncio);
 
     /**
      * Aggiunge un nuovo annuncio alla piattaforma.
@@ -33,7 +33,7 @@ public interface GestioneAnnuncioService {
      * @param annuncio Annuncio da aggiungere.
      * @return Annuncio aggiunto.
      */
-    Annuncio addAnnuncio(Annuncio annuncio);
+    Annuncio addAnnuncio(final Annuncio annuncio);
 
     /**
      * Elimina un annuncio dalla piattaforma in base all'identificativo.
@@ -41,7 +41,7 @@ public interface GestioneAnnuncioService {
      * @param id Identificativo dell'annuncio da eliminare.
      * @return true se l'annuncio è stato eliminato con successo, altrimenti false.
      */
-    boolean deleteAnnuncio(Long id);
+    boolean deleteAnnuncio(final Long id);
 
     /**
      * Restituisce tutti gli annunci associati a un utente specifico.
@@ -49,5 +49,5 @@ public interface GestioneAnnuncioService {
      * @param utente Utente associato agli annunci.
      * @return Lista di annunci associati all'utente specificato.
      */
-    List<Annuncio> findAllByUtente(Utente utente);
+    List<Annuncio> findAllByUtente(final Utente utente);
 }

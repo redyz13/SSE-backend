@@ -19,5 +19,5 @@ public interface GestioneAreaPersonaleDAO extends JpaRepository<Utente, Long> {
      * @return Optional contenente l'utente trovato, se presente.
      *         Se l'utente non esiste, l'Optional sarà vuoto.
      */
-    Optional<Utente> findByUsername(String username);
+    Optional<Utente> findByUsername(final String username);
 }

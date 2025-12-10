@@ -24,7 +24,7 @@ public interface GestioneNoleggioDAO extends JpaRepository<Noleggio, Long> {
      */
 
     @Query("select n from Noleggio n WHERE n.noleggiante = ?1 and (n.stato != 'RICHIESTA' AND n.stato != 'ACCETTATA' AND n.stato != 'RIFIUTATA')")
-    List<Noleggio> findByNoleggiante(Utente noleggiante);
+    List<Noleggio> findByNoleggiante(final Utente noleggiante);
 
     /**
      * Recupera i noleggi associati a un determinato noleggiatore.
@@ -33,7 +33,7 @@ public interface GestioneNoleggioDAO extends JpaRepository<Noleggio, Long> {
      * @return Lista di noleggi associati al noleggiatore specificato.
      */
     @Query("select n from Noleggio n WHERE n.noleggiatore = ?1 and (n.stato != 'RICHIESTA' AND n.stato != 'ACCETTATA' AND n.stato != 'RIFIUTATA')")
-    List<Noleggio> findByNoleggiatore(Utente noleggiatore);
+    List<Noleggio> findByNoleggiatore(final Utente noleggiatore);
 
     /**
      * Recupera i noleggi in stato 'RICHIESTA' e 'RIFIUTATA'.
@@ -50,7 +50,7 @@ public interface GestioneNoleggioDAO extends JpaRepository<Noleggio, Long> {
      * @return Lista di noleggi in stato 'RICHIESTA' associati al noleggiante specificato.
      */
     @Query("select n from Noleggio n WHERE n.noleggiante = ?1 and (n.stato = 'RICHIESTA' OR n.stato = 'ACCETTATA' OR n.stato = 'RIFIUTATA')")
-    List<Noleggio> findRichiesteByNoleggiante(Utente noleggiante);
+    List<Noleggio> findRichiesteByNoleggiante(final Utente noleggiante);
 
     /**
      * Recupera i noleggi in stato 'RICHIESTA' associati a un determinato noleggiatore.
@@ -59,7 +59,7 @@ public interface GestioneNoleggioDAO extends JpaRepository<Noleggio, Long> {
      * @return Lista di noleggi in stato 'RICHIESTA' associati al noleggiatore specificato.
      */
     @Query("select n from Noleggio n WHERE n.noleggiatore = ?1 and(n.stato = 'RICHIESTA' OR n.stato = 'ACCETTATA' OR n.stato = 'RIFIUTATA')")
-    List<Noleggio> findRichiesteByNoleggiatore(Utente noleggiatore);
+    List<Noleggio> findRichiesteByNoleggiatore(final Utente noleggiatore);
 
     /**
      * Verifica la disponibilità di un annuncio in un determinato periodo di tempo.
@@ -70,7 +70,7 @@ public interface GestioneNoleggioDAO extends JpaRepository<Noleggio, Long> {
      * @return Lista di noleggi che interferiscono con il periodo specificato.
      */
     @Query("SELECT n FROM Noleggio n where (n.annuncio=?1) and ((n.dataInizio>=?2 and n.dataInizio<=?3) or (n.dataFine<= ?3 and n.dataFine>=?2 )) and (n.stato != 'RIFIUTATA' and n.stato != 'CONCLUSO' AND n.stato != 'RICHIESTA')")
-    List<Noleggio> checkDisponibilita (Annuncio annuncio, Date dataInizio, Date dataFine);
+    List<Noleggio> checkDisponibilita (final Annuncio annuncio, final Date dataInizio, final Date dataFine);
 
     /**
      * Verifica la presenza di noleggi in corso la cui data di fine è precedente o uguale alla data attuale.
@@ -79,5 +79,5 @@ public interface GestioneNoleggioDAO extends JpaRepository<Noleggio, Long> {
      * @return Lista di noleggi in corso che dovrebbero essere conclusi.
      */
     @Query("SELECT t FROM Noleggio t where (t.stato = 'IN_CORSO') and (t.dataFine <= ?1)")
-    List<Noleggio> checkFineNoleggio (Date dateNow);
+    List<Noleggio> checkFineNoleggio (final Date dateNow);
 }

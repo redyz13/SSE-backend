@@ -21,7 +21,7 @@ public interface GestioneAnnuncioDAO extends JpaRepository<Annuncio, Long> {
      * @param utente Utente di cui si vogliono ottenere gli annunci.
      * @return Lista di annunci associati all'utente specificato.
      */
-    List<Annuncio> findByUtente(Utente utente);
+    List<Annuncio> findByUtente(final Utente utente);
 
     /**
      * Restituisce tutti gli annunci di una specifica categoria.
@@ -29,7 +29,7 @@ public interface GestioneAnnuncioDAO extends JpaRepository<Annuncio, Long> {
      * @param categoria Categoria degli annunci desiderati.
      * @return Lista di annunci della categoria specificata.
      */
-    List<Annuncio> findByCategoria(String categoria);
+    List<Annuncio> findByCategoria(final String categoria);
 
     /**
      * Restituisce tutti gli annunci con una specifica condizione.
@@ -37,7 +37,7 @@ public interface GestioneAnnuncioDAO extends JpaRepository<Annuncio, Long> {
      * @param condizione Condizione degli annunci desiderati.
      * @return Lista di annunci con la condizione specificata.
      */
-    List<Annuncio> findByCondizione(String condizione);
+    List<Annuncio> findByCondizione(final String condizione);
 
     /**
      * Restituisce tutti gli annunci il cui periodo di validità è compreso tra due date specificate.
@@ -46,7 +46,7 @@ public interface GestioneAnnuncioDAO extends JpaRepository<Annuncio, Long> {
      * @param fine Data di fine del periodo di validità.
      * @return Lista di annunci con periodo di validità compreso tra le date specificate.
      */
-    List<Annuncio> findByDataFineBetween(Date inizio, Date fine);
+    List<Annuncio> findByDataFineBetween(final Date inizio, final Date fine);
 
     /**
      * Restituisce tutti gli annunci che contengono una determinata descrizione.
@@ -54,7 +54,7 @@ public interface GestioneAnnuncioDAO extends JpaRepository<Annuncio, Long> {
      * @param descrizione Descrizione da cercare negli annunci.
      * @return Lista di annunci che contengono la descrizione specificata.
      */
-    List<Annuncio> findByDescrizioneContains(String descrizione);
+    List<Annuncio> findByDescrizioneContains(final String descrizione);
 
     /**
      * Restituisce tutti gli annunci presenti sulla piattaforma.

@@ -50,7 +50,7 @@ public class SecurityConfig implements WebMvcConfigurer {
                         new AuthorizationFilter(authenticationManager(http.getSharedObject(AuthenticationConfiguration.class)),
                                 this.userRepository), UsernamePasswordAuthenticationFilter.class
                 )
-                .authorizeHttpRequests(authorizationManagerRequestMatcherRegistry ->
+                .authorizeHttpRequests((final var authorizationManagerRequestMatcherRegistry) ->
                         authorizationManagerRequestMatcherRegistry
                                 .requestMatchers("/api/autenticazione/login").permitAll()
                                 .requestMatchers("/api/ricerca/premium").permitAll()
@@ -64,11 +64,12 @@ public class SecurityConfig implements WebMvcConfigurer {
                                 .requestMatchers("/annunci/**").permitAll()  // Consentire l'accesso alle immagini sotto /annunci/
                                 .requestMatchers("/static/**").permitAll()  // Consentire l'accesso ai file sotto /static
                                 .anyRequest().authenticated())
-                .sessionManagement(httpSecuritySessionManagementConfigurer -> httpSecuritySessionManagementConfigurer.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
+                .sessionManagement((final var httpSecuritySessionManagementConfigurer) ->
+                        httpSecuritySessionManagementConfigurer
+                                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                );
 
         return http.build();
     }
-
-
 
 }

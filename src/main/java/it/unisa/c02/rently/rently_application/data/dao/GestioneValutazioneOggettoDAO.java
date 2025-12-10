@@ -20,7 +20,7 @@ public interface GestioneValutazioneOggettoDAO extends JpaRepository<Valutazione
      * @param annuncio Annuncio di cui si vogliono ottenere le valutazioni.
      * @return Lista di valutazioni associate all'annuncio specificato.
      */
-    List<ValutazioneOggetto> findByAnnuncio(Annuncio annuncio);
+    List<ValutazioneOggetto> findByAnnuncio(final Annuncio annuncio);
 
     /**
      * Calcola la media delle valutazioni di un oggetto identificato da un annuncio.
@@ -29,7 +29,7 @@ public interface GestioneValutazioneOggettoDAO extends JpaRepository<Valutazione
      * @return Media delle valutazioni dell'oggetto, espresso come valore decimale.
      */
     @Query("select AVG(v.voto) from ValutazioneOggetto v where v.annuncio = ?1")
-    double mediaValutazioniOggettoById(long annuncio);
+    double mediaValutazioniOggettoById(final long annuncio);
 
     /**
      * Verifica se esiste una valutazione associata a un annuncio di un noleggio specifico.
@@ -38,5 +38,5 @@ public interface GestioneValutazioneOggettoDAO extends JpaRepository<Valutazione
      * @return Valutazione associata al noleggio, se presente.
      */
     @Query("select vo from Noleggio n, ValutazioneOggetto vo where n.id=?1 and n = vo.noleggio and n.annuncio = vo.annuncio and n.noleggiante = vo.valutatore")
-    ValutazioneOggetto valutazioneAnnuncioIsPresent(long idNoleggio);
+    ValutazioneOggetto valutazioneAnnuncioIsPresent(final long idNoleggio);
 }

@@ -16,7 +16,7 @@ public interface GestioneRicercaService {
      * @param categoria Categoria degli annunci da cercare.
      * @return Lista di annunci che appartengono alla categoria specificata.
      */
-    List<Annuncio> searchByCategoria(String categoria);
+    List<Annuncio> searchByCategoria(final String categoria);
 
     /**
      * Restituisce una lista di annunci che corrispondono alla condizione specificata.
@@ -24,7 +24,7 @@ public interface GestioneRicercaService {
      * @param condizione Condizione degli annunci da cercare.
      * @return Lista di annunci che soddisfano la condizione specificata.
      */
-    List<Annuncio> searchByCondizione(String condizione);
+    List<Annuncio> searchByCondizione(final String condizione);
 
     /**
      * Restituisce una lista di annunci che sono pubblicati tra le date specificate.
@@ -33,7 +33,7 @@ public interface GestioneRicercaService {
      * @param fine   Data di fine periodo di ricerca.
      * @return Lista di annunci pubblicati tra le date specificate.
      */
-    List<Annuncio> searchByData(Date inizio, Date fine);
+    List<Annuncio> searchByData(final Date inizio, final Date fine);
 
     /**
      * Restituisce una lista di annunci che contengono la descrizione specificata.
@@ -41,7 +41,7 @@ public interface GestioneRicercaService {
      * @param descrizione Descrizione da cercare negli annunci.
      * @return Lista di annunci che contengono la descrizione specificata.
      */
-    List<Annuncio> searchByDescrizione(String descrizione);
+    List<Annuncio> searchByDescrizione(final String descrizione);
 
     /**
      * Restituisce una lista di tutti gli annunci presenti nel sistema.

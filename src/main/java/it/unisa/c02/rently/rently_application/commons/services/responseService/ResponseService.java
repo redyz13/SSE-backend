@@ -13,7 +13,7 @@ public interface ResponseService {
      * @param data l'oggetto che si vuole trasfomare in JSON e restituire.
      * @return l'EntityResponse con status CREATED contente il JSON di data.
      */
-     ResponseEntity<String> Ok(Object data);
+     ResponseEntity<String> Ok(final Object data);
 
     /**
      * Restituisce un ResponseEntity con status CREATED.
@@ -28,7 +28,7 @@ public interface ResponseService {
      * @param data l'oggetto che si vuole trasfomare in JSON e restituire.
      * @return l'EntityResponse con status INTERNAL_SERVER_ERROR contente il JSON di data.
      */
-     ResponseEntity<String> InternalError(Object data);
+     ResponseEntity<String> InternalError(final Object data);
 
     /**
      * Restituisce un ResponseEntity con status INTERNAL_SERVER_ERROR.

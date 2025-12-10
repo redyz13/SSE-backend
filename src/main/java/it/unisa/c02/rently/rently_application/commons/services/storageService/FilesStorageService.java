@@ -7,15 +7,15 @@ import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;
 
 public interface FilesStorageService {
-    public void init(String id);
+    void init(final String id);
 
-    public void save(MultipartFile file, String fileName);
+    void save(final MultipartFile file, final String fileName);
 
-    public Resource load(String filename);
+    Resource load(final String filename);
 
-    public void deleteAll();
+    void deleteAll();
 
-    public Stream<Path> loadAll();
+    Stream<Path> loadAll();
 
-    public String generateRandomFileName();
+    String generateRandomFileName();
 }

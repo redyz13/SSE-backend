@@ -23,5 +23,5 @@ public interface GestioneChatDAO extends JpaRepository<Messaggio, Long> {
      */
     @Query("SELECT m FROM Messaggio m WHERE m.mittente = (?1) AND m.destinatario = (?2) UNION" +
             " SELECT m FROM Messaggio m WHERE m.mittente = (?2) AND m.destinatario = (?1)")
-    List<Messaggio> getChat(Utente id1, Utente id2);
+    List<Messaggio> getChat(final Utente id1, final Utente id2);
 }

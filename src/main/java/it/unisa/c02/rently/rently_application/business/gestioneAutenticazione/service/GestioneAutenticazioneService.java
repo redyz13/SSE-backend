@@ -15,7 +15,7 @@ public interface GestioneAutenticazioneService {
      * @param email Indirizzo email dell'utente da verificare.
      * @return true se esiste un utente con l'indirizzo email specificato, altrimenti false.
      */
-    boolean checkEmail(String email);
+    boolean checkEmail(final String email);
 
     /**
      * Verifica l'esistenza di un utente nel sistema tramite username.
@@ -23,14 +23,14 @@ public interface GestioneAutenticazioneService {
      * @param username Username dell'utente da verificare.
      * @return true se esiste un utente con il nome utente specificato, altrimenti false.
      */
-    boolean checkUsername(String username);
+    boolean checkUsername(final String username);
 
     /**
      * Aggiunge un nuovo Utente sulla piattaforma se non ne esiste un altro con lo stesso username e la stessa email.
      *
      * @param utente Utente da aggiungere alla piattaforma.
      */
-    void signUp(Utente utente) throws NoSuchAlgorithmException;
+    void signUp(final Utente utente) throws NoSuchAlgorithmException;
 
     /**
      * Restituisce l'utente associato all'indirizzo email e alla password specificati.
@@ -39,5 +39,5 @@ public interface GestioneAutenticazioneService {
      * @param password Password dell'utente.
      * @return Utente associato all'indirizzo email e alla password.
      */
-    Utente login(String email, String password);
+    Utente login(final String email, final String password);
 }

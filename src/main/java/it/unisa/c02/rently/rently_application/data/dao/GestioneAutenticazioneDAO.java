@@ -17,7 +17,7 @@ public interface GestioneAutenticazioneDAO extends JpaRepository<Utente, Long> {
      * @param password Password dell'utente.
      * @return Utente associato all'indirizzo email e alla password.
      */
-    Utente findByEmailAndPassword(String email, String password);
+    Utente findByEmailAndPassword(final String email, final String password);
 
     /**
      * Verifica l'esistenza di un utente nel sistema tramite indirizzo email.
@@ -25,7 +25,7 @@ public interface GestioneAutenticazioneDAO extends JpaRepository<Utente, Long> {
      * @param email Indirizzo email dell'utente da verificare.
      * @return true se esiste un utente con l'indirizzo email specificato, altrimenti false.
      */
-    boolean existsByEmail(String email);
+    boolean existsByEmail(final String email);
 
     /**
      * Verifica l'esistenza di un utente nel sistema tramite username.
@@ -33,5 +33,5 @@ public interface GestioneAutenticazioneDAO extends JpaRepository<Utente, Long> {
      * @param username Username dell'utente da verificare.
      * @return true se esiste un utente con il nome utente specificato, altrimenti false.
      */
-    boolean existsByUsername(String username);
+    boolean existsByUsername(final String username);
 }

@@ -18,7 +18,7 @@ public interface GestioneNoleggioService {
      * @param utente l'Utente che rappresenta il noleggiante.
      * @return lista di noleggi effettuati dallo specifico noleggiante.
      */
-    List<Noleggio> getNoleggiByNoleggiante(Utente utente);
+    List<Noleggio> getNoleggiByNoleggiante(final Utente utente);
 
     /**
      * Restituisce tutti i noleggi, eccetto le richieste, effettuati da un noleggiatore.
@@ -26,7 +26,7 @@ public interface GestioneNoleggioService {
      * @param utente l'Utente che rappresenta il noleggiatore.
      * @return lista di noleggi effettuati dallo specifico noleggiatore.
      */
-    List<Noleggio> getNoleggiByNoleggiatore(Utente utente);
+    List<Noleggio> getNoleggiByNoleggiatore(final Utente utente);
 
     /**
      * Restituisce tutte le richieste, anche in stato RIFIUTATA e ACCETTATA, effettuate da un noleggiante.
@@ -34,7 +34,7 @@ public interface GestioneNoleggioService {
      * @param noleggiante l'Utente che rappresenta il noleggiante.
      * @return lista di richieste effettuati dallo specifico noleggiante.
      */
-    List<Noleggio> getRichiesteByNoleggiante(Utente noleggiante);
+    List<Noleggio> getRichiesteByNoleggiante(final Utente noleggiante);
 
     /**
      * Restituisce tutte le richieste, anche in stato RIFIUTATA e ACCETTATA, effettuate da un noleggiatore.
@@ -42,7 +42,7 @@ public interface GestioneNoleggioService {
      * @param noleggiatore l'Utente che rappresenta il noleggiatore.
      * @return lista di richieste effettuati dallo specifico noleggiatore.
      */
-    List<Noleggio> getRichiesteByNoleggiatore(Utente noleggiatore);
+    List<Noleggio> getRichiesteByNoleggiatore(final Utente noleggiatore);
 
     /**
      * Aggiunge un nuovo Noleggio alla piattaforma.
@@ -50,14 +50,14 @@ public interface GestioneNoleggioService {
      * @param noleggio Il Noleggio da aggiungere.
      * @return Noleggio aggiunto.
      */
-    Noleggio addNoleggio(Noleggio noleggio);
+    Noleggio addNoleggio(final Noleggio noleggio);
 
     /**
      * Elimina un Noleggio dalla piattaforma.
      *
      * @param noleggio Il Noleggio da eliminare.
      */
-    void deleteNoleggio(Noleggio noleggio);
+    void deleteNoleggio(final Noleggio noleggio);
 
     /**
      * Restituisce un Noleggio con stato cambiato.
@@ -65,7 +65,7 @@ public interface GestioneNoleggioService {
      * @param noleggio il Noleggio di cui si vuole modificare lo stato.
      * @return Noleggio con stato modificato.
      */
-    Noleggio updateStatoNoleggio(Noleggio noleggio);
+    Noleggio updateStatoNoleggio(final Noleggio noleggio);
 
     /**
      * Verifica la disponibilità di un annuncio in un determinato periodo di tempo.
@@ -75,7 +75,7 @@ public interface GestioneNoleggioService {
      * @param fine Data di fine del periodo di noleggio.
      * @return Lista di noleggi che interferiscono con il periodo specificato.
      */
-    List<Noleggio> checkDisponibilita(Annuncio annuncio, Date inizio, Date fine);
+    List<Noleggio> checkDisponibilita(final Annuncio annuncio, Date inizio, Date fine);
 
     /**
      * Restituisce tutti i noleggi in stato 'RICHIESTA' e 'RIFIUTATA'.
@@ -91,7 +91,7 @@ public interface GestioneNoleggioService {
      * @param id l'id del noleggio
      * @return Noleggio con stato modificato.
      */
-    Noleggio getNoleggio(long id);
+    Noleggio getNoleggio(final long id);
 
     /**
      * Verifica la presenza di noleggi in corso la cui data di fine è precedente o uguale alla data attuale.
@@ -99,5 +99,5 @@ public interface GestioneNoleggioService {
      * @param dateNow Data attuale.
      * @return Lista di noleggi in corso che dovrebbero essere conclusi.
      */
-    List<Noleggio> checkFineNoleggio(Date dateNow);
+    List<Noleggio> checkFineNoleggio(final Date dateNow);
 }
