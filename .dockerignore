@@ -1,0 +1,27 @@
+# Build artifacts
+target
+build
+
+# Test / reports
+sse-reports
+surefire-reports
+failsafe-reports
+jacoco
+coverage
+
+# Tools
+energibridge
+jmeter
+jmh
+
+# Git
+.git
+.gitignore
+
+# Editor junk
+.idea
+.vscode
+
+# OS junk
+.DS_Store
+Thumbs.db
