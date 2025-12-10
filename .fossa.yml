@@ -1,0 +1,44 @@
+version: 3
+
+project:
+  name: "SSE-backend"
+
+policy:
+  ignoredDependencies:
+    # MySQL Connector/J
+    # Flagged due to GPL metadata, but effectively allowed thanks to the FOSS Exception.
+    # Safe to ignore for MIT and closed-source distribution.
+    - "com.mysql:mysql-connector-j"
+
+    # JMH benchmarking libraries
+    # GPL with Classpath Exception; used only in non-production benchmarking code.
+    - "org.openjdk.jmh:*"
+
+    # Jakarta EE APIs
+    # These are specification APIs (EPL/GPL-CE dual licensed). Safe for use.
+    - "jakarta.activation:*"
+    - "jakarta.annotation:*"
+    - "jakarta.xml.bind:*"
+    - "jakarta.persistence:*"
+    - "jakarta.transaction:*"
+
+    # JAXB Runtime and related modules
+    # Eclipse/Glassfish dual-licensed artifacts frequently produce false positives.
+    - "org.glassfish.jaxb:*"
+
+    # Hibernate ORM
+    # Licensed under LGPL/EPL. Does not impose copyleft on dependent applications.
+    - "org.hibernate.orm:*"
+    - "org.hibernate.common:*"
+
+    # Embedded Tomcat runtime
+    # Flagged due to mixed metadata (EPL/CDDL/GPL-CE), but fully safe.
+    - "org.apache.tomcat.embed:*"
+
+    # Logback logging framework
+    # LGPL-licensed but safe for linking.
+    - "ch.qos.logback:*"
+
+    # SnakeYAML
+    # Flagged because of historical GPL references in upstream metadata.
+    - "org.yaml:snakeyaml"
