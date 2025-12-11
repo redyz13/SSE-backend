@@ -70,7 +70,7 @@ Creedengo is executed through a local SonarQube instance and assists in identify
 
 ### ⚡ **EnergiBridge**
 
-EnergiBridge is a cross-platform energy measurement tool used to analyze runtime resource consumption.
+EnergiBridge is a cross-platform **energy measurement tool** used to analyze runtime resource consumption.
 It enables the evaluation of:
 
 * CPU energy usage
