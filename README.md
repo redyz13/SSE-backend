@@ -39,22 +39,6 @@ Each tool contributes to a different dimension of software sustainability.
 
 ---
 
-### 🖼️ **GreenIT-Analysis (Static Assets Optimization)**
-
-Although GreenIT-Analysis is typically used to evaluate web pages, in this project it was also applied to the backend to analyze and optimize **static assets served by the API**, such as:
-
-* Images
-* Static resources under `src/main/resources/static`
-* Media files exposed by the application
-
-GreenIT-Analysis helped identify:
-
-* Excessively large or uncompressed images
-* Unnecessary resource weight
-* Potential improvements in page performance for clients consuming backend-served assets
-
----
-
 ### ✅ **Creedengo (via SonarQube plugin)**
 
 Creedengo is a static analysis tool designed to detect **energy-inefficient Java code patterns**, including:
